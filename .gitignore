@@ -1,0 +1,30 @@
+# 备份文件
+*.backup*
+*.backup_*
+
+# Python脚本（临时工具）
+*.py
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+
+# 临时文件
+*.tmp
+*.temp
+*.log

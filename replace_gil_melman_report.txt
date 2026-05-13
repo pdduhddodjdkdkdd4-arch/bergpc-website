@@ -1,0 +1,29 @@
+================================================================================
+Gil Melman 替换报告
+================================================================================
+执行时间: 2026-05-13T18:33:46.415158
+新律师: Tomas Francisco Tijerina
+URL: tomas-francisco-tijerina
+
+修改的文件:
+--------------------------------------------------------------------------------
+  - lawyers/index.htm
+  - lawyers/gil-melman/index.htm
+  - practice-areas/crypto-blockchain-business-transactions/index.htm
+  - accepting-cryptocurrency-as-a-form-of-payment-in-your-business/index.htm
+  - practice-areas/crypto-litigation/index.htm
+  - feed/index.htm
+  - category/crypto-litigation/feed/index.htm
+  - author/gberg/feed/index.htm
+
+备份文件:
+--------------------------------------------------------------------------------
+  - lawyers/index.htm.backup_tomas
+  - lawyers/gil-melman/index.htm.backup_tomas
+  - practice-areas/crypto-blockchain-business-transactions/index.htm.backup_tomas
+  - accepting-cryptocurrency-as-a-form-of-payment-in-your-business/index.htm.backup_tomas
+  - practice-areas/crypto-litigation/index.htm.backup_tomas
+  - feed/index.htm.backup_tomas
+  - category/crypto-litigation/feed/index.htm.backup_tomas
+  - author/gberg/feed/index.htm.backup_tomas
+  - lawyers/gil-melman/index.htm.backup_tomas

@@ -1,0 +1,179 @@
+================================================================================
+BergPC.com 缺失资源下载报告
+================================================================================
+下载日期: 2026-05-13T06:36:19.718195
+总资源数: 37
+可下载资源: 21
+已下载/已存在: 21
+下载失败: 0
+排除资源: 16
+修改文件数: 6
+
+--------------------------------------------------------------------------------
+排除的资源（动态资源）:
+--------------------------------------------------------------------------------
+  - https://bergpc.com/).
+  - https://bergpc.com/2024/11/blog-post-title/
+  - https://bergpc.com/5-examples-of-breach-of-contract/
+  - https://bergpc.com/business-email-compromise-and-bank-liability/
+  - https://bergpc.com/examples-of-breaches-of-fiduciary-duty/
+  - https://bergpc.com/fiduciary-duty-to-shareholders-explained/
+  - https://bergpc.com/practice-areas/crypto-litigation/fraud-recovery/).
+  - https://bergpc.com/types-of-damages-for-breach-of-contract/
+  - https://bergpc.com/what-happens-if-you-break-a-non-compete/
+  - https://bergpc.com/what-happens-when-there-is-business-conflict-of-interest/
+  - https://bergpc.com/wp-json/wp/v2/pages/2649
+  - https://bergpc.com/wp-json/wp/v2/pages/2661
+  - https://bergpc.com/wp-json/wp/v2/pages/3399
+  - https://bergpc.com/wp-json/wp/v2/pages/3759
+  - https://bergpc.com/xmlrpc.php
+  - https://bergpc.com/xmlrpc.php?rsd
+
+--------------------------------------------------------------------------------
+已下载/已存在的资源:
+--------------------------------------------------------------------------------
+
+  URL: https://bergpc.com/wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-2-270x270.png
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-2-270x270.png
+  文件大小: 14362 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2024/12/NPR-Logo-300x101.webp
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2024/12/NPR-Logo-300x101.webp
+  文件大小: 2092 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2024/12/cbs-news-min.png-300x185.webp
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2024/12/cbs-news-min.png-300x185.webp
+  文件大小: 16474 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2024/12/cnbc.png
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2024/12/cnbc.png
+  文件大小: 2933 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2024/12/cnn.png
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2024/12/cnn.png
+  文件大小: 1812 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2024/12/fox.png
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2024/12/fox.png
+  文件大小: 3412 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2024/12/hc.png
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2024/12/hc.png
+  文件大小: 2423 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2024/12/today.png
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2024/12/today.png
+  文件大小: 2420 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2024/12/wired-logo-300x60.webp
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2024/12/wired-logo-300x60.webp
+  文件大小: 3160 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2024/12/wpost.png
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2024/12/wpost.png
+  文件大小: 2988 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2025/04/DSC02753_2-scaled.jpg
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2025/04/DSC02753_2-scaled.jpg
+  文件大小: 338392 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2025/04/DSC02761-scaled.jpg
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2025/04/DSC02761-scaled.jpg
+  文件大小: 325840 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2025/04/Kathryn-Nelson094-Edit-2-scaled-e1744216498364.jpg
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2025/04/Kathryn-Nelson094-Edit-2-scaled-e1744216498364.jpg
+  文件大小: 335241 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI-1024x683.jpeg
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2025/04/qtq80-pOU7xI-1024x683.jpeg
+  文件大小: 130281 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI-300x200.jpeg
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2025/04/qtq80-pOU7xI-300x200.jpeg
+  文件大小: 14584 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI-768x513.jpeg
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2025/04/qtq80-pOU7xI-768x513.jpeg
+  文件大小: 79309 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI.jpeg
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2025/04/qtq80-pOU7xI.jpeg
+  文件大小: 187527 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2026/01/pexels-photo-14902679-14902679-scaled.jpg
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2026/01/pexels-photo-14902679-14902679-scaled.jpg
+  文件大小: 379360 字节
+
+  URL: https://bergpc.com/wp-content/uploads/2026/01/pexels-photo-844124-844124-scaled.jpg
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-content/uploads/2026/01/pexels-photo-844124-844124-scaled.jpg
+  文件大小: 445120 字节
+
+  URL: https://bergpc.com/wp-includes/js/wp-emoji-loader.min.js
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-includes/js/wp-emoji-loader.min.js
+  文件大小: 2890 字节
+
+  URL: https://bergpc.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4
+  状态: 新下载
+  本地路径: d:\JZ\bergpc.com\bergpc.com\wp-includes/js/wp-emoji-release.min.js
+  文件大小: 22762 字节
+
+--------------------------------------------------------------------------------
+修改的文件:
+--------------------------------------------------------------------------------
+
+文件: category\business-litigation\feed\index.htm
+更新链接数: 4
+  - 原URL: https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI-1024x683.jpeg
+    相对路径: ../../../wp-content/uploads/2025/04/qtq80-pOU7xI-1024x683.jpeg
+  - 原URL: https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI.jpeg
+    相对路径: ../../../wp-content/uploads/2025/04/qtq80-pOU7xI.jpeg
+  - 原URL: https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI-768x513.jpeg
+    相对路径: ../../../wp-content/uploads/2025/04/qtq80-pOU7xI-768x513.jpeg
+  - 原URL: https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI-300x200.jpeg
+    相对路径: ../../../wp-content/uploads/2025/04/qtq80-pOU7xI-300x200.jpeg
+
+文件: lawyers\gil-melman\index.htm
+更新链接数: 1
+  - 原URL: https://bergpc.com/wp-content/uploads/2025/04/DSC02753_2-scaled.jpg
+    相对路径: ../../wp-content/uploads/2025/04/DSC02753_2-scaled.jpg
+
+文件: lawyers\kathryn-e-nelson\index.htm
+更新链接数: 1
+  - 原URL: https://bergpc.com/wp-content/uploads/2025/04/Kathryn-Nelson094-Edit-2-scaled-e1744216498364.jpg
+    相对路径: ../../wp-content/uploads/2025/04/Kathryn-Nelson094-Edit-2-scaled-e1744216498364.jpg
+
+文件: lawyers\tracy-moebes\index.htm
+更新链接数: 1
+  - 原URL: https://bergpc.com/wp-content/uploads/2025/04/DSC02761-scaled.jpg
+    相对路径: ../../wp-content/uploads/2025/04/DSC02761-scaled.jpg
+
+文件: practice-areas\crypto-blockchain-business-transactions\index.htm
+更新链接数: 1
+  - 原URL: https://bergpc.com/wp-content/uploads/2026/01/pexels-photo-14902679-14902679-scaled.jpg
+    相对路径: ../../wp-content/uploads/2026/01/pexels-photo-14902679-14902679-scaled.jpg
+
+文件: practice-areas\crypto-litigation\fraud-recovery\index.htm
+更新链接数: 1
+  - 原URL: https://bergpc.com/wp-content/uploads/2026/01/pexels-photo-844124-844124-scaled.jpg
+    相对路径: ../../../wp-content/uploads/2026/01/pexels-photo-844124-844124-scaled.jpg

@@ -1,0 +1,363 @@
+{
+  "download_date": "2026-05-13T06:36:19.718195",
+  "total_resources": 37,
+  "filtered_resources": [
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-2-270x270.png",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-2-270x270.png"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/NPR-Logo-300x101.webp",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/NPR-Logo-300x101.webp"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/cbs-news-min.png-300x185.webp",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/cbs-news-min.png-300x185.webp"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/cnbc.png",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/cnbc.png"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/cnn.png",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/cnn.png"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/fox.png",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/fox.png"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/hc.png",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/hc.png"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/today.png",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/today.png"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/wired-logo-300x60.webp",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/wired-logo-300x60.webp"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/wpost.png",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/wpost.png"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2025/04/DSC02753_2-scaled.jpg",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/DSC02753_2-scaled.jpg"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2025/04/DSC02761-scaled.jpg",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/DSC02761-scaled.jpg"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2025/04/Kathryn-Nelson094-Edit-2-scaled-e1744216498364.jpg",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/Kathryn-Nelson094-Edit-2-scaled-e1744216498364.jpg"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI-1024x683.jpeg",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/qtq80-pOU7xI-1024x683.jpeg"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI-300x200.jpeg",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/qtq80-pOU7xI-300x200.jpeg"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI-768x513.jpeg",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/qtq80-pOU7xI-768x513.jpeg"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI.jpeg",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/qtq80-pOU7xI.jpeg"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2026/01/pexels-photo-14902679-14902679-scaled.jpg",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2026/01/pexels-photo-14902679-14902679-scaled.jpg"
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2026/01/pexels-photo-844124-844124-scaled.jpg",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2026/01/pexels-photo-844124-844124-scaled.jpg"
+    },
+    {
+      "url": "https://bergpc.com/wp-includes/js/wp-emoji-loader.min.js",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-includes/js/wp-emoji-loader.min.js"
+    },
+    {
+      "url": "https://bergpc.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-includes/js/wp-emoji-release.min.js"
+    }
+  ],
+  "downloaded_resources": [
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-2-270x270.png",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-2-270x270.png",
+      "status": "success",
+      "file_size": 14362
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/NPR-Logo-300x101.webp",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/NPR-Logo-300x101.webp",
+      "status": "success",
+      "file_size": 2092
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/cbs-news-min.png-300x185.webp",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/cbs-news-min.png-300x185.webp",
+      "status": "success",
+      "file_size": 16474
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/cnbc.png",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/cnbc.png",
+      "status": "success",
+      "file_size": 2933
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/cnn.png",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/cnn.png",
+      "status": "success",
+      "file_size": 1812
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/fox.png",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/fox.png",
+      "status": "success",
+      "file_size": 3412
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/hc.png",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/hc.png",
+      "status": "success",
+      "file_size": 2423
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/today.png",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/today.png",
+      "status": "success",
+      "file_size": 2420
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/wired-logo-300x60.webp",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/wired-logo-300x60.webp",
+      "status": "success",
+      "file_size": 3160
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2024/12/wpost.png",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2024/12/wpost.png",
+      "status": "success",
+      "file_size": 2988
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2025/04/DSC02753_2-scaled.jpg",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/DSC02753_2-scaled.jpg",
+      "status": "success",
+      "file_size": 338392
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2025/04/DSC02761-scaled.jpg",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/DSC02761-scaled.jpg",
+      "status": "success",
+      "file_size": 325840
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2025/04/Kathryn-Nelson094-Edit-2-scaled-e1744216498364.jpg",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/Kathryn-Nelson094-Edit-2-scaled-e1744216498364.jpg",
+      "status": "success",
+      "file_size": 335241
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI-1024x683.jpeg",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/qtq80-pOU7xI-1024x683.jpeg",
+      "status": "success",
+      "file_size": 130281
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI-300x200.jpeg",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/qtq80-pOU7xI-300x200.jpeg",
+      "status": "success",
+      "file_size": 14584
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI-768x513.jpeg",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/qtq80-pOU7xI-768x513.jpeg",
+      "status": "success",
+      "file_size": 79309
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI.jpeg",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/qtq80-pOU7xI.jpeg",
+      "status": "success",
+      "file_size": 187527
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2026/01/pexels-photo-14902679-14902679-scaled.jpg",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2026/01/pexels-photo-14902679-14902679-scaled.jpg",
+      "status": "success",
+      "file_size": 379360
+    },
+    {
+      "url": "https://bergpc.com/wp-content/uploads/2026/01/pexels-photo-844124-844124-scaled.jpg",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2026/01/pexels-photo-844124-844124-scaled.jpg",
+      "status": "success",
+      "file_size": 445120
+    },
+    {
+      "url": "https://bergpc.com/wp-includes/js/wp-emoji-loader.min.js",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-includes/js/wp-emoji-loader.min.js",
+      "status": "success",
+      "file_size": 2890
+    },
+    {
+      "url": "https://bergpc.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4",
+      "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-includes/js/wp-emoji-release.min.js",
+      "status": "success",
+      "file_size": 22762
+    }
+  ],
+  "failed_resources": [],
+  "excluded_resources": [
+    {
+      "url": "https://bergpc.com/).",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\)."
+    },
+    {
+      "url": "https://bergpc.com/2024/11/blog-post-title/",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\2024/11/blog-post-title/"
+    },
+    {
+      "url": "https://bergpc.com/5-examples-of-breach-of-contract/",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\5-examples-of-breach-of-contract/"
+    },
+    {
+      "url": "https://bergpc.com/business-email-compromise-and-bank-liability/",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\business-email-compromise-and-bank-liability/"
+    },
+    {
+      "url": "https://bergpc.com/examples-of-breaches-of-fiduciary-duty/",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\examples-of-breaches-of-fiduciary-duty/"
+    },
+    {
+      "url": "https://bergpc.com/fiduciary-duty-to-shareholders-explained/",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\fiduciary-duty-to-shareholders-explained/"
+    },
+    {
+      "url": "https://bergpc.com/practice-areas/crypto-litigation/fraud-recovery/).",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\practice-areas/crypto-litigation/fraud-recovery/)."
+    },
+    {
+      "url": "https://bergpc.com/types-of-damages-for-breach-of-contract/",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\types-of-damages-for-breach-of-contract/"
+    },
+    {
+      "url": "https://bergpc.com/what-happens-if-you-break-a-non-compete/",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\what-happens-if-you-break-a-non-compete/"
+    },
+    {
+      "url": "https://bergpc.com/what-happens-when-there-is-business-conflict-of-interest/",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\what-happens-when-there-is-business-conflict-of-interest/"
+    },
+    {
+      "url": "https://bergpc.com/wp-json/wp/v2/pages/2649",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-json/wp/v2/pages/2649"
+    },
+    {
+      "url": "https://bergpc.com/wp-json/wp/v2/pages/2661",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-json/wp/v2/pages/2661"
+    },
+    {
+      "url": "https://bergpc.com/wp-json/wp/v2/pages/3399",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-json/wp/v2/pages/3399"
+    },
+    {
+      "url": "https://bergpc.com/wp-json/wp/v2/pages/3759",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-json/wp/v2/pages/3759"
+    },
+    {
+      "url": "https://bergpc.com/xmlrpc.php",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\xmlrpc.php"
+    },
+    {
+      "url": "https://bergpc.com/xmlrpc.php?rsd",
+      "expected_path": "d:\\JZ\\bergpc.com\\bergpc.com\\xmlrpc.php"
+    }
+  ],
+  "files_modified": [
+    {
+      "file_path": "category\\business-litigation\\feed\\index.htm",
+      "links_updated": [
+        {
+          "original_url": "https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI-1024x683.jpeg",
+          "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/qtq80-pOU7xI-1024x683.jpeg",
+          "relative_path": "../../../wp-content/uploads/2025/04/qtq80-pOU7xI-1024x683.jpeg"
+        },
+        {
+          "original_url": "https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI.jpeg",
+          "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/qtq80-pOU7xI.jpeg",
+          "relative_path": "../../../wp-content/uploads/2025/04/qtq80-pOU7xI.jpeg"
+        },
+        {
+          "original_url": "https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI-768x513.jpeg",
+          "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/qtq80-pOU7xI-768x513.jpeg",
+          "relative_path": "../../../wp-content/uploads/2025/04/qtq80-pOU7xI-768x513.jpeg"
+        },
+        {
+          "original_url": "https://bergpc.com/wp-content/uploads/2025/04/qtq80-pOU7xI-300x200.jpeg",
+          "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/qtq80-pOU7xI-300x200.jpeg",
+          "relative_path": "../../../wp-content/uploads/2025/04/qtq80-pOU7xI-300x200.jpeg"
+        }
+      ]
+    },
+    {
+      "file_path": "lawyers\\gil-melman\\index.htm",
+      "links_updated": [
+        {
+          "original_url": "https://bergpc.com/wp-content/uploads/2025/04/DSC02753_2-scaled.jpg",
+          "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/DSC02753_2-scaled.jpg",
+          "relative_path": "../../wp-content/uploads/2025/04/DSC02753_2-scaled.jpg"
+        }
+      ]
+    },
+    {
+      "file_path": "lawyers\\kathryn-e-nelson\\index.htm",
+      "links_updated": [
+        {
+          "original_url": "https://bergpc.com/wp-content/uploads/2025/04/Kathryn-Nelson094-Edit-2-scaled-e1744216498364.jpg",
+          "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/Kathryn-Nelson094-Edit-2-scaled-e1744216498364.jpg",
+          "relative_path": "../../wp-content/uploads/2025/04/Kathryn-Nelson094-Edit-2-scaled-e1744216498364.jpg"
+        }
+      ]
+    },
+    {
+      "file_path": "lawyers\\tracy-moebes\\index.htm",
+      "links_updated": [
+        {
+          "original_url": "https://bergpc.com/wp-content/uploads/2025/04/DSC02761-scaled.jpg",
+          "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2025/04/DSC02761-scaled.jpg",
+          "relative_path": "../../wp-content/uploads/2025/04/DSC02761-scaled.jpg"
+        }
+      ]
+    },
+    {
+      "file_path": "practice-areas\\crypto-blockchain-business-transactions\\index.htm",
+      "links_updated": [
+        {
+          "original_url": "https://bergpc.com/wp-content/uploads/2026/01/pexels-photo-14902679-14902679-scaled.jpg",
+          "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2026/01/pexels-photo-14902679-14902679-scaled.jpg",
+          "relative_path": "../../wp-content/uploads/2026/01/pexels-photo-14902679-14902679-scaled.jpg"
+        }
+      ]
+    },
+    {
+      "file_path": "practice-areas\\crypto-litigation\\fraud-recovery\\index.htm",
+      "links_updated": [
+        {
+          "original_url": "https://bergpc.com/wp-content/uploads/2026/01/pexels-photo-844124-844124-scaled.jpg",
+          "local_path": "d:\\JZ\\bergpc.com\\bergpc.com\\wp-content/uploads/2026/01/pexels-photo-844124-844124-scaled.jpg",
+          "relative_path": "../../../wp-content/uploads/2026/01/pexels-photo-844124-844124-scaled.jpg"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
