@@ -14,6 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (empty($username) || empty($password)) {
             $error = 'Invalid credentials';
         } elseif (authenticate($username, $password)) {
+            session_write_close();
             header('Location: index.php');
             exit;
         } else {

@@ -16,8 +16,7 @@ function isLoggedIn() {
 function requireLogin() {
     if (!isLoggedIn()) {
         $base = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\');
-        $loginUrl = $base . '/login.php';
-        header('Location: ' . $loginUrl);
+        header('Location: ' . $base . '/login.php');
         exit;
     }
 }
@@ -61,7 +60,6 @@ function admin_set_session($username) {
     $_SESSION['admin_user'] = $username;
     $_SESSION['login_time'] = time();
     $_SESSION['last_activity'] = time();
-    session_regenerate_id(true);
 }
 
 function admin_ensure_db_user($db, $username, $password) {

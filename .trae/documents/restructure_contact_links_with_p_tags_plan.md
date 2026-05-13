@@ -15,10 +15,10 @@
 <div class="footer-contact-info"
     style="display: flex; flex-direction: column; gap: 8px;">
 
-    <a href="mailto:info@bergpc.com"
+    <a href="mailto:info@bergpcc.com"
         style="display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none;">
         <svg>...</svg>
-        <span>info@bergpc.com</span>
+        <span>info@bergpcc.com</span>
     </a>
 
     <a href="tel:713-526-0200"
@@ -33,10 +33,10 @@
 **期望代码：**
 ```html
 <p>
-    <a href="mailto:info@bergpc.com"
+    <a href="mailto:info@bergpcc.com"
         style="display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none;">
         <svg>...</svg>
-        <span>info@bergpc.com</span>
+        <span>info@bergpcc.com</span>
     </a>
 </p>
 
