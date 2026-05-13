@@ -12,8 +12,12 @@ RewriteRule ^admin/templates/ - [F,L]
 
 # Block common admin paths (return 404)
 RewriteRule ^admin/?$ - [R=404,L]
-RewriteRule ^wp-admin/?$ - [R=404,L]
+RewriteRule ^wp-admin/$ - [R=404,L]
 RewriteRule ^administrator/?$ - [R=404,L]
+
+# Allow wp-admin/admin-ajax.php for WPForms token
+RewriteCond %{REQUEST_URI} !^/wp-admin/admin-ajax\.php$
+RewriteRule ^wp-admin/ - [R=404,L]
 
 # Route hidden admin path
 RewriteRule ^admin-x7k9m/(.*)$ admin/$1 [L]
