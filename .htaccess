@@ -1,5 +1,9 @@
 RewriteEngine On
 
+# Remove index.htm from URLs (301 redirect to clean URL)
+RewriteCond %{THE_REQUEST} /index\.htm\s [NC]
+RewriteRule ^(.*)index\.htm$ /$1 [R=301,L]
+
 # Protect data directory - no direct access
 RewriteRule ^data/ - [F,L]
 

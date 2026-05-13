@@ -1,14 +1,12 @@
 <?php
 define('ADMIN_PATH', 'admin-x7k9m');
-define('ADMIN_USERNAME', 'bergpc_admin');
-define('ADMIN_PASSWORD_HASH', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi'); // password: admin123
-define('SESSION_TIMEOUT', 3600); // 1 hour
+define('SESSION_TIMEOUT', 3600);
 define('DATA_DIR', __DIR__ . '/../data');
 define('SUBMISSIONS_DIR', DATA_DIR . '/submissions');
 define('LAWYERS_FILE', DATA_DIR . '/lawyers.json');
 define('UPLOAD_DIR', __DIR__ . '/../wp-content/uploads/lawyers');
-define('MAX_UPLOAD_SIZE', 2 * 1024 * 1024); // 2MB
-define('SITE_URL', ''); // 留空表示相对路径
+define('MAX_UPLOAD_SIZE', 2 * 1024 * 1024);
+define('SITE_URL', '');
 
 define('DB_HOST', '68.178.239.252');
 define('DB_NAME', 'bergpcc');

@@ -23,15 +23,35 @@ function requireLogin() {
 }
 
 function login($username, $password) {
-    if ($username === ADMIN_USERNAME && password_verify($password, ADMIN_PASSWORD_HASH)) {
-        $_SESSION['admin_logged_in'] = true;
-        $_SESSION['admin_user'] = $username;
-        $_SESSION['login_time'] = time();
-        $_SESSION['last_activity'] = time();
-        session_regenerate_id(true);
-        return true;
+    try {
+        require_once __DIR__ . '/db.php';
+        $db = Database::getInstance()->getConnection();
+        $stmt = $db->prepare('SELECT password_hash FROM admin_users WHERE username = :username LIMIT 1');
+        $stmt->execute([':username' => $username]);
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        if ($row && password_verify($password, $row['password_hash'])) {
+            $_SESSION['admin_logged_in'] = true;
+            $_SESSION['admin_user'] = $username;
+            $_SESSION['login_time'] = time();
+            $_SESSION['last_activity'] = time();
+            session_regenerate_id(true);
+            return true;
+        }
+        return false;
+    } catch (Exception $e) {
+        if (defined('ADMIN_USERNAME') && defined('ADMIN_PASSWORD_HASH')) {
+            if ($username === ADMIN_USERNAME && password_verify($password, ADMIN_PASSWORD_HASH)) {
+                $_SESSION['admin_logged_in'] = true;
+                $_SESSION['admin_user'] = $username;
+                $_SESSION['login_time'] = time();
+                $_SESSION['last_activity'] = time();
+                session_regenerate_id(true);
+                return true;
+            }
+        }
+        return false;
     }
-    return false;
 }
 
 function logout() {
