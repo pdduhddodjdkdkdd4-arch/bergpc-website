@@ -1,0 +1,21 @@
+RewriteEngine On
+
+# Protect data directory - no direct access
+RewriteRule ^data/ - [F,L]
+
+# Protect admin templates
+RewriteRule ^admin/templates/ - [F,L]
+
+# Block common admin paths (return 404)
+RewriteRule ^admin/?$ - [R=404,L]
+RewriteRule ^wp-admin/?$ - [R=404,L]
+RewriteRule ^administrator/?$ - [R=404,L]
+
+# Route hidden admin path
+RewriteRule ^admin-x7k9m/(.*)$ admin/$1 [L]
+
+# API routes
+RewriteRule ^api/submit\.php$ api/submit.php [L]
+
+# Lawyers directory: prefer index.php over index.htm
+DirectoryIndex index.php index.htm index.html

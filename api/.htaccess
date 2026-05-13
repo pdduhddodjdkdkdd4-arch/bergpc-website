@@ -1,0 +1,7 @@
+# Allow access to submit.php only
+<Files "submit.php">
+    Allow from all
+</Files>
+
+# Deny everything else
+Deny from all

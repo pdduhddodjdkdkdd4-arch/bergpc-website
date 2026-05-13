@@ -1,0 +1,46 @@
+[
+    {
+        "id": "geoffrey-berg",
+        "name": "Geoffrey Berg",
+        "slug": "geoffrey-berg",
+        "title": "Trial Lawyer, Managing Partner",
+        "image": "../../wp-content/uploads/2025/04/DSC02815-scaled-e1744302932965-1024x684.jpg",
+        "image_type": "local",
+        "bio": "Geoffrey Berg is the founding partner of Berg PC. He is a seasoned trial lawyer with extensive experience in business litigation, crypto litigation, and complex commercial disputes. His dedication to his clients and relentless pursuit of justice have earned him recognition as one of the top lawyers in America.",
+        "created_at": "2025-01-01T00:00:00+00:00",
+        "updated_at": "2025-05-01T00:00:00+00:00"
+    },
+    {
+        "id": "kathryn-e-nelson",
+        "name": "Kathryn E. Nelson",
+        "slug": "kathryn-e-nelson",
+        "title": "Trial Lawyer, Partner",
+        "image": "../../wp-content/uploads/2025/04/Kathryn-Nelson094-Edit-2.jpg",
+        "image_type": "local",
+        "bio": "Kathryn E. Nelson is a partner at Berg PC, specializing in trial litigation. With a sharp analytical mind and a compassionate approach to client advocacy, she has successfully represented clients in a wide range of complex legal matters.",
+        "created_at": "2025-01-01T00:00:00+00:00",
+        "updated_at": "2025-05-01T00:00:00+00:00"
+    },
+    {
+        "id": "tomas-francisco-tijerina",
+        "name": "Tomas Francisco Tijerina",
+        "slug": "tomas-francisco-tijerina",
+        "title": "Business & Transactional Lawyer, Of Counsel",
+        "image": "../../wp-content/uploads/2025/04/tomas-francisco-tijerina.jpg",
+        "image_type": "local",
+        "bio": "Tomas Francisco Tijerina serves as Of Counsel at Berg PC, bringing expertise in business and transactional law. His deep understanding of corporate transactions and regulatory compliance makes him an invaluable asset to the firm's clients.",
+        "created_at": "2025-01-01T00:00:00+00:00",
+        "updated_at": "2025-05-01T00:00:00+00:00"
+    },
+    {
+        "id": "tracy-moberg",
+        "name": "Tracy Moberg",
+        "slug": "tracy-moberg",
+        "title": "Business Manager",
+        "image": "../../wp-content/uploads/2025/04/tracy-moberg.jpg",
+        "image_type": "local",
+        "bio": "Tracy Moberg has been an integral part of Berg PC since 2019, when she joined as a Senior Paralegal. With a strong background in both corporate and criminal justice, Tracy brings a wealth of experience to her role. Prior to joining the firm, she served as a Probation Officer in Fort Bend County, Texas, following the completion of her B.S. in Criminology. Tracy's comprehensive skill set and dedication continue to make her a valued member of the Berg PC team.",
+        "created_at": "2025-01-01T00:00:00+00:00",
+        "updated_at": "2025-05-01T00:00:00+00:00"
+    }
+]

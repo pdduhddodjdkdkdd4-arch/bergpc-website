@@ -5,10 +5,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<link rel="preload" href="../../../wp-content/astra-local-fonts/lora/0QIvMX1D_JOuMwr7Iw.woff2" as="font"
+	<link rel="preload" href="../../wp-content/astra-local-fonts/lora/0QIvMX1D_JOuMwr7Iw.woff2" as="font"
 		type="font/woff2" crossorigin="">
-	<link rel="preload" href="../../../wp-content/astra-local-fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2"
-		as="font" type="font/woff2" crossorigin="">
+	<link rel="preload" href="../../wp-content/astra-local-fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2" as="font"
+		type="font/woff2" crossorigin="">
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
 	<style>
 		html.sdui-panel-open body:not(.wp-admin) {
@@ -55,36 +55,32 @@
 	<script>try { if (!document.documentElement.classList.contains('sdui-panel-open') && localStorage.getItem('site-designer-ui-panel-open') === 'true') { document.documentElement.classList.add('sdui-panel-open'); document.cookie = 'sdui_panel_open=1;path=/;max-age=31536000;SameSite=Lax;Secure'; document.addEventListener('DOMContentLoaded', function () { if (!document.getElementById('sdui-panel-placeholder')) { var p = document.createElement('div'); p.id = 'sdui-panel-placeholder'; document.body.appendChild(p) } }) } } catch (e) { }</script>
 
 	<!-- This site is optimized with the Yoast SEO plugin v27.5 - https://yoast.com/product/yoast-seo-wordpress/ -->
-	<title>Cryptocurrency Fraud &amp; Recovery Lawyers | Houston, TX</title>
-	<meta name="description"
-		content="If you are a victim of a crypto scam, there is growing hope for recovering your money with the innovative, skilled team of trial lawyers at Berg PC.">
+	<title>{{LAWYER_NAME}} | {{LAWYER_TITLE}} | Berg PC</title>
+	<meta name="description"`n`tcontent="{{LAWYER_DESCRIPTION}}">
 	<link rel="canonical" href="index.htm">
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Cryptocurrency Fraud &amp; Recovery Lawyers | Houston, TX">
-	<meta property="og:description"
-		content="If you are a victim of a crypto scam, there is growing hope for recovering your money with the innovative, skilled team of trial lawyers at Berg PC.">
-	<meta property="og:url" content="https://bergpc.com/practice-areas/crypto-litigation/fraud-recovery/">
+	<meta property="og:title" content="{{LAWYER_NAME}} | {{LAWYER_TITLE}} | Berg PC">
+	<meta property="og:description"`n`tcontent="{{LAWYER_DESCRIPTION}}">
+	<meta property="og:url" content="index.htm">
 	<meta property="og:site_name" content="Berg PC">
-	<meta property="article:modified_time" content="2026-04-10T18:46:06+00:00">
-	<meta property="og:image"
-		content="../../../wp-content/uploads/2026/01/pexels-photo-844124-844124-scaled.jpg">
+	<meta property="article:modified_time" content="2025-05-01T17:05:28+00:00">
+	<meta property="og:image" content="{{LAWYER_IMAGE_PATH}}">
 	<meta property="og:image:width" content="2560">
-	<meta property="og:image:height" content="1578">
+	<meta property="og:image:height" content="1706">
 	<meta property="og:image:type" content="image/jpeg">
 	<meta name="twitter:card" content="summary_large_image">
-	<script type="application/ld+json"
-		class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/bergpc.com\/practice-areas\/crypto-litigation\/fraud-recovery\/","url":"https:\/\/bergpc.com\/practice-areas\/crypto-litigation\/fraud-recovery\/","name":"Cryptocurrency Fraud & Recovery Lawyers | Houston, TX","isPartOf":{"@id":"https:\/\/bergpc.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/bergpc.com\/practice-areas\/crypto-litigation\/fraud-recovery\/#primaryimage"},"image":{"@id":"https:\/\/bergpc.com\/practice-areas\/crypto-litigation\/fraud-recovery\/#primaryimage"},"thumbnailUrl":"https:\/\/bergpc.com\/wp-content\/uploads\/2026\/01\/pexels-photo-844124-844124-1024x631.jpg","datePublished":"2024-12-11T16:32:19+00:00","dateModified":"2026-04-10T18:46:06+00:00","description":"If you are a victim of a crypto scam, there is growing hope for recovering your money with the innovative, skilled team of trial lawyers at Berg PC.","breadcrumb":{"@id":"https:\/\/bergpc.com\/practice-areas\/crypto-litigation\/fraud-recovery\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/bergpc.com\/practice-areas\/crypto-litigation\/fraud-recovery\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/bergpc.com\/practice-areas\/crypto-litigation\/fraud-recovery\/#primaryimage","url":"https:\/\/bergpc.com\/wp-content\/uploads\/2026\/01\/pexels-photo-844124-844124-scaled.jpg","contentUrl":"https:\/\/bergpc.com\/wp-content\/uploads\/2026\/01\/pexels-photo-844124-844124-scaled.jpg","width":2560,"height":1578,"caption":"A striking image of Bitcoin, Ethereum, and Ripple coins illustrating modern digital currency."},{"@type":"BreadcrumbList","@id":"https:\/\/bergpc.com\/practice-areas\/crypto-litigation\/fraud-recovery\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/bergpc.com\/"},{"@type":"ListItem","position":2,"name":"Practice Areas","item":"https:\/\/bergpc.com\/practice-areas\/"},{"@type":"ListItem","position":3,"name":"Crypto Litigation","item":"https:\/\/bergpc.com\/practice-areas\/crypto-litigation\/"},{"@type":"ListItem","position":4,"name":"Cryptocurrency Fraud &#038; Recovery"}]},{"@type":"WebSite","@id":"https:\/\/bergpc.com\/#website","url":"https:\/\/bergpc.com\/","name":"Berg PC","description":"Trial &amp; Business Lawyers","publisher":{"@id":"https:\/\/bergpc.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/bergpc.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/bergpc.com\/#organization","name":"Berg PC","url":"https:\/\/bergpc.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/bergpc.com\/#\/schema\/logo\/image\/","url":"https:\/\/bergpc.com\/wp-content\/uploads\/2024\/12\/cropped-Berg-PC-White-2.png","contentUrl":"https:\/\/bergpc.com\/wp-content\/uploads\/2024\/12\/cropped-Berg-PC-White-2.png","width":1272,"height":498,"caption":"Berg PC"},"image":{"@id":"https:\/\/bergpc.com\/#\/schema\/logo\/image\/"}}]}</script>
+	<script type="application/ld+json"`n`tclass="yoast-schema-graph">{{LAWYER_JSON_LD}}</script>
 	<!-- / Yoast SEO plugin. -->
 
 
-	<link rel="alternate" type="application/rss+xml" title="Berg PC &raquo; Feed" href="../../../feed/index.htm">
+	<link rel="alternate" type="application/rss+xml" title="Berg PC &raquo; Feed" href="../../feed/index.htm">
 	<link rel="alternate" type="application/rss+xml" title="Berg PC &raquo; Comments Feed"
-		href="../../../comments/feed/index.htm">
+		href="../../comments/feed/index.htm">
 	<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-		href="../../../wp-json/oembed/1.0/embed-16?url=https%3A%2F%2Fbergpc.com%2Fpractice-areas%2Fcrypto-litigation%2Ffraud-recovery%2F">
+		href="../../wp-json/oembed/1.0/embed">
 	<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-		href="../../../wp-json/oembed/1.0/embed-17?url=https%3A%2F%2Fbergpc.com%2Fpractice-areas%2Fcrypto-litigation%2Ffraud-recovery%2F&#038;format=xml">
+		href="../../wp-json/oembed/1.0/embed&format=xml">
 	<style id='wp-img-auto-sizes-contain-inline-css'>
 		img:is([sizes=auto i], [sizes^="auto," i]) {
 			contain-intrinsic-size: 3000px 1500px
@@ -93,7 +89,7 @@
 		/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
 	</style>
 	<link rel='stylesheet' id='astra-theme-css-css'
-		href='../../../wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.13.1' media='all'>
+		href='../../wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.13.1' media='all'>
 	<style id='astra-theme-css-inline-css'>
 		:root {
 			--ast-post-nav-space: 0;
@@ -3853,9 +3849,9 @@
 		/*# sourceURL=astra-theme-css-inline-css */
 	</style>
 	<link rel='stylesheet' id='astra-google-fonts-css'
-		href='../../../wp-content/astra-local-fonts/astra-local-fonts.css?ver=4.13.1' media='all'>
+		href='../../wp-content/astra-local-fonts/astra-local-fonts.css?ver=4.13.1' media='all'>
 	<link rel='stylesheet' id='hfe-widgets-style-css'
-		href='../../../wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=2.8.7' media='all'>
+		href='../../wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=2.8.7' media='all'>
 	<style id='wp-emoji-styles-inline-css'>
 		img.wp-smiley,
 		img.emoji {
@@ -4425,71 +4421,66 @@
 
 		/*# sourceURL=global-styles-inline-css */
 	</style>
-	<link rel='stylesheet' id='wpa-css-css' href='../../../wp-content/plugins/honeypot/includes/css/wpa.css?ver=2.3.04'
+	<link rel='stylesheet' id='wpa-css-css' href='../../wp-content/plugins/honeypot/includes/css/wpa.css?ver=2.3.04'
 		media='all'>
-	<link rel='stylesheet' id='wp-components-css'
-		href='../../../wp-includes/css/dist/components/style.min.css?ver=6.9.4' media='all'>
+	<link rel='stylesheet' id='wp-components-css' href='../../wp-includes/css/dist/components/style.min.css?ver=6.9.4'
+		media='all'>
 	<link rel='stylesheet' id='godaddy-styles-css'
-		href='../../../wp-content/mu-plugins/vendor/wpex/godaddy-launch/includes/Dependencies/GoDaddy/Styles/build/latest.css?ver=2.0.2'
+		href='../../wp-content/mu-plugins/vendor/wpex/godaddy-launch/includes/Dependencies/GoDaddy/Styles/build/latest.css?ver=2.0.2'
 		media='all'>
 	<link rel='stylesheet' id='hfe-style-css'
-		href='../../../wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=2.8.7'
+		href='../../wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=2.8.7'
 		media='all'>
 	<link rel='stylesheet' id='elementor-frontend-css'
-		href='../../../wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.0.5' media='all'>
+		href='../../wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.0.5' media='all'>
 	<link rel='stylesheet' id='elementor-post-23-css'
-		href='../../../wp-content/uploads/elementor/css/post-23.css?ver=1777663803' media='all'>
+		href='../../wp-content/uploads/elementor/css/post-23.css?ver=1777663803' media='all'>
 	<link rel='stylesheet' id='widget-heading-css'
-		href='../../../wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.0.5' media='all'>
-	<link rel='stylesheet' id='widget-icon-list-css'
-		href='../../../wp-content/plugins/elementor/assets/css/widget-icon-list.min-1.css?ver=4.0.5' media='all'>
+		href='../../wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.0.5' media='all'>
 	<link rel='stylesheet' id='widget-image-css'
-		href='../../../wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.0.5' media='all'>
-	<link rel='stylesheet' id='widget-nested-accordion-css'
-		href='../../../wp-content/plugins/elementor/assets/css/widget-nested-accordion.min.css?ver=4.0.5' media='all'>
-	<link rel='stylesheet' id='elementor-post-2132-css'
-		href='../../../wp-content/uploads/elementor/css/post-2132.css?ver=1777665711' media='all'>
-	<link rel='stylesheet' id='e-popup-css'
-		href='../../../wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=4.0.4' media='all'>
-	<link rel='stylesheet' id='elementor-post-3614-css'
-		href='../../../wp-content/uploads/elementor/css/post-3614.css?ver=1777665711' media='all'>
+		href='../../wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.0.5' media='all'>
+	<link rel='stylesheet' id='swiper-css'
+		href='../../wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all'>
+	<link rel='stylesheet' id='e-swiper-css'
+		href='../../wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.0.5' media='all'>
+	<link rel='stylesheet' id='widget-image-carousel-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-image-carousel.min.css?ver=4.0.5' media='all'>
+	<link rel='stylesheet' id='elementor-post-3759-css'
+		href='../../wp-content/uploads/elementor/css/post-{{LAWYER_PAGE_ID}}.css?ver=1777693012' media='all'>
 	<link rel='stylesheet' id='hfe-elementor-icons-css'
-		href='../../../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.34.0'
-		media='all'>
+		href='../../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.34.0' media='all'>
 	<link rel='stylesheet' id='hfe-icons-list-css'
-		href='../../../wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.24.3' media='all'>
+		href='../../wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.24.3' media='all'>
 	<link rel='stylesheet' id='hfe-social-icons-css'
-		href='../../../wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.24.0' media='all'>
+		href='../../wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.24.0' media='all'>
 	<link rel='stylesheet' id='hfe-social-share-icons-brands-css'
-		href='../../../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css?ver=5.15.3' media='all'>
+		href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css?ver=5.15.3' media='all'>
 	<link rel='stylesheet' id='hfe-social-share-icons-fontawesome-css'
-		href='../../../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css?ver=5.15.3' media='all'>
+		href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css?ver=5.15.3' media='all'>
 	<link rel='stylesheet' id='hfe-nav-menu-icons-css'
-		href='../../../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css?ver=5.15.3' media='all'>
+		href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css?ver=5.15.3' media='all'>
 	<link rel='stylesheet' id='hfe-widget-blockquote-css'
-		href='../../../wp-content/plugins/elementor-pro/assets/css/widget-blockquote.min.css?ver=3.25.0' media='all'>
+		href='../../wp-content/plugins/elementor-pro/assets/css/widget-blockquote.min.css?ver=3.25.0' media='all'>
 	<link rel='stylesheet' id='hfe-mega-menu-css'
-		href='../../../wp-content/plugins/elementor-pro/assets/css/widget-mega-menu.min.css?ver=3.26.2' media='all'>
+		href='../../wp-content/plugins/elementor-pro/assets/css/widget-mega-menu.min.css?ver=3.26.2' media='all'>
 	<link rel='stylesheet' id='hfe-nav-menu-widget-css'
-		href='../../../wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=3.26.0' media='all'>
+		href='../../wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=3.26.0' media='all'>
 	<link rel='stylesheet' id='elementor-gf-local-roboto-css'
-		href='../../../wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1743612499' media='all'>
+		href='../../wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1743612499' media='all'>
 	<link rel='stylesheet' id='elementor-gf-local-robotoslab-css'
-		href='../../../wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1743612529' media='all'>
-	<link rel='stylesheet' id='elementor-gf-local-frankruhllibre-css'
-		href='../../../wp-content/uploads/elementor/google-fonts/css/frankruhllibre.css?ver=1743612542' media='all'>
-	<script src="../../../wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-	<script src="../../../wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+		href='../../wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1743612529' media='all'>
+	<script src="../../wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+	<script src="../../wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 	<script id="jquery-js-after">
 		!function ($) { "use strict"; $(document).ready(function () { $(this).scrollTop() > 100 && $(".hfe-scroll-to-top-wrap").removeClass("hfe-scroll-to-top-hide"), $(window).scroll(function () { $(this).scrollTop() < 100 ? $(".hfe-scroll-to-top-wrap").fadeOut(300) : $(".hfe-scroll-to-top-wrap").fadeIn(300) }), $(".hfe-scroll-to-top-wrap").on("click", function () { $("html, body").animate({ scrollTop: 0 }, 300); return !1 }) }) }(jQuery);
 		!function ($) { 'use strict'; $(document).ready(function () { var bar = $('.hfe-reading-progress-bar'); if (!bar.length) return; $(window).on('scroll', function () { var s = $(window).scrollTop(), d = $(document).height() - $(window).height(), p = d ? s / d * 100 : 0; bar.css('width', p + '%') }); }); }(jQuery);
 		//# sourceURL=jquery-js-after
 	</script>
-	<link rel="https://api.w.org/" href="../../../wp-json/index.htm">
-	<link rel="alternate" title="JSON" type="application/json" href="../../../wp-json/wp/v2/pages/2132">
+	<link rel="https://api.w.org/" href="../../wp-json/index.htm">
+	<link rel="alternate" title="JSON" type="application/json" href="https://bergpc.com/wp-json/wp/v2/pages/{{LAWYER_PAGE_ID}}">
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://bergpc.com/xmlrpc.php?rsd">
 	<meta name="generator" content="WordPress 6.9.4">
-	<link rel='shortlink' href='index.htm?p=2132'>
+	<link rel='shortlink' href='../../index.htm'>
 	<meta name="generator"
 		content="Elementor 4.0.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 
@@ -4522,9 +4513,9 @@
 			}
 		}
 	</style>
-	<link rel="icon" href="../../../wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-2-32x32.png" sizes="32x32">
-	<link rel="icon" href="../../../wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-2-192x192.png" sizes="192x192">
-	<link rel="apple-touch-icon" href="../../../wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-2-180x180.png">
+	<link rel="icon" href="../../wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-2-32x32.png" sizes="32x32">
+	<link rel="icon" href="../../wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-2-192x192.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="../../wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-2-180x180.png">
 	<meta name="msapplication-TileImage"
 		content="https://bergpc.com/wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-2-270x270.png">
 	<style id="wp-site-designer-contrast-fallback">
@@ -4697,7 +4688,7 @@
 </head>
 
 <body itemtype='https://schema.org/WebPage' itemscope='itemscope'
-	class="wp-singular page-template-default page page-id-2132 page-child parent-pageid-2232 wp-custom-logo wp-embed-responsive wp-theme-astra ehf-template-astra ehf-stylesheet-astra ast-desktop ast-page-builder-template ast-no-sidebar astra-4.13.1 ast-single-post ast-inherit-site-logo-transparent ast-theme-transparent-header ast-hfb-header elementor-default elementor-kit-23 elementor-page elementor-page-2132">
+	class="wp-singular page-template-default page page-id-{{LAWYER_PAGE_ID}} page-child parent-pageid-517 wp-custom-logo wp-embed-responsive wp-theme-astra ehf-template-astra ehf-stylesheet-astra ast-desktop ast-page-builder-template ast-no-sidebar astra-4.13.1 ast-single-post ast-inherit-site-logo-transparent ast-theme-transparent-header ast-hfb-header elementor-default elementor-kit-23 elementor-page elementor-page-{{LAWYER_PAGE_ID}}">
 	<script>
 		(function () { var w = document.documentElement.clientWidth; if (w > 0 && w <= 921) { document.body.classList.add('ast-header-break-point'); document.body.classList.remove('ast-desktop'); } })();
 	</script>
@@ -4724,11 +4715,11 @@
 										data-section="title_tagline">
 										<div class="site-branding ast-site-identity"
 											itemtype="https://schema.org/Organization" itemscope="itemscope">
-											<span class="site-logo-img"><a href="../../../index.htm"
+											<span class="site-logo-img"><a href="../../index.htm"
 													class="custom-logo-link" rel="home"><img width="280" height="110"
-														src="../../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-280x110.png"
+														src="../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-280x110.png"
 														class="custom-logo" alt="Berg PC" decoding="async"
-														srcset="../../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-280x110.png 280w, ../../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-300x117.png 300w, ../../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-1024x401.png 1024w, ../../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-768x301.png 768w, ../../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2.png 1272w"
+														srcset="../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-280x110.png 280w, ../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-300x117.png 300w, ../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-1024x401.png 1024w, ../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-768x301.png 768w, ../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2.png 1272w"
 														sizes="(max-width: 280px) 100vw, 280px"></a></span>
 										</div>
 										<!-- .site-branding -->
@@ -4764,14 +4755,13 @@
 														<ul id="ast-hf-menu-1"
 															class="main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border inline-on-mobile">
 															<li id="menu-item-2292"
-																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2292">
-																<a href="../../../lawyers/index.htm"
-																	class="menu-link">Team</a>
+																class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-2292">
+																<a href="../index.htm" class="menu-link">Team</a>
 															</li>
 															<li id="menu-item-2240"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2240">
 																<a aria-expanded="false"
-																	href="../../business-litigation/index.htm"
+																	href="../../practice-areas/business-litigation/index.htm"
 																	class="menu-link">Business Litigation<span
 																		role="button"
 																		class="dropdown-menu-toggle ast-header-navigation-arrow"
@@ -4809,7 +4799,7 @@
 																<ul class="sub-menu">
 																	<li id="menu-item-4218"
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4218">
-																		<a href="../../business-litigation/breach-of-contract/index.htm"
+																		<a href="../../practice-areas/business-litigation/breach-of-contract/index.htm"
 																			class="menu-link"><span
 																				class="ast-icon icon-arrow"><svg
 																					class="ast-arrow-svg"
@@ -4827,7 +4817,7 @@
 																	</li>
 																	<li id="menu-item-4219"
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4219">
-																		<a href="../../business-litigation/partnership-disputes/index.htm"
+																		<a href="../../practice-areas/business-litigation/partnership-disputes/index.htm"
 																			class="menu-link"><span
 																				class="ast-icon icon-arrow"><svg
 																					class="ast-arrow-svg"
@@ -4845,7 +4835,7 @@
 																	</li>
 																	<li id="menu-item-4220"
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4220">
-																		<a href="../../business-litigation/business-divorce/index.htm"
+																		<a href="../../practice-areas/business-litigation/business-divorce/index.htm"
 																			class="menu-link"><span
 																				class="ast-icon icon-arrow"><svg
 																					class="ast-arrow-svg"
@@ -4863,7 +4853,7 @@
 																	</li>
 																	<li id="menu-item-4221"
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4221">
-																		<a href="../../business-litigation/non-compete-disputes/index.htm"
+																		<a href="../../practice-areas/business-litigation/non-compete-disputes/index.htm"
 																			class="menu-link"><span
 																				class="ast-icon icon-arrow"><svg
 																					class="ast-arrow-svg"
@@ -4882,8 +4872,9 @@
 																</ul>
 															</li>
 															<li id="menu-item-4266"
-																class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-4266">
-																<a aria-expanded="false" href="../index.htm"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4266">
+																<a aria-expanded="false"
+																	href="../../practice-areas/crypto-litigation/index.htm"
 																	class="menu-link">Crypto Litigation<span
 																		role="button"
 																		class="dropdown-menu-toggle ast-header-navigation-arrow"
@@ -4920,8 +4911,8 @@
 																		</svg></span></button>
 																<ul class="sub-menu">
 																	<li id="menu-item-4217"
-																		class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-4217">
-																		<a href="index.htm" aria-current="page"
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4217">
+																		<a href="../../practice-areas/crypto-litigation/fraud-recovery/index.htm"
 																			class="menu-link"><span
 																				class="ast-icon icon-arrow"><svg
 																					class="ast-arrow-svg"
@@ -4939,7 +4930,7 @@
 																	</li>
 																	<li id="menu-item-4250"
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4250">
-																		<a href="../../crypto-blockchain-business-transactions/index.htm"
+																		<a href="../../practice-areas/crypto-blockchain-business-transactions/index.htm"
 																			class="menu-link"><span
 																				class="ast-icon icon-arrow"><svg
 																					class="ast-arrow-svg"
@@ -4957,7 +4948,7 @@
 																	</li>
 																	<li id="menu-item-4215"
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4215">
-																		<a href="../2025-meta-crypto-scam-ads-investigation/index.htm"
+																		<a href="../../practice-areas/crypto-litigation/2025-meta-crypto-scam-ads-investigation/index.htm"
 																			class="menu-link"><span
 																				class="ast-icon icon-arrow"><svg
 																					class="ast-arrow-svg"
@@ -4975,7 +4966,7 @@
 																	</li>
 																	<li id="menu-item-4216"
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4216">
-																		<a href="../2025-coinbase-data-breach/index.htm"
+																		<a href="../../practice-areas/crypto-litigation/2025-coinbase-data-breach/index.htm"
 																			class="menu-link"><span
 																				class="ast-icon icon-arrow"><svg
 																					class="ast-arrow-svg"
@@ -4995,12 +4986,12 @@
 															</li>
 															<!-- <li id="menu-item-3864"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3864">
-																<a href="../../../podcast/index.htm"
+																<a href="../../podcast/index.htm"
 																	class="menu-link">Podcast</a>
 															</li> -->
 															<li id="menu-item-1949"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1949">
-																<a href="../../../blog/index.htm"
+																<a href="../../blog/index.htm"
 																	class="menu-link">Blog</a>
 															</li>
 														</ul>
@@ -5029,11 +5020,11 @@
 									data-section="title_tagline">
 									<div class="site-branding ast-site-identity"
 										itemtype="https://schema.org/Organization" itemscope="itemscope">
-										<span class="site-logo-img"><a href="../../../index.htm"
-												class="custom-logo-link" rel="home"><img width="280" height="110"
-													src="../../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-280x110.png"
+										<span class="site-logo-img"><a href="../../index.htm" class="custom-logo-link"
+												rel="home"><img width="280" height="110"
+													src="../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-280x110.png"
 													class="custom-logo" alt="Berg PC" decoding="async"
-													srcset="../../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-280x110.png 280w, ../../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-300x117.png 300w, ../../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-1024x401.png 1024w, ../../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-768x301.png 768w, ../../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2.png 1272w"
+													srcset="../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-280x110.png 280w, ../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-300x117.png 300w, ../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-1024x401.png 1024w, ../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-768x301.png 768w, ../../wp-content/uploads/2024/12/cropped-Berg-PC-White-2.png 1272w"
 													sizes="(max-width: 280px) 100vw, 280px"></a></span>
 									</div>
 									<!-- .site-branding -->
@@ -5085,15 +5076,16 @@
 											class="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile">
 											<li id="menu-item-1386"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1386">
-												<a href="../../../index.htm" class="menu-link">Home</a>
+												<a href="../../index.htm" class="menu-link">Home</a>
 											</li>
 											<li id="menu-item-1388"
-												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1388">
-												<a href="../../../lawyers/index.htm" class="menu-link">Team</a>
+												class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-1388">
+												<a href="../index.htm" class="menu-link">Team</a>
 											</li>
 											<li id="menu-item-3540"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3540">
-												<a aria-expanded="false" href="../../business-litigation/index.htm"
+												<a aria-expanded="false"
+													href="../../practice-areas/business-litigation/index.htm"
 													class="menu-link">Business Litigation<span role="button"
 														class="dropdown-menu-toggle ast-header-navigation-arrow"
 														tabindex="0" aria-expanded="false" aria-label="Menu Toggle"
@@ -5123,7 +5115,7 @@
 												<ul class="sub-menu">
 													<li id="menu-item-4239"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4239">
-														<a href="../../business-litigation/breach-of-contract/index.htm"
+														<a href="../../practice-areas/business-litigation/breach-of-contract/index.htm"
 															class="menu-link"><span class="ast-icon icon-arrow"><svg
 																	class="ast-arrow-svg"
 																	xmlns="http://www.w3.org/2000/svg"
@@ -5139,7 +5131,7 @@
 													</li>
 													<li id="menu-item-4240"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4240">
-														<a href="../../business-litigation/partnership-disputes/index.htm"
+														<a href="../../practice-areas/business-litigation/partnership-disputes/index.htm"
 															class="menu-link"><span class="ast-icon icon-arrow"><svg
 																	class="ast-arrow-svg"
 																	xmlns="http://www.w3.org/2000/svg"
@@ -5155,7 +5147,7 @@
 													</li>
 													<li id="menu-item-4241"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4241">
-														<a href="../../business-litigation/business-divorce/index.htm"
+														<a href="../../practice-areas/business-litigation/business-divorce/index.htm"
 															class="menu-link"><span class="ast-icon icon-arrow"><svg
 																	class="ast-arrow-svg"
 																	xmlns="http://www.w3.org/2000/svg"
@@ -5171,7 +5163,7 @@
 													</li>
 													<li id="menu-item-4242"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4242">
-														<a href="../../business-litigation/non-compete-disputes/index.htm"
+														<a href="../../practice-areas/business-litigation/non-compete-disputes/index.htm"
 															class="menu-link"><span class="ast-icon icon-arrow"><svg
 																	class="ast-arrow-svg"
 																	xmlns="http://www.w3.org/2000/svg"
@@ -5188,8 +5180,9 @@
 												</ul>
 											</li>
 											<li id="menu-item-3541"
-												class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2132 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-3541">
-												<a aria-expanded="false" href="index.htm" aria-current="page"
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3541">
+												<a aria-expanded="false"
+													href="../../practice-areas/crypto-litigation/fraud-recovery/index.htm"
 													class="menu-link">Crypto Litigation<span role="button"
 														class="dropdown-menu-toggle ast-header-navigation-arrow"
 														tabindex="0" aria-expanded="false" aria-label="Menu Toggle"
@@ -5218,9 +5211,10 @@
 														</svg></span></button>
 												<ul class="sub-menu">
 													<li id="menu-item-4237"
-														class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-4237">
-														<a href="index.htm" aria-current="page" class="menu-link"><span
-																class="ast-icon icon-arrow"><svg class="ast-arrow-svg"
+														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4237">
+														<a href="../../practice-areas/crypto-litigation/fraud-recovery/index.htm"
+															class="menu-link"><span class="ast-icon icon-arrow"><svg
+																	class="ast-arrow-svg"
 																	xmlns="http://www.w3.org/2000/svg"
 																	xmlns:xlink="http://www.w3.org/1999/xlink"
 																	version="1.1" x="0px" y="0px" width="26px"
@@ -5234,7 +5228,7 @@
 													</li>
 													<li id="menu-item-4236"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4236">
-														<a href="../2025-meta-crypto-scam-ads-investigation/index.htm"
+														<a href="../../practice-areas/crypto-litigation/2025-meta-crypto-scam-ads-investigation/index.htm"
 															class="menu-link"><span class="ast-icon icon-arrow"><svg
 																	class="ast-arrow-svg"
 																	xmlns="http://www.w3.org/2000/svg"
@@ -5250,7 +5244,7 @@
 													</li>
 													<li id="menu-item-4238"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4238">
-														<a href="../2025-coinbase-data-breach/index.htm"
+														<a href="../../practice-areas/crypto-litigation/2025-coinbase-data-breach/index.htm"
 															class="menu-link"><span class="ast-icon icon-arrow"><svg
 																	class="ast-arrow-svg"
 																	xmlns="http://www.w3.org/2000/svg"
@@ -5268,11 +5262,11 @@
 											</li>
 											<li id="menu-item-3542"
 												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3542">
-												<a href="../../../blog/index.htm" class="menu-link">Blog</a>
+												<a href="../../blog/index.htm" class="menu-link">Blog</a>
 											</li>
 											<li id="menu-item-1392"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1392">
-												<a href="../../../contact/index.htm" class="menu-link">Contact</a>
+												<a href="../../contact/index.htm" class="menu-link">Contact</a>
 											</li>
 										</ul>
 									</div>
@@ -5291,7 +5285,7 @@
 
 
 					<main id="main" class="site-main">
-						<article class="post-2132 page type-page status-publish ast-article-single" id="post-2132"
+						<article class="post-{{LAWYER_PAGE_ID}} page type-page status-publish ast-article-single" id="post-{{LAWYER_PAGE_ID}}"
 							itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
 
 							<header class="entry-header ast-no-title ast-header-without-markup">
@@ -5300,8 +5294,8 @@
 							<div class="entry-content clear" itemprop="text">
 
 
-								<div data-elementor-type="wp-page" data-elementor-id="2132"
-									class="elementor elementor-2132" data-elementor-post-type="page">
+								<div data-elementor-type="wp-page" data-elementor-id="{{LAWYER_PAGE_ID}}"
+									class="elementor elementor-{{LAWYER_PAGE_ID}}" data-elementor-post-type="page">
 									<div class="elementor-element elementor-element-8d47204 e-flex e-con-boxed e-con e-parent"
 										data-id="8d47204" data-element_type="container" data-e-type="container"
 										data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -5312,168 +5306,7 @@
 													data-id="5f947da" data-element_type="widget" data-e-type="widget"
 													data-widget_type="heading.default">
 													<div class="elementor-widget-container">
-														<h2 class="elementor-heading-title elementor-size-default">
-															Crypto Fraud &amp; Recovery </h2>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="elementor-element elementor-element-1d1dd45 e-flex e-con-boxed e-con e-parent"
-										data-id="1d1dd45" data-element_type="container" data-e-type="container"
-										data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-										<div class="e-con-inner">
-											<div class="elementor-element elementor-element-42eea04 elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-												data-id="42eea04" data-element_type="widget" data-e-type="widget"
-												data-widget_type="icon-list.default">
-												<div class="elementor-widget-container">
-													<ul class="elementor-icon-list-items">
-														<li class="elementor-icon-list-item">
-															<span class="elementor-icon-list-icon">
-																<svg aria-hidden="true"
-																	class="e-font-icon-svg e-fas-exclamation-triangle"
-																	viewbox="0 0 576 512"
-																	xmlns="http://www.w3.org/2000/svg">
-																	<path
-																		d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z">
-																	</path>
-																</svg> </span>
-															<span class="elementor-icon-list-text">WARNING - Beware of
-																scammers posing as Berg PC attorneys. Berg PC does not
-																communicate through Signal, WhatsApp, or Social Media.
-																Never wire funds to anyone posing as Berg PC.</span>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="elementor-element elementor-element-8ff69a0 e-flex e-con-boxed e-con e-parent"
-										data-id="8ff69a0" data-element_type="container" data-e-type="container">
-										<div class="e-con-inner">
-											<div class="elementor-element elementor-element-632cb4b e-con-full e-flex e-con e-child"
-												data-id="632cb4b" data-element_type="container" data-e-type="container">
-												<div class="elementor-element elementor-element-899d644 elementor-widget elementor-widget-heading"
-													data-id="899d644" data-element_type="widget" data-e-type="widget"
-													data-widget_type="heading.default">
-													<div class="elementor-widget-container">
-														<h1 class="elementor-heading-title elementor-size-default">
-															Cryptocurrency Fraud Recovery Lawyers for Victims in Texas
-															and Beyond</h1>
-													</div>
-												</div>
-												<div class="elementor-element elementor-element-1fb5d2d elementor-widget elementor-widget-text-editor"
-													data-id="1fb5d2d" data-element_type="widget" data-e-type="widget"
-													data-widget_type="text-editor.default">
-													<div class="elementor-widget-container">
-														<p>Berg PC&#8217;s team of crypto recovery lawyers helps
-															individuals and families who have lost cryptocurrency to
-															fraud trace stolen assets, obtain court-ordered freezes, and
-															work to recover what was taken.</p>
-														<p>Before pursuing legal counsel and action, please file a
-															report with local law enforcement and the FBI’s <a
-																href="https://www.ic3.gov/" target="_blank"
-																rel="noopener">Internet Crime Complaint Center</a>.</p>
-														<p>Berg PC is a Houston-based trial law firm, and a leading
-															innovator in tracing, freezing, and recovering stolen funds
-															in Court. We do not charge upfront fees. If there is no
-															recovery, there is no fee.</p>
-													</div>
-												</div>
-											</div>
-											<div class="elementor-element elementor-element-2119799 e-con-full e-flex e-con e-child"
-												data-id="2119799" data-element_type="container" data-e-type="container">
-												<div class="elementor-element elementor-element-0de1be8 elementor-widget elementor-widget-image"
-													data-id="0de1be8" data-element_type="widget" data-e-type="widget"
-													data-widget_type="image.default">
-													<div class="elementor-widget-container">
-														<img fetchpriority="high" decoding="async" width="1024"
-															height="631"
-															src="../../../wp-content/uploads/2026/01/pexels-photo-844124-844124-1024x631.jpg"
-															class="attachment-large size-large wp-image-4425"
-															alt="A striking image of Bitcoin, Ethereum, and Ripple coins illustrating modern digital currency."
-															srcset="../../../wp-content/uploads/2026/01/pexels-photo-844124-844124-1024x631.jpg 1024w, ../../../wp-content/uploads/2026/01/pexels-photo-844124-844124-300x185.jpg 300w, ../../../wp-content/uploads/2026/01/pexels-photo-844124-844124-768x474.jpg 768w, ../../../wp-content/uploads/2026/01/pexels-photo-844124-844124-1536x947.jpg 1536w, ../../../wp-content/uploads/2026/01/pexels-photo-844124-844124-2048x1263.jpg 2048w"
-															sizes="(max-width: 1024px) 100vw, 1024px">
-													</div>
-												</div>
-												<div class="elementor-element elementor-element-8175cb6 elementor-align-center elementor-widget elementor-widget-button"
-													data-id="8175cb6" data-element_type="widget" data-e-type="widget"
-													data-widget_type="button.default">
-													<div class="elementor-widget-container">
-														<div class="elementor-button-wrapper">
-															<a class="elementor-button elementor-button-link elementor-size-sm"
-																href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjM2MTQiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
-																<span class="elementor-button-content-wrapper">
-																	<span class="elementor-button-text">Tell Us About
-																		Your Case</span>
-																</span>
-															</a>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="elementor-element elementor-element-a60f806 e-flex e-con-boxed e-con e-parent"
-										data-id="a60f806" data-element_type="container" data-e-type="container">
-										<div class="e-con-inner">
-											<div class="elementor-element elementor-element-96eca62 elementor-widget__width-initial elementor-widget elementor-widget-heading"
-												data-id="96eca62" data-element_type="widget" data-e-type="widget"
-												data-widget_type="heading.default">
-												<div class="elementor-widget-container">
-													<h2 class="elementor-heading-title elementor-size-default">We Pursue
-														Crypto Scam Recovery in Court</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="elementor-element elementor-element-f5b31c6 e-flex e-con-boxed e-con e-parent"
-										data-id="f5b31c6" data-element_type="container" data-e-type="container">
-										<div class="e-con-inner">
-											<div class="elementor-element elementor-element-4b718f2 elementor-widget elementor-widget-text-editor"
-												data-id="4b718f2" data-element_type="widget" data-e-type="widget"
-												data-widget_type="text-editor.default">
-												<div class="elementor-widget-container">
-													<p>Geoff Berg, a nationally recognized trial lawyer with 30 years of
-														experience, is countering the crimes of crypto scammers in
-														Court.</p>
-													<p>On July 31, 2025, Geoff was featured on <a
-															href="https://abc13.com/post/cypress-man-indicted-investors-were-told-cryptocurrency-was-backed-100-trillion-gun-box-court-docs-say/17369470/">ABC13
-															News</a> to offer his expertise on the recent indictment of
-														a cryptocurrency executive from Cypress, Texas, allegedly
-														involved in a scheme to defraud investors.</p>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="elementor-element elementor-element-e2a1ac5 e-flex e-con-boxed e-con e-parent"
-										data-id="e2a1ac5" data-element_type="container" data-e-type="container">
-										<div class="e-con-inner">
-											<div class="elementor-element elementor-element-dfbe9f4 e-con-full e-flex e-con e-child"
-												data-id="dfbe9f4" data-element_type="container" data-e-type="container">
-												<div class="elementor-element elementor-element-efe48c7 elementor-widget elementor-widget-text-editor"
-													data-id="efe48c7" data-element_type="widget" data-e-type="widget"
-													data-widget_type="text-editor.default">
-													<div class="elementor-widget-container">
-														<p>Our team includes high-profile trial lawyers like Geoff and
-															world-renowned financial crime investigators with decades of
-															experience in the private sector and from their time at
-															places like the United States Marine Corps, the National
-															Security Agency, and other government organizations. The
-															firm and its investigators have the following capabilities:
-														</p>
-														<ul>
-															<li>Tracing Stolen Cryptocurrency Assets on the Blockchain
-															</li>
-															<li>Locating Criminal Wallet Addresses</li>
-															<li>Identifying Cryptocurrency Scammers</li>
-															<li>Collaborating with Exchange Platforms &amp; VASPs</li>
-															<li>Freezing Criminal Wallets Through Court Proceedings</li>
-														</ul>
-														<p>Tracing and freezing stolen crypto assets make recovering
-															your money possible, allowing our firm to make unprecedented
-															advancements in the fight against crypto scams and fraud.
-														</p>
+														<h1 class="elementor-heading-title elementor-size-default">{{LAWYER_NAME}}</h1>
 													</div>
 												</div>
 											</div>
@@ -5491,757 +5324,196 @@
 													<div class="elementor-element elementor-element-e951bd3 e-con-full e-flex e-con e-child"
 														data-id="e951bd3" data-element_type="container"
 														data-e-type="container">
-														<div class="elementor-element elementor-element-c13644a elementor-widget elementor-widget-heading"
-															data-id="c13644a" data-element_type="widget"
-															data-e-type="widget" data-widget_type="heading.default">
-															<div class="elementor-widget-container">
-																<h2
-																	class="elementor-heading-title elementor-size-default">
-																	Beware of Phony Law Firms Targeting Cryptocurrency
-																	Scam Victims</h2>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-ef5a4a0 elementor-widget elementor-widget-text-editor"
-															data-id="ef5a4a0" data-element_type="widget"
-															data-e-type="widget" data-widget_type="text-editor.default">
-															<div class="elementor-widget-container">
-																<p>In a particularly cruel and devious development,
-																	cryptocurrency scammers have begun posing as law
-																	firms and investigators promising to help their own
-																	victims.</p>
-																<p>On June 24, 2024, the FBI issued alert number <a
-																		href="https://www.ic3.gov/Media/Y2024/PSA240624"
-																		target="_blank"
-																		rel="noopener">I-062424-PSA</a> which announced
-																	that “fraudsters posing as lawyers representing
-																	fictitious law firms may contact scam victims and
-																	offer their services, claiming to have the
-																	authorization to investigate fund recovery cases… In
-																	some instances, scam victims have contacted
-																	fraudsters on fake websites, which appear
-																	legitimate, hoping to recover their funds.”</p>
-																<p data-olk-copy-source="MessageBody">Scammers are
-																	re-victimizing those they have already stolen from
-																	by setting up phony law firm and investigator
-																	websites. These “lawyers” and “investigators”
-																	promise to help you recover what you’ve lost – for
-																	an up front fee.</p>
-																<p data-olk-copy-source="MessageBody">Our cases are
-																	handled on a contingency basis. We are paid with a
-																	portion of any recovery.</p>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-1a05614 elementor-widget elementor-widget-heading"
-															data-id="1a05614" data-element_type="widget"
-															data-e-type="widget" data-widget_type="heading.default">
-															<div class="elementor-widget-container">
-																<h5
-																	class="elementor-heading-title elementor-size-default">
-																	We do not ask for fees up front. If there is NO
-																	RECOVERY, there is NO FEE.</h5>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-19a3813 elementor-widget elementor-widget-text-editor"
-															data-id="19a3813" data-element_type="widget"
-															data-e-type="widget" data-widget_type="text-editor.default">
-															<div class="elementor-widget-container">
-																<p>If you are a victim of a cryptocurrency scam, it is
-																	imperative that you protect yourself from
-																	cryptocurrency recovery schemes.</p>
-																<p>Whoever you hire, always confirm with their state bar
-																	or licensing agency that they are real, and their
-																	contact information matches what you see on their
-																	website.</p>
-																<p>Scammers frequently change small details in domain
-																	names to impersonate legitimate ones.</p>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-a6e6403 elementor-widget elementor-widget-heading"
-															data-id="a6e6403" data-element_type="widget"
-															data-e-type="widget" data-widget_type="heading.default">
-															<div class="elementor-widget-container">
-																<h2
-																	class="elementor-heading-title elementor-size-default">
-																	Our Results: Recovering Stolen Cryptocurrency</h2>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-9894a9c elementor-widget elementor-widget-text-editor"
-															data-id="9894a9c" data-element_type="widget"
-															data-e-type="widget" data-widget_type="text-editor.default">
-															<div class="elementor-widget-container">
-																<p>It is important to note that the likelihood of
-																	successful crypto scam recovery varies depending on
-																	the complexity of the scam and the technical
-																	measures used to hide the location of assets.</p>
-																<p>Recovering your stolen crypto is never a guarantee,
-																	but Berg PC is expanding the frontiers of what is
-																	now possible.</p>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-3564939 elementor-widget elementor-widget-heading"
-															data-id="3564939" data-element_type="widget"
-															data-e-type="widget" data-widget_type="heading.default">
-															<div class="elementor-widget-container">
-																<h3
-																	class="elementor-heading-title elementor-size-default">
-																	2025: Delivered $500,000 of Stolen Crypto to Texas
-																	Family</h3>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-79870ea e-con-full e-flex e-con e-child"
-															data-id="79870ea" data-element_type="container"
-															data-e-type="container">
-															<div class="elementor-element elementor-element-30b77f6 e-con-full e-flex e-con e-child"
-																data-id="30b77f6" data-element_type="container"
-																data-e-type="container">
-																<div class="elementor-element elementor-element-2f2a84c elementor-widget elementor-widget-text-editor"
-																	data-id="2f2a84c" data-element_type="widget"
-																	data-e-type="widget"
-																	data-widget_type="text-editor.default">
-																	<div class="elementor-widget-container">
-																		<p>After a Texas man was killed in a car crash
-																			in 2023, his family began the painful
-																			process of settling his affairs. They soon
-																			learned he had quietly amassed a large
-																			cryptocurrency portfolio, one worth hundreds
-																			of thousands of dollars.</p>
-																		<p>While the family searched for access to his
-																			accounts, several of the deceased’s friends
-																			offered to “help.” What seemed like a kind
-																			offer in a time of tremendous distress was
-																			the first step in a well-planned and
-																			executed theft of opportunity.</p>
-																	</div>
-																</div>
-																<div class="elementor-element elementor-element-6d3abee elementor-widget elementor-widget-heading"
-																	data-id="6d3abee" data-element_type="widget"
-																	data-e-type="widget"
-																	data-widget_type="heading.default">
-																	<div class="elementor-widget-container">
-																		<h5
-																			class="elementor-heading-title elementor-size-default">
-																			In 2025, the firm helped a Texas family
-																			recover nearly $500,000 in stolen Bitcoin,
-																			Ethereum, and other cryptocurrencies.</h5>
-																	</div>
-																</div>
-																<div class="elementor-element elementor-element-fa65197 elementor-widget elementor-widget-text-editor"
-																	data-id="fa65197" data-element_type="widget"
-																	data-e-type="widget"
-																	data-widget_type="text-editor.default">
-																	<div class="elementor-widget-container">
-																		<p>Read more about the case and what was filed
-																			and awarded by the court:</p>
-																	</div>
-																</div>
-															</div>
-															<div class="elementor-element elementor-element-f93246d e-con-full e-flex e-con e-child"
-																data-id="f93246d" data-element_type="container"
-																data-e-type="container">
-																<div class="elementor-element elementor-element-0149700 elementor-widget elementor-widget-image"
-																	data-id="0149700" data-element_type="widget"
-																	data-e-type="widget"
-																	data-widget_type="image.default">
-																	<div class="elementor-widget-container">
-																		<img decoding="async" width="468" height="574"
-																			src="../../../wp-content/uploads/2025/12/Berg-PC-2025-Cryptocurrency-Recovery-Case-Study.png"
-																			class="attachment-large size-large wp-image-4328"
-																			alt=""
-																			srcset="../../../wp-content/uploads/2025/12/Berg-PC-2025-Cryptocurrency-Recovery-Case-Study.png 468w, ../../../wp-content/uploads/2025/12/Berg-PC-2025-Cryptocurrency-Recovery-Case-Study-245x300.png 245w"
-																			sizes="(max-width: 468px) 100vw, 468px">
-																	</div>
-																</div>
-																<div class="elementor-element elementor-element-5a4b594 elementor-align-center elementor-widget elementor-widget-button"
-																	data-id="5a4b594" data-element_type="widget"
-																	data-e-type="widget"
-																	data-widget_type="button.default">
-																	<div class="elementor-widget-container">
-																		<div class="elementor-button-wrapper">
-																			<a class="elementor-button elementor-button-link elementor-size-sm"
-																				href="../../../wp-content/uploads/2025/12/Berg-PC-Case-Study-Recovering-Stolen-Cryptocurrency-for-a-Texas-Family.pdf"
-																				target="_blank">
-																				<span
-																					class="elementor-button-content-wrapper">
-																					<span
-																						class="elementor-button-text">Download
-																						the Court Ruling</span>
-																				</span>
-																			</a>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-166bff6 elementor-widget elementor-widget-heading"
-															data-id="166bff6" data-element_type="widget"
-															data-e-type="widget" data-widget_type="heading.default">
-															<div class="elementor-widget-container">
-																<h3
-																	class="elementor-heading-title elementor-size-default">
-																	2024: Injunction Freezing 30 Wallets of Stolen
-																	Crypto</h3>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="elementor-element elementor-element-ee458de e-con-full e-flex e-con e-child"
-													data-id="ee458de" data-element_type="container"
-													data-e-type="container">
-													<div class="elementor-element elementor-element-d213744 e-con-full e-flex e-con e-child"
-														data-id="d213744" data-element_type="container"
-														data-e-type="container">
-														<div class="elementor-element elementor-element-3bc9d6f elementor-widget elementor-widget-text-editor"
-															data-id="3bc9d6f" data-element_type="widget"
-															data-e-type="widget" data-widget_type="text-editor.default">
-															<div class="elementor-widget-container">
-																<p>In 2024, on behalf of two classes of victims, the
-																	firm filed and was awarded injunctions freezing 30
-																	wallets containing stolen cryptocurrency believed to
-																	be worth tens, and possibly hundreds, of millions of
-																	dollars.</p>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-28ff650 elementor-widget elementor-widget-heading"
-															data-id="28ff650" data-element_type="widget"
-															data-e-type="widget" data-widget_type="heading.default">
-															<div class="elementor-widget-container">
-																<h5
-																	class="elementor-heading-title elementor-size-default">
-																	It is the first order of its kind in Texas.</h5>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-b0b77ce elementor-widget elementor-widget-text-editor"
-															data-id="b0b77ce" data-element_type="widget"
-															data-e-type="widget" data-widget_type="text-editor.default">
-															<div class="elementor-widget-container">
-																<p>Read some of what was filed and awarded by the court:
-																</p>
-															</div>
-														</div>
-													</div>
-													<div class="elementor-element elementor-element-05e5ef6 e-con-full e-flex e-con e-child"
-														data-id="05e5ef6" data-element_type="container"
-														data-e-type="container">
-														<div class="elementor-element elementor-element-7dc4e79 elementor-widget elementor-widget-image"
-															data-id="7dc4e79" data-element_type="widget"
+														<div class="elementor-element elementor-element-6975c70 elementor-widget elementor-widget-image"
+															data-id="6975c70" data-element_type="widget"
 															data-e-type="widget" data-widget_type="image.default">
 															<div class="elementor-widget-container">
-																<img loading="lazy" decoding="async" width="594"
-																	height="704"
-																	src="../../../wp-content/uploads/2024/11/pdf.png"
-																	class="attachment-large size-large wp-image-1791"
+																<img fetchpriority="high" decoding="async" width="1024"
+																	height="683"
+																	src="{{LAWYER_IMAGE_PATH}}"
+																	class="attachment-large size-large wp-image-{{LAWYER_WP_IMAGE_ID}}"
 																	alt=""
-																	srcset="../../../wp-content/uploads/2024/11/pdf.png 594w, ../../../wp-content/uploads/2024/11/pdf-253x300.png 253w"
-																	sizes="(max-width: 594px) 100vw, 594px">
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-003c0d4 elementor-align-center elementor-widget elementor-widget-button"
-															data-id="003c0d4" data-element_type="widget"
-															data-e-type="widget" data-widget_type="button.default">
-															<div class="elementor-widget-container">
-																<div class="elementor-button-wrapper">
-																	<a class="elementor-button elementor-button-link elementor-size-sm"
-																		href="../../../wp-content/uploads/2024/11/TI_Redacted.pdf"
-																		target="_blank">
-																		<span class="elementor-button-content-wrapper">
-																			<span class="elementor-button-text">Download
-																				the Court Ruling</span>
-																		</span>
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="elementor-element elementor-element-36d396b e-flex e-con-boxed e-con e-parent"
-										data-id="36d396b" data-element_type="container" data-e-type="container">
-										<div class="e-con-inner">
-											<div class="elementor-element elementor-element-8dbf7a4 elementor-widget__width-initial elementor-widget elementor-widget-heading"
-												data-id="8dbf7a4" data-element_type="widget" data-e-type="widget"
-												data-widget_type="heading.default">
-												<div class="elementor-widget-container">
-													<h2 class="elementor-heading-title elementor-size-default">Work with
-														Us to Expose Crypto Scammers</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="elementor-element elementor-element-13a4e0d e-flex e-con-boxed e-con e-parent"
-										data-id="13a4e0d" data-element_type="container" data-e-type="container">
-										<div class="e-con-inner">
-											<div class="elementor-element elementor-element-90ccc47 e-con-full e-flex e-con e-child"
-												data-id="90ccc47" data-element_type="container" data-e-type="container">
-												<div class="elementor-element elementor-element-8a8bc9f elementor-widget elementor-widget-text-editor"
-													data-id="8a8bc9f" data-element_type="widget" data-e-type="widget"
-													data-widget_type="text-editor.default">
-													<div class="elementor-widget-container">
-														<p style="text-align: left;"><strong>Berg PC is based in Houston
-																but practices nationally. </strong></p>
-														<p style="text-align: left;"><span
-																data-olk-copy-source="MessageBody">In
-																cryptocurrency-related matters, the firm has been
-																associated with, co-counseled, or otherwise involved in
-																matters in San Francisco, Los Angeles, Seattle, Denver,
-																Dallas, Austin, Chicago, New York, Philadelphia,
-																Washington, D.C., Boston, and Miami. </span></p>
-														<p style="text-align: left;"><span
-																data-olk-copy-source="MessageBody">Our lawyers</span>
-															are licensed in Texas, Colorado*, and Pennsylvania*.</p>
-														<p style="text-align: left;">We are making strides with each
-															case, and you can help us continue the fight against
-															cryptocurrency scams and fraudulent schemes by making your
-															voice heard.</p>
-														<p style="text-align: left;">If you or someone you know is a
-															victim of a cryptocurrency scam or fraudulent scheme, please
-															provide details about yourself and your case.</p>
-														<p style="text-align: left;">We are here to help, and the first
-															step is to perform a preliminary evaluation. After reviewing
-															your case, we’ll be in touch with the next steps.</p>
-														<p style="text-align: left;">If you wish to continue learning
-															about our developing crypto litigation strategy, you will
-															find more information after the form. (*<em>Inactive</em>)
-														</p>
-													</div>
-												</div>
-												<div class="elementor-element elementor-element-8f7ab0c elementor-align-center elementor-widget elementor-widget-button"
-													data-id="8f7ab0c" data-element_type="widget" data-e-type="widget"
-													data-widget_type="button.default">
-													<div class="elementor-widget-container">
-														<div class="elementor-button-wrapper">
-															<a class="elementor-button elementor-button-link elementor-size-sm"
-																href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjM2MTQiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
-																<span class="elementor-button-content-wrapper">
-																	<span class="elementor-button-text">Tell Us About
-																		Your Case</span>
-																</span>
-															</a>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="elementor-element elementor-element-e8b3283 e-flex e-con-boxed e-con e-parent"
-										data-id="e8b3283" data-element_type="container" data-e-type="container">
-										<div class="e-con-inner">
-											<div class="elementor-element elementor-element-6807dae elementor-widget elementor-widget-heading"
-												data-id="6807dae" data-element_type="widget" data-e-type="widget"
-												data-widget_type="heading.default">
-												<div class="elementor-widget-container">
-													<h2 class="elementor-heading-title elementor-size-default">Our
-														Innovative &amp; Actionable Litigation Strategy to Recover
-														Stolen Cryptocurrency in Court</h2>
-												</div>
-											</div>
-											<div class="elementor-element elementor-element-6988f4c elementor-widget elementor-widget-text-editor"
-												data-id="6988f4c" data-element_type="widget" data-e-type="widget"
-												data-widget_type="text-editor.default">
-												<div class="elementor-widget-container">
-													<p>Geoff Berg is a trailblazer in cryptocurrency law and recovery.
-														It is all very new, but in some instances recovery, even partial
-														recovery, may be possible. Geoff has been developing effective
-														legal strategies to counter cryptocurrency fraud and reclaim
-														stolen money in cooperation with exceptionally skilled financial
-														crime investigators.</p>
-													<h3>Tracing Cryptocurrency Assets with the Help of Investigators
-													</h3>
-													<p>Cryptocurrency is traceable with the right technology and
-														expertise. Geoff Berg leverages the skills and experience of
-														world-renowned investigators who have worked for the FBI, NSA
-														and other government agencies in the fight against global
-														financial crime.</p>
-													<p>Sophisticated cryptocurrency tracing tools, methods, and
-														resources allow investigators to trace transactions on the
-														blockchain and identify the perpetuator’s wallet address.</p>
-													<p>Once a specific wallet is identified, investigators can gather
-														critical information, including whether other stolen
-														cryptocurrency has been pooled, an important component in
-														determining how many people or organizations the criminal may
-														have victimized.</p>
-													<h3>Collaborating with Cryptocurrency Exchange Platforms &amp; VASPs
-													</h3>
-													<p>Many law firms and investigators sue exchanges. To date, Berg PC
-														has not for one reason: they have, in many instances, cooperated
-														with us in complying with court orders to freeze the wallet
-														addresses we have identified as containing stolen funds.</p>
-													<p>Most major cryptocurrency exchange platforms are based outside
-														the United States and beyond the jurisdiction of state and
-														federal courts, which makes the enforcement of legal rulings
-														difficult, if not impossible – unless the exchanges agree to
-														cooperate.</p>
-													<p>Berg PC avoids legal action against leading exchange platforms.
-														We seek to work with them rather than against them. It is often
-														in the interest of cryptocurrency exchange platforms and virtual
-														asset service providers (VASPs) to root out the cryptocurrency
-														scammers and criminals using their products and services.</p>
-													<p>By working with top exchange platforms and VASPs, our team of
-														financial crime investigators and cryptocurrency fraud lawyers
-														can gather evidence necessary for potential crypto scam recovery
-														in Court.</p>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="elementor-element elementor-element-4097ab0 e-flex e-con-boxed e-con e-parent"
-										data-id="4097ab0" data-element_type="container" data-e-type="container">
-										<div class="e-con-inner">
-											<div class="elementor-element elementor-element-541eff8 e-con-full e-flex e-con e-child"
-												data-id="541eff8" data-element_type="container" data-e-type="container">
-												<div class="elementor-element elementor-element-b9a75ef elementor-widget elementor-widget-heading"
-													data-id="b9a75ef" data-element_type="widget" data-e-type="widget"
-													data-widget_type="heading.default">
-													<div class="elementor-widget-container">
-														<h2 class="elementor-heading-title elementor-size-default">
-															Frequently Asked Questions</h2>
-													</div>
-												</div>
-												<div class="elementor-element elementor-element-337b899 elementor-widget elementor-widget-n-accordion"
-													data-id="337b899" data-element_type="widget" data-e-type="widget"
-													data-settings="{&quot;default_state&quot;:&quot;all_collapsed&quot;,&quot;max_items_expended&quot;:&quot;multiple&quot;,&quot;n_accordion_animation_duration&quot;:{&quot;unit&quot;:&quot;ms&quot;,&quot;size&quot;:400,&quot;sizes&quot;:[]}}"
-													data-widget_type="nested-accordion.default">
-													<div class="elementor-widget-container">
-														<div class="e-n-accordion"
-															aria-label="Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys">
-															<details id="e-n-accordion-item-5390"
-																class="e-n-accordion-item">
-																<summary class="e-n-accordion-item-title"
-																	data-accordion-index="1" tabindex="0"
-																	aria-expanded="false"
-																	aria-controls="e-n-accordion-item-5390">
-																	<span class='e-n-accordion-item-title-header'>
-																		<div class="e-n-accordion-item-title-text"> Law
-																			Enforcement vs. Crypto Lawyers: What is the
-																			Process of Crypto Recovery? </div>
-																	</span>
-																	<span class='e-n-accordion-item-title-icon'>
-																		<span class='e-opened'><svg aria-hidden="true"
-																				class="e-font-icon-svg e-fas-minus"
-																				viewbox="0 0 448 512"
-																				xmlns="http://www.w3.org/2000/svg">
-																				<path
-																					d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
-																				</path>
-																			</svg></span>
-																		<span class='e-closed'><svg aria-hidden="true"
-																				class="e-font-icon-svg e-fas-plus"
-																				viewbox="0 0 448 512"
-																				xmlns="http://www.w3.org/2000/svg">
-																				<path
-																					d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
-																				</path>
-																			</svg></span>
-																	</span>
-
-																</summary>
-																<div role="region"
-																	aria-labelledby="e-n-accordion-item-5390"
-																	class="elementor-element elementor-element-29d0647 e-flex e-con-boxed e-con e-child"
-																	data-id="29d0647" data-element_type="container"
-																	data-e-type="container">
-																	<div class="e-con-inner">
-																		<div class="elementor-element elementor-element-cbfe975 elementor-widget elementor-widget-text-editor"
-																			data-id="cbfe975" data-element_type="widget"
-																			data-e-type="widget"
-																			data-widget_type="text-editor.default">
-																			<div class="elementor-widget-container">
-																				<p>For law enforcement, crypto recovery
-																					involves a series of steps they like
-																					to keep secret.</p>
-																				<p>Police have powers private citizens
-																					and lawyers do not: they can issue
-																					grand jury subpoenas, seek warrants
-																					to search places or things, file
-																					suits to seize property, and indict
-																					and arrest scammers.</p>
-																				<p>Law enforcement brings considerable
-																					power to bear when recovering and
-																					returning your crypto, but they are
-																					overwhelmed.</p>
-																				<p>A <strong><a
-																							href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4742235">recent
-																							study</a></strong> from John
-																					Griffin, a finance professor at the
-																					University of Texas at Austin,
-																					estimates $75 billion in global
-																					victims’ losses to pig butchering
-																					scams, and that estimate was in
-																					February of 2024.</p>
-																				<p>The number is no doubt much larger
-																					now. Given the size and scope of the
-																					pig butchering epidemic, law
-																					enforcement does not have the
-																					resources to help everyone.</p>
-																				<p>Using the right investigators,
-																					private lawyers can file suit on
-																					your behalf or on behalf of a class
-																					of victims. This is an entirely new
-																					method of crypto recovery.</p>
-																				<p>Lawyers and courts are still learning
-																					how to do it right, but judgments
-																					are becoming more frequent.</p>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</details>
-															<details id="e-n-accordion-item-5391"
-																class="e-n-accordion-item">
-																<summary class="e-n-accordion-item-title"
-																	data-accordion-index="2" tabindex="-1"
-																	aria-expanded="false"
-																	aria-controls="e-n-accordion-item-5391">
-																	<span class='e-n-accordion-item-title-header'>
-																		<div class="e-n-accordion-item-title-text"> How
-																			Long Does Crypto Fraud Recovery Take? </div>
-																	</span>
-																	<span class='e-n-accordion-item-title-icon'>
-																		<span class='e-opened'><svg aria-hidden="true"
-																				class="e-font-icon-svg e-fas-minus"
-																				viewbox="0 0 448 512"
-																				xmlns="http://www.w3.org/2000/svg">
-																				<path
-																					d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
-																				</path>
-																			</svg></span>
-																		<span class='e-closed'><svg aria-hidden="true"
-																				class="e-font-icon-svg e-fas-plus"
-																				viewbox="0 0 448 512"
-																				xmlns="http://www.w3.org/2000/svg">
-																				<path
-																					d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
-																				</path>
-																			</svg></span>
-																	</span>
-
-																</summary>
-																<div role="region"
-																	aria-labelledby="e-n-accordion-item-5391"
-																	class="elementor-element elementor-element-7bfca51 e-flex e-con-boxed e-con e-child"
-																	data-id="7bfca51" data-element_type="container"
-																	data-e-type="container">
-																	<div class="e-con-inner">
-																		<div class="elementor-element elementor-element-8bb309e elementor-widget elementor-widget-text-editor"
-																			data-id="8bb309e" data-element_type="widget"
-																			data-e-type="widget"
-																			data-widget_type="text-editor.default">
-																			<div class="elementor-widget-container">
-																				<p>Crypto recovery by law enforcement
-																					can be done in a short time. If you
-																					have been the victim of a crypto
-																					scam, report your loss to the FBI on
-																					its IC3 portal: <strong><a
-																							href="https://urldefense.proofpoint.com/v2/url?u=https-3A__www.ic3.gov_&d=DwMGaQ&c=euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=8NlI0CNC7EvS74fWOZtYSgzlhMVwvKTXeloosJgydI4&m=zL9UaouXve0u70im1pZU89yQA6q49PihKD7SwRkORFmP8d1Fj7kAI-fgQDl9zDIT&s=-drjXy68jJKabvW3RvyaNgdUohGGtOoH6hQ4MN4qt9s&e=">https://www.ic3.gov/</a></strong>.
-																				</p>
-																				<p>Unfortunately, the odds of police
-																					using their considerable power to
-																					investigate and return your stolen
-																					cryptocurrency are low – much lower
-																					than anyone, including law
-																					enforcement, would like.</p>
-																				<p>Going through the courts takes
-																					longer, but it is often the only
-																					option for victims. In most cases,
-																					due process rules require courts to
-																					wait at least 75 days before
-																					entering a final judgment in your
-																					favor.</p>
-																				<p>Practically speaking, recovery takes
-																					months. In large cities, where
-																					dockets are crowded and courts
-																					handle thousands of cases at a time,
-																					it could take years.</p>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</details>
-															<details id="e-n-accordion-item-5392"
-																class="e-n-accordion-item">
-																<summary class="e-n-accordion-item-title"
-																	data-accordion-index="3" tabindex="-1"
-																	aria-expanded="false"
-																	aria-controls="e-n-accordion-item-5392">
-																	<span class='e-n-accordion-item-title-header'>
-																		<div class="e-n-accordion-item-title-text"> What
-																			Type of Lawyer Do You Need to Recover Crypto
-																			Losses? </div>
-																	</span>
-																	<span class='e-n-accordion-item-title-icon'>
-																		<span class='e-opened'><svg aria-hidden="true"
-																				class="e-font-icon-svg e-fas-minus"
-																				viewbox="0 0 448 512"
-																				xmlns="http://www.w3.org/2000/svg">
-																				<path
-																					d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
-																				</path>
-																			</svg></span>
-																		<span class='e-closed'><svg aria-hidden="true"
-																				class="e-font-icon-svg e-fas-plus"
-																				viewbox="0 0 448 512"
-																				xmlns="http://www.w3.org/2000/svg">
-																				<path
-																					d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
-																				</path>
-																			</svg></span>
-																	</span>
-
-																</summary>
-																<div role="region"
-																	aria-labelledby="e-n-accordion-item-5392"
-																	class="elementor-element elementor-element-0296c8d e-flex e-con-boxed e-con e-child"
-																	data-id="0296c8d" data-element_type="container"
-																	data-e-type="container">
-																	<div class="e-con-inner">
-																		<div class="elementor-element elementor-element-70f5f53 elementor-widget elementor-widget-text-editor"
-																			data-id="70f5f53" data-element_type="widget"
-																			data-e-type="widget"
-																			data-widget_type="text-editor.default">
-																			<div class="elementor-widget-container">
-																				<p>The lawyer you hire will likely
-																					dictate the outcome of your case.
-																					You need a lawyer who has tried
-																					cases, understands cryptocurrency,
-																					the blockchain, and the workings of
-																					the crypto economy.</p>
-																				<p>According to the <strong><a
-																							href="https://www.pewresearch.org/short-reads/2024/10/24/majority-of-americans-arent-confident-in-the-safety-and-reliability-of-cryptocurrency/">Pew
-																							Research
-																							Center</a></strong>, only
-																					17% of Americans have ever traded or
-																					used cryptocurrency, and 63% believe
-																					the system is not safe and reliable.
-																				</p>
-																				<p>You need a lawyer who understands
-																					crypto well enough to explain it to
-																					a judge and jury with no in-depth
-																					knowledge of it – someone who can
-																					explain how an otherwise normal
-																					person found themselves in your
-																					situation.</p>
-																				<p>Hiring a lawyer under any
-																					circumstances is personal. If you
-																					have recently lost money in a crypto
-																					scam, it is even more personal: you
-																					are vulnerable, shocked, sad,
-																					worried, and angry.</p>
-																				<p>You are probably not yourself. Hire a
-																					lawyer who understands and
-																					empathizes. You should always ask a
-																					lawyer whatever relevant questions
-																					occur to you.</p>
-																				<p>How long has the lawyer been
-																					practicing? What kinds of results
-																					has the lawyer gotten? What is the
-																					lawyer’s reputation among other
-																					lawyers in the area where they
-																					practice?</p>
-																				<p>Finally, how aggressive is the lawyer
-																					prepared to be? Is the lawyer
-																					passionate enough to fight for you?
-																				</p>
-																				<p>If you need an experienced trial
-																					lawyer to fight for you and the
-																					recovery of your stolen crypto, we
-																					may be able to help.</p>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</details>
-														</div>
-														<script
-															type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Law Enforcement vs. Crypto Lawyers: What is the Process of Crypto Recovery?","acceptedAnswer":{"@type":"Answer","text":"For law enforcement, crypto recovery involves a series of steps they like to keep secret.Police have powers private citizens and lawyers do not: they can issue grand jury subpoenas, seek warrants to search places or things, file suits to seize property, and indict and arrest scammers.Law enforcement brings considerable power to bear when recovering and returning your crypto, but they are overwhelmed.A\u00a0recent study\u00a0from John Griffin, a finance professor at the University of Texas at Austin, estimates $75 billion in global victims\u2019 losses to pig butchering scams, and that estimate was in February of 2024.The number is no doubt much larger now. Given the size and scope of the pig butchering epidemic, law enforcement does not have the resources to help everyone.Using the right investigators, private lawyers can file suit on your behalf or on behalf of a class of victims. This is an entirely new method of crypto recovery.Lawyers and courts are still learning how to do it right, but judgments are becoming more frequent."}},{"@type":"Question","name":"How Long Does Crypto Fraud Recovery Take?","acceptedAnswer":{"@type":"Answer","text":"Crypto recovery by law enforcement can be done in a short time. If you have been the victim of a crypto scam, report your loss to the FBI on its IC3 portal:\u00a0https:\/\/www.ic3.gov\/.Unfortunately, the odds of police using their considerable power to investigate and return your stolen cryptocurrency are low \u2013 much lower than anyone, including law enforcement, would like.Going through the courts takes longer, but it is often the only option for victims. In most cases, due process rules require courts to wait at least 75 days before entering a final judgment in your favor.Practically speaking, recovery takes months. In large cities, where dockets are crowded and courts handle thousands of cases at a time, it could take years."}},{"@type":"Question","name":"What Type of Lawyer Do You Need to Recover Crypto Losses?","acceptedAnswer":{"@type":"Answer","text":"The lawyer you hire will likely dictate the outcome of your case. You need a lawyer who has tried cases, understands cryptocurrency, the blockchain, and the workings of the crypto economy.According to the\u00a0Pew Research Center, only 17% of Americans have ever traded or used cryptocurrency, and 63% believe the system is not safe and reliable.You need a lawyer who understands crypto well enough to explain it to a judge and jury with no in-depth knowledge of it \u2013 someone who can explain how an otherwise normal person found themselves in your situation.Hiring a lawyer under any circumstances is personal. If you have recently lost money in a crypto scam, it is even more personal: you are vulnerable, shocked, sad, worried, and angry.You are probably not yourself. Hire a lawyer who understands and empathizes. You should always ask a lawyer whatever relevant questions occur to you.How long has the lawyer been practicing? What kinds of results has the lawyer gotten? What is the lawyer\u2019s reputation among other lawyers in the area where they practice?Finally, how aggressive is the lawyer prepared to be? Is the lawyer passionate enough to fight for you?If you need an experienced trial lawyer to fight for you and the recovery of your stolen crypto, we may be able to help."}}]}</script>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="elementor-element elementor-element-6ac6c18 e-flex e-con-boxed e-con e-parent"
-										data-id="6ac6c18" data-element_type="container" data-e-type="container"
-										data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-										<div class="e-con-inner">
-											<div class="elementor-element elementor-element-cfe90e3 e-con-full e-flex e-con e-child"
-												data-id="cfe90e3" data-element_type="container" data-e-type="container">
-												<div class="elementor-element elementor-element-cc10a8d e-con-full e-flex e-con e-child"
-													data-id="cc10a8d" data-element_type="container"
-													data-e-type="container">
-													<div class="elementor-element elementor-element-6168aec e-con-full e-flex e-con e-child"
-														data-id="6168aec" data-element_type="container"
-														data-e-type="container">
-														<div class="elementor-element elementor-element-6d2e958 elementor-widget elementor-widget-heading"
-															data-id="6d2e958" data-element_type="widget"
-															data-e-type="widget" data-widget_type="heading.default">
-															<div class="elementor-widget-container">
-																<h2
-																	class="elementor-heading-title elementor-size-default">
-																	Contact a Cryptocurrency Fraud Attorney in Houston,
-																	Texas</h2>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-de6aab1 elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
-															data-id="de6aab1" data-element_type="widget"
-															data-e-type="widget" data-widget_type="text-editor.default">
-															<div class="elementor-widget-container">
-																<p>Berg PC is committed to fighting cryptocurrency fraud
-																	and further developing legal strategies to make the
-																	recovery of stolen money possible.</p>
-																<p>Should the firm take on your case, Geoff Berg and our
-																	cryptocurrency recovery lawyers will do everything
-																	they can to reclaim what is rightfully yours.</p>
-																<p>We offer initial consultations at no charge. If the
-																	firm accepts your case, it will be handled on a
-																	contingency fee basis, meaning that if we do not
-																	recover money or cryptocurrency on your behalf, you
-																	pay nothing.</p>
-																<p>Please contact us for a preliminary evaluation. After
-																	reviewing your case diligently, we will be in touch
-																	with next steps.</p>
-															</div>
-														</div>
-													</div>
-													<div class="elementor-element elementor-element-39fc7c6 e-con-full e-flex e-con e-child"
-														data-id="39fc7c6" data-element_type="container"
-														data-e-type="container">
-														<div class="elementor-element elementor-element-0391853 elementor-widget elementor-widget-image"
-															data-id="0391853" data-element_type="widget"
-															data-e-type="widget" data-widget_type="image.default">
-															<div class="elementor-widget-container">
-																<img loading="lazy" decoding="async" width="1024"
-																	height="684"
-																	src="../../../wp-content/uploads/2025/04/DSC02815-scaled-e1744302932965-1024x684.jpg"
-																	class="attachment-large size-large wp-image-3356"
-																	alt=""
-																	srcset="../../../wp-content/uploads/2025/04/DSC02815-scaled-e1744302932965-1024x684.jpg 1024w, ../../../wp-content/uploads/2025/04/DSC02815-scaled-e1744302932965-300x200.jpg 300w, ../../../wp-content/uploads/2025/04/DSC02815-scaled-e1744302932965-768x513.jpg 768w, ../../../wp-content/uploads/2025/04/DSC02815-scaled-e1744302932965.jpg 1438w"
+																	srcset="{{LAWYER_IMAGE_PATH}} 1024w, {{LAWYER_IMAGE_PATH}} 300w, {{LAWYER_IMAGE_PATH}} 768w, {{LAWYER_IMAGE_PATH}} 1536w, {{LAWYER_IMAGE_PATH}} 2048w"
 																	sizes="(max-width: 1024px) 100vw, 1024px">
 															</div>
 														</div>
-														<div class="elementor-element elementor-element-11a3240 elementor-widget elementor-widget-heading"
-															data-id="11a3240" data-element_type="widget"
-															data-e-type="widget" data-widget_type="heading.default">
-															<div class="elementor-widget-container">
-																<h3
-																	class="elementor-heading-title elementor-size-default">
-																	Geoffrey Berg</h3>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-73fc8cd elementor-align-center elementor-widget elementor-widget-button"
-															data-id="73fc8cd" data-element_type="widget"
-															data-e-type="widget" data-widget_type="button.default">
-															<div class="elementor-widget-container">
-																<div class="elementor-button-wrapper">
-																	<a class="elementor-button elementor-button-link elementor-size-sm"
-																		href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjM2MTQiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
-																		<span class="elementor-button-content-wrapper">
-																			<span class="elementor-button-text">Tell Us
-																				About Your Case</span>
-																		</span>
-																	</a>
+														<div class="elementor-element elementor-element-bf68c46 e-grid e-con-full e-con e-child"
+															data-id="bf68c46" data-element_type="container"
+															data-e-type="container">
+															<div class="elementor-element elementor-element-b4dee49 elementor-align-center elementor-widget elementor-widget-button"
+																data-id="b4dee49" data-element_type="widget"
+																data-e-type="widget" data-widget_type="button.default">
+																<div class="elementor-widget-container">
+																	<div class="elementor-button-wrapper">
+																		<!-- <a class="elementor-button elementor-button-link elementor-size-sm"
+																			href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjM2MzkiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
+																			<span
+																				class="elementor-button-content-wrapper">
+																				<span class="elementor-button-icon">
+																					<svg aria-hidden="true"
+																						class="e-font-icon-svg e-far-arrow-alt-circle-down"
+																						viewbox="0 0 512 512"
+																						xmlns="http://www.w3.org/2000/svg">
+																						<path
+																							d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm-32-316v116h-67c-10.7 0-16 12.9-8.5 20.5l99 99c4.7 4.7 12.3 4.7 17 0l99-99c7.6-7.6 2.2-20.5-8.5-20.5h-67V140c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12z">
+																						</path>
+																					</svg> </span>
+																				<span
+																					class="elementor-button-text">Download
+																					vCard </span>
+																			</span>
+																		</a> -->
+																	</div>
 																</div>
 															</div>
 														</div>
+													</div>
+													<div class="elementor-element elementor-element-7179a7f e-con-full e-flex e-con e-child"
+														data-id="7179a7f" data-element_type="container"
+														data-e-type="container">
+														<div class="elementor-element elementor-element-039ea62 elementor-widget elementor-widget-text-editor"
+															data-id="039ea62" data-element_type="widget"
+															data-e-type="widget" data-widget_type="text-editor.default">
+															<div class="elementor-widget-container">
+																{{LAWYER_BIO}}
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-b71aa93 e-flex e-con-boxed e-con e-parent"
+										data-id="b71aa93" data-element_type="container" data-e-type="container">
+										<div class="e-con-inner">
+											<div class="elementor-element elementor-element-f45cf70 elementor-widget elementor-widget-heading"
+												data-id="f45cf70" data-element_type="widget" data-e-type="widget"
+												data-widget_type="heading.default">
+												<div class="elementor-widget-container">
+													<h2 class="elementor-heading-title elementor-size-default">Featured
+														In</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-77ed920 e-flex e-con-boxed e-con e-parent"
+										data-id="77ed920" data-element_type="container" data-e-type="container"
+										data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+										<div class="e-con-inner">
+											<div class="elementor-element elementor-element-8c1b49e e-con-full e-flex e-con e-child"
+												data-id="8c1b49e" data-element_type="container" data-e-type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-36100a4 elementor-widget elementor-widget-image-carousel"
+													data-id="36100a4" data-element_type="widget" data-e-type="widget"
+													data-settings="{&quot;slides_to_show&quot;:&quot;6&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;lazyload&quot;:&quot;yes&quot;,&quot;speed&quot;:5000,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:60,&quot;sizes&quot;:[]},&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+													data-widget_type="image-carousel.default">
+													<div class="elementor-widget-container">
+														<div class="elementor-image-carousel-wrapper swiper"
+															role="region" aria-roledescription="carousel"
+															aria-label="Image Carousel" dir="ltr">
+															<div class="elementor-image-carousel swiper-wrapper"
+																aria-live="off">
+																<div class="swiper-slide" role="group"
+																	aria-roledescription="slide" aria-label="1 of 9">
+																	<figure class="swiper-slide-inner"><img
+																			class="swiper-slide-image swiper-lazy"
+																			data-src="https://bergpc.com/wp-content/uploads/2024/12/NPR-Logo-300x101.webp"
+																			alt="NPR Logo">
+																		<div class="swiper-lazy-preloader"></div>
+																	</figure>
+																</div>
+																<div class="swiper-slide" role="group"
+																	aria-roledescription="slide" aria-label="2 of 9">
+																	<figure class="swiper-slide-inner"><img
+																			class="swiper-slide-image swiper-lazy"
+																			data-src="https://bergpc.com/wp-content/uploads/2024/12/cbs-news-min.png-300x185.webp"
+																			alt="cbs-news-min.png">
+																		<div class="swiper-lazy-preloader"></div>
+																	</figure>
+																</div>
+																<div class="swiper-slide" role="group"
+																	aria-roledescription="slide" aria-label="3 of 9">
+																	<figure class="swiper-slide-inner"><img
+																			class="swiper-slide-image swiper-lazy"
+																			data-src="https://bergpc.com/wp-content/uploads/2024/12/wired-logo-300x60.webp"
+																			alt="wired logo">
+																		<div class="swiper-lazy-preloader"></div>
+																	</figure>
+																</div>
+																<div class="swiper-slide" role="group"
+																	aria-roledescription="slide" aria-label="4 of 9">
+																	<figure class="swiper-slide-inner"><img
+																			class="swiper-slide-image swiper-lazy"
+																			data-src="https://bergpc.com/wp-content/uploads/2024/12/hc.png"
+																			alt="hc">
+																		<div class="swiper-lazy-preloader"></div>
+																	</figure>
+																</div>
+																<div class="swiper-slide" role="group"
+																	aria-roledescription="slide" aria-label="5 of 9">
+																	<figure class="swiper-slide-inner"><img
+																			class="swiper-slide-image swiper-lazy"
+																			data-src="https://bergpc.com/wp-content/uploads/2024/12/wpost.png"
+																			alt="wpost">
+																		<div class="swiper-lazy-preloader"></div>
+																	</figure>
+																</div>
+																<div class="swiper-slide" role="group"
+																	aria-roledescription="slide" aria-label="6 of 9">
+																	<figure class="swiper-slide-inner"><img
+																			class="swiper-slide-image swiper-lazy"
+																			data-src="https://bergpc.com/wp-content/uploads/2024/12/today.png"
+																			alt="today">
+																		<div class="swiper-lazy-preloader"></div>
+																	</figure>
+																</div>
+																<div class="swiper-slide" role="group"
+																	aria-roledescription="slide" aria-label="7 of 9">
+																	<figure class="swiper-slide-inner"><img
+																			class="swiper-slide-image swiper-lazy"
+																			data-src="https://bergpc.com/wp-content/uploads/2024/12/cnn.png"
+																			alt="cnn">
+																		<div class="swiper-lazy-preloader"></div>
+																	</figure>
+																</div>
+																<div class="swiper-slide" role="group"
+																	aria-roledescription="slide" aria-label="8 of 9">
+																	<figure class="swiper-slide-inner"><img
+																			class="swiper-slide-image swiper-lazy"
+																			data-src="https://bergpc.com/wp-content/uploads/2024/12/cnbc.png"
+																			alt="cnbc">
+																		<div class="swiper-lazy-preloader"></div>
+																	</figure>
+																</div>
+																<div class="swiper-slide" role="group"
+																	aria-roledescription="slide" aria-label="9 of 9">
+																	<figure class="swiper-slide-inner"><img
+																			class="swiper-slide-image swiper-lazy"
+																			data-src="https://bergpc.com/wp-content/uploads/2024/12/fox.png"
+																			alt="fox">
+																		<div class="swiper-lazy-preloader"></div>
+																	</figure>
+																</div>
+															</div>
+
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-d35727a e-flex e-con-boxed e-con e-parent"
+										data-id="d35727a" data-element_type="container" data-e-type="container"
+										data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+										<div class="e-con-inner">
+											<div class="elementor-element elementor-element-2a8d34d e-con-full e-flex e-con e-child"
+												data-id="2a8d34d" data-element_type="container" data-e-type="container">
+												<div class="elementor-element elementor-element-35e9499 e-con-full e-flex e-con e-child"
+													data-id="35e9499" data-element_type="container"
+													data-e-type="container">
+													<div class="elementor-element elementor-element-a777477 e-con-full e-flex e-con e-child"
+														data-id="a777477" data-element_type="container"
+														data-e-type="container">
 													</div>
 												</div>
 											</div>
@@ -6277,7 +5549,7 @@
 								<div class="ast-header-html inner-link-style-">
 									<div class="ast-builder-html-element">
 										<p><img class="alignnone wp-image-1938 "
-												src="../../../wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-1-e1732045234138-300x158.png"
+												src="../../wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-1-e1732045234138-300x158.png"
 												alt="" width="143" height="75"></p>
 										<p>24 Greenway Plaza,<br>
 											Suite 1800<br>
@@ -6341,8 +5613,8 @@
 										<nav class="menu-footer-our-firm-container" aria-label="Our Firm">
 											<ul id="menu-footer-our-firm" class="menu">
 												<li id="menu-item-3456"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3456">
-													<a href="../../../lawyers/index.htm" class="menu-link">Team</a>
+													class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-3456">
+													<a href="../index.htm" class="menu-link">Team</a>
 												</li>
 											</ul>
 										</nav>
@@ -6361,22 +5633,22 @@
 											<ul id="menu-footer-business-litigation" class="menu">
 												<li id="menu-item-2390"
 													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2390">
-													<a href="../../business-litigation/breach-of-contract/index.htm"
+													<a href="../../practice-areas/business-litigation/breach-of-contract/index.htm"
 														class="menu-link">Breach of Contract</a>
 												</li>
 												<li id="menu-item-2389"
 													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2389">
-													<a href="../../business-litigation/partnership-disputes/index.htm"
+													<a href="../../practice-areas/business-litigation/partnership-disputes/index.htm"
 														class="menu-link">Partnership Disputes</a>
 												</li>
 												<li id="menu-item-2388"
 													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2388">
-													<a href="../../business-litigation/business-divorce/index.htm"
+													<a href="../../practice-areas/business-litigation/business-divorce/index.htm"
 														class="menu-link">Business Divorce</a>
 												</li>
 												<li id="menu-item-2387"
 													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2387">
-													<a href="../../business-litigation/non-compete-disputes/index.htm"
+													<a href="../../practice-areas/business-litigation/non-compete-disputes/index.htm"
 														class="menu-link">Non-Compete Disputes</a>
 												</li>
 											</ul>
@@ -6395,24 +5667,23 @@
 											aria-label="Crypto Litigation">
 											<ul id="menu-footer-crypto-litigation" class="menu">
 												<li id="menu-item-2170"
-													class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2132 current_page_item menu-item-2170">
-													<a href="index.htm" aria-current="page" class="menu-link">Crypto
-														Fraud
-														&#038; Recovery</a>
+													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2170">
+													<a href="../../practice-areas/crypto-litigation/fraud-recovery/index.htm"
+														class="menu-link">Crypto Fraud &#038; Recovery</a>
 												</li>
 												<li id="menu-item-4252"
 													class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4252">
-													<a href="../../crypto-blockchain-business-transactions/index.htm"
+													<a href="../../practice-areas/crypto-blockchain-business-transactions/index.htm"
 														class="menu-link">Crypto Business Transactions</a>
 												</li>
 												<li id="menu-item-3980"
 													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3980">
-													<a href="../2025-coinbase-data-breach/index.htm"
+													<a href="../../practice-areas/crypto-litigation/2025-coinbase-data-breach/index.htm"
 														class="menu-link">Coinbase Data Breach</a>
 												</li>
 												<li id="menu-item-4245"
 													class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4245">
-													<a href="../2025-meta-crypto-scam-ads-investigation/index.htm"
+													<a href="../../practice-areas/crypto-litigation/2025-meta-crypto-scam-ads-investigation/index.htm"
 														class="menu-link">Meta Crypto Scam Ads</a>
 												</li>
 											</ul>
@@ -6432,15 +5703,15 @@
 							<div class="ast-builder-layout-element ast-flex site-footer-focus-item ast-footer-copyright"
 								data-section="section-footer-builder">
 								<div class="ast-footer-copyright">
-									<p>Copyright &copy; 2026 Berg PC</p>
+									<p>Copyright &copy; {{CURRENT_YEAR}} Berg PC</p>
 								</div>
 							</div>
 							<div class="footer-widget-area widget-area site-footer-focus-item ast-footer-html-2"
 								data-section="section-fb-html-2">
 								<div class="ast-header-html inner-link-style-">
 									<div class="ast-builder-html-element">
-										<p><a href="../../../privacy-policy/index.htm">Privacy Policy</a> | <a
-												href="../../../disclaimer/index.htm">Disclaimer</a></p>
+										<p><a href="../../privacy-policy/index.htm">Privacy Policy</a> | <a
+												href="../../disclaimer/index.htm">Disclaimer</a></p>
 									</div>
 								</div>
 							</div>
@@ -6454,8 +5725,8 @@
 	<script type="speculationrules">
 {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/astra/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
-	<div data-elementor-type="popup" data-elementor-id="3614" class="elementor elementor-3614 elementor-location-popup"
-		data-elementor-settings="{&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}"
+	<div data-elementor-type="popup" data-elementor-id="3639" class="elementor elementor-3639 elementor-location-popup"
+		data-elementor-settings="{&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;timing&quot;:[]}"
 		data-elementor-post-type="elementor_library">
 		<div class="elementor-element elementor-element-385ad9b e-flex e-con-boxed e-con e-parent" data-id="385ad9b"
 			data-element_type="container" data-e-type="container">
@@ -6464,49 +5735,91 @@
 					data-id="ce5af77" data-element_type="widget" data-e-type="widget"
 					data-widget_type="heading.default">
 					<div class="elementor-widget-container">
-						<h2 class="elementor-heading-title elementor-size-default">Tell Us About Your Case</h2>
+						<h2 class="elementor-heading-title elementor-size-default">Disclaimer</h2>
 					</div>
 				</div>
 				<div class="elementor-element elementor-element-a39b4d1 elementor-widget elementor-widget-wpforms"
 					data-id="a39b4d1" data-element_type="widget" data-e-type="widget"
 					data-widget_type="wpforms.default">
 					<div class="elementor-widget-container">
-						<div class="wpforms-container wpforms-render-modern" id="wpforms-2528">
-							<form id="wpforms-form-2528" class="wpforms-validate wpforms-form" data-formid="2528"
-								method="post" enctype="multipart/form-data"
-								action="/api/submit.php"
-								data-token="3a1d2c3687f6bdac65273690444aaaf7" data-token-time="1777921956"><noscript
+						<div class="wpforms-container wpforms-render-modern" id="wpforms-3600">
+							<form id="wpforms-form-3600" class="wpforms-validate wpforms-form" data-formid="3600"
+								method="post" enctype="multipart/form-data" action="/lawyers/{{LAWYER_SLUG}}/"
+								data-token="e6f27ea5fb3fa4de0b3fdcd0a03ae29c" data-token-time="1778594621"><noscript
 									class="wpforms-error-noscript">Please enable JavaScript in your browser to complete
 									this form.</noscript>
 								<div id="wpforms-error-noscript" style="display: none;">Please enable JavaScript in your
 									browser to complete this form.</div>
 								<div class="wpforms-field-container">
-									<div id="wpforms-2528-field_27-container"
-										class="wpforms-field wpforms-field-checkbox" data-field-id="27">
+									<div id="wpforms-3600-field_19-container" class="wpforms-field wpforms-field-name"
+										data-field-id="19">
+										<fieldset>
+											<legend class="wpforms-field-label">Name <span
+													class="wpforms-required-label" aria-hidden="true">*</span></legend>
+											<div class="wpforms-field-row wpforms-field-medium">
+												<div class="wpforms-field-row-block wpforms-first wpforms-one-half">
+													<input type="text" id="wpforms-3600-field_19"
+														class="wpforms-field-name-first wpforms-field-required"
+														name="wpforms[fields][19][first]"
+														aria-errormessage="wpforms-3600-field_19-error"
+														required=""><label for="wpforms-3600-field_19"
+														class="wpforms-field-sublabel after">First</label>
+												</div>
+												<div class="wpforms-field-row-block wpforms-one-half"><input type="text"
+														id="wpforms-3600-field_19-last"
+														class="wpforms-field-name-last wpforms-field-required"
+														name="wpforms[fields][19][last]"
+														aria-errormessage="wpforms-3600-field_19-last-error"
+														required=""><label for="wpforms-3600-field_19-last"
+														class="wpforms-field-sublabel after">Last</label></div>
+											</div>
+										</fieldset>
+									</div>
+									<div id="wpforms-3600-field_1-container" class="wpforms-field wpforms-field-text"
+										data-field-type="text" data-field-id="1">
+										<label class="wpforms-field-label" for="wpforms-3600-field_1">Name
+											Disclaimer</label>
+										<input type="text" id="wpforms-3600-field_1" class="wpforms-field-medium"
+											name="wpforms[fields][1]">
+									</div>
+									<div id="wpforms-3600-field_9-container"
+										class="wpforms-field wpforms-field-checkbox" data-field-id="9">
 										<fieldset>
 											<legend class="wpforms-field-label wpforms-label-hide" aria-hidden="false">
-												General Contact Disclaimer <span class="wpforms-required-label"
+												Disclaimer <span class="wpforms-required-label"
 													aria-hidden="true">*</span></legend>
-											<ul id="wpforms-2528-field_27" class="wpforms-field-required">
+											<ul id="wpforms-3600-field_9" class="wpforms-field-required">
 												<li class="choice-1 depth-1"><input type="checkbox"
-														id="wpforms-2528-field_27_1" name="wpforms[fields][27][]"
-														value="I have read and agree to the foregoing."
-														aria-errormessage="wpforms-2528-field_27_1-error"
-														aria-describedby="wpforms-2528-field_27-description"
+														id="wpforms-3600-field_9_1" name="wpforms[fields][9][]"
+														value="I have read and agree with the foregoing"
+														aria-errormessage="wpforms-3600-field_9_1-error"
+														aria-describedby="wpforms-3600-field_9-description"
 														required=""><label class="wpforms-field-label-inline"
-														for="wpforms-2528-field_27_1">I have read and agree to the
-														foregoing. <span class="wpforms-required-label">*</span></label>
+														for="wpforms-3600-field_9_1">I have read and agree with the
+														foregoing <span class="wpforms-required-label">*</span></label>
 												</li>
 											</ul>
-											<div id="wpforms-2528-field_27-description"
-												class="wpforms-field-description wpforms-disclaimer-description">If you
-												have been the victim of a cryptocurrency scam, we understand now may be
-												the worst time of your life. <br>
+											<div id="wpforms-3600-field_9-description"
+												class="wpforms-field-description wpforms-disclaimer-description">Do not
+												send or include any information in any email generated through this web
+												site if you consider the information confidential or privileged. By
+												submitting information by email or other communication in response to
+												this web site, you agree that the communication does not create a
+												lawyer-client relationship between you and the law firm and its lawyers,
+												the law firm does not represent you, and that any information submitted
+												is not confidential and is not privileged. You further acknowledge that,
+												unless the law firm subsequently enters into a lawyer-client
+												relationship with you, any information you provide will not be treated
+												as confidential and any such information may be used adversely to you
+												and for the benefit of current or future clients of the law firm.<br>
 												<br>
-												Please know, however, that we are unable to take any action or provide
-												guidance of any kind unless and until a full investigation has been
-												conducted, which can only be done by filling out the form that
-												follows.<br>
+												If you have been the victim of a cryptocurrency scam, we understand now
+												may be the worst time of your life. Please know, however, that we are
+												unable to take any action or provide guidance of any kind unless and
+												until a full investigation has been conducted, which can only be done by
+												filling out the form on our Crypto Fraud &amp; Recovery page
+												(https://bergpc.com/practice-areas/crypto-litigation/fraud-recovery/).
+												<br>
 												<br>
 												<strong><u>Please Do Not Call or Email Our Office</u></strong><br>
 												<br>
@@ -6517,595 +5830,25 @@
 											</div>
 										</fieldset>
 									</div>
-									<div id="wpforms-2528-field_13-container" class="wpforms-field wpforms-field-name"
-										data-field-id="13">
-										<fieldset>
-											<legend class="wpforms-field-label">Name <span
-													class="wpforms-required-label" aria-hidden="true">*</span></legend>
-											<div class="wpforms-field-row wpforms-field-large">
-												<div class="wpforms-field-row-block wpforms-first wpforms-one-half">
-													<input type="text" id="wpforms-2528-field_13"
-														class="wpforms-field-name-first wpforms-field-required"
-														name="wpforms[fields][13][first]"
-														aria-errormessage="wpforms-2528-field_13-error"
-														required=""><label for="wpforms-2528-field_13"
-														class="wpforms-field-sublabel after">First</label>
-												</div>
-												<div class="wpforms-field-row-block wpforms-one-half"><input type="text"
-														id="wpforms-2528-field_13-last"
-														class="wpforms-field-name-last wpforms-field-required"
-														name="wpforms[fields][13][last]"
-														aria-errormessage="wpforms-2528-field_13-last-error"
-														required=""><label for="wpforms-2528-field_13-last"
-														class="wpforms-field-sublabel after">Last</label></div>
-											</div>
-										</fieldset>
-									</div>
-									<div id="wpforms-2528-field_23-container" class="wpforms-field wpforms-field-layout"
-										data-field-id="23">
-										<div class="wpforms-field-layout-rows wpforms-field-large">
-											<div class="wpforms-layout-row">
-												<div class="wpforms-layout-column wpforms-layout-column-50">
-													<div id="wpforms-2528-field_1-container"
-														class="wpforms-field wpforms-field-email" data-field-id="1">
-														<label class="wpforms-field-label"
-															for="wpforms-2528-field_1">Email <span
-																class="wpforms-required-label"
-																aria-hidden="true">*</span></label><input type="email"
-															id="wpforms-2528-field_1"
-															class="wpforms-field-large wpforms-field-required"
-															name="wpforms[fields][1]" spellcheck="false"
-															aria-errormessage="wpforms-2528-field_1-error" required="">
-													</div>
-												</div>
-												<div class="wpforms-layout-column wpforms-layout-column-50">
-													<div id="wpforms-2528-field_25-container"
-														class="wpforms-field wpforms-field-phone" data-field-id="25">
-														<label class="wpforms-field-label"
-															for="wpforms-2528-field_25">Phone <span
-																class="wpforms-required-label"
-																aria-hidden="true">*</span></label><input type="tel"
-															id="wpforms-2528-field_25"
-															class="wpforms-field-medium wpforms-field-required wpforms-smart-phone-field"
-															data-rule-smart-phone-field="true"
-															name="wpforms[fields][25]" aria-label="Phone"
-															aria-errormessage="wpforms-2528-field_25-error" required="">
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div id="wpforms-2528-field_26-container"
-										class="wpforms-field wpforms-field-address" data-field-id="26">
-										<fieldset>
-											<legend class="wpforms-field-label">Address <span
-													class="wpforms-required-label" aria-hidden="true">*</span></legend>
-											<div class="wpforms-field-row wpforms-field-large">
-												<div><input type="text" id="wpforms-2528-field_26"
-														class="wpforms-field-address-address1 wpforms-field-required"
-														name="wpforms[fields][26][address1]"
-														aria-errormessage="wpforms-2528-field_26-error"
-														required=""><label for="wpforms-2528-field_26"
-														class="wpforms-field-sublabel after">Address Line 1</label>
-												</div>
-											</div>
-											<div class="wpforms-field-row wpforms-field-large">
-												<div class="wpforms-field-row-block wpforms-one-half wpforms-first">
-													<input type="text" id="wpforms-2528-field_26-city"
-														class="wpforms-field-address-city wpforms-field-required"
-														name="wpforms[fields][26][city]"
-														aria-errormessage="wpforms-2528-field_26-city-error"
-														required=""><label for="wpforms-2528-field_26-city"
-														class="wpforms-field-sublabel after">City</label>
-												</div>
-												<div class="wpforms-field-row-block wpforms-one-half"><input type="text"
-														id="wpforms-2528-field_26-state"
-														class="wpforms-field-address-state wpforms-field-required"
-														name="wpforms[fields][26][state]"
-														aria-errormessage="wpforms-2528-field_26-state-error"
-														required=""><label for="wpforms-2528-field_26-state"
-														class="wpforms-field-sublabel after">State / Province /
-														Region</label></div>
-											</div>
-											<div class="wpforms-field-row wpforms-field-large">
-												<div class="wpforms-field-row-block wpforms-one-half"><select
-														id="wpforms-2528-field_26-country"
-														class="wpforms-field-address-country wpforms-field-required"
-														name="wpforms[fields][26][country]"
-														aria-errormessage="wpforms-2528-field_26-country-error"
-														required="">
-														<option class="placeholder" value="" selected="" disabled="">---
-															Select country ---</option>
-														<option value="AF">Afghanistan</option>
-														<option value="AL">Albania</option>
-														<option value="DZ">Algeria</option>
-														<option value="AS">American Samoa</option>
-														<option value="AD">Andorra</option>
-														<option value="AO">Angola</option>
-														<option value="AI">Anguilla</option>
-														<option value="AQ">Antarctica</option>
-														<option value="AG">Antigua and Barbuda</option>
-														<option value="AR">Argentina</option>
-														<option value="AM">Armenia</option>
-														<option value="AW">Aruba</option>
-														<option value="AU">Australia</option>
-														<option value="AT">Austria</option>
-														<option value="AZ">Azerbaijan</option>
-														<option value="BS">Bahamas</option>
-														<option value="BH">Bahrain</option>
-														<option value="BD">Bangladesh</option>
-														<option value="BB">Barbados</option>
-														<option value="BY">Belarus</option>
-														<option value="BE">Belgium</option>
-														<option value="BZ">Belize</option>
-														<option value="BJ">Benin</option>
-														<option value="BM">Bermuda</option>
-														<option value="BT">Bhutan</option>
-														<option value="BO">Bolivia (Plurinational State of)</option>
-														<option value="BQ">Bonaire, Saint Eustatius and Saba</option>
-														<option value="BA">Bosnia and Herzegovina</option>
-														<option value="BW">Botswana</option>
-														<option value="BV">Bouvet Island</option>
-														<option value="BR">Brazil</option>
-														<option value="IO">British Indian Ocean Territory</option>
-														<option value="BN">Brunei Darussalam</option>
-														<option value="BG">Bulgaria</option>
-														<option value="BF">Burkina Faso</option>
-														<option value="BI">Burundi</option>
-														<option value="CV">Cabo Verde</option>
-														<option value="KH">Cambodia</option>
-														<option value="CM">Cameroon</option>
-														<option value="CA">Canada</option>
-														<option value="KY">Cayman Islands</option>
-														<option value="CF">Central African Republic</option>
-														<option value="TD">Chad</option>
-														<option value="CL">Chile</option>
-														<option value="CN">China</option>
-														<option value="CX">Christmas Island</option>
-														<option value="CC">Cocos (Keeling) Islands</option>
-														<option value="CO">Colombia</option>
-														<option value="KM">Comoros</option>
-														<option value="CG">Congo</option>
-														<option value="CD">Congo (Democratic Republic of the)</option>
-														<option value="CK">Cook Islands</option>
-														<option value="CR">Costa Rica</option>
-														<option value="HR">Croatia</option>
-														<option value="CU">Cuba</option>
-														<option value="CW">Curaçao</option>
-														<option value="CY">Cyprus</option>
-														<option value="CZ">Czech Republic</option>
-														<option value="CI">Côte d&#039;Ivoire</option>
-														<option value="DK">Denmark</option>
-														<option value="DJ">Djibouti</option>
-														<option value="DM">Dominica</option>
-														<option value="DO">Dominican Republic</option>
-														<option value="EC">Ecuador</option>
-														<option value="EG">Egypt</option>
-														<option value="SV">El Salvador</option>
-														<option value="GQ">Equatorial Guinea</option>
-														<option value="ER">Eritrea</option>
-														<option value="EE">Estonia</option>
-														<option value="SZ">Eswatini (Kingdom of)</option>
-														<option value="ET">Ethiopia</option>
-														<option value="FK">Falkland Islands (Malvinas)</option>
-														<option value="FO">Faroe Islands</option>
-														<option value="FJ">Fiji</option>
-														<option value="FI">Finland</option>
-														<option value="FR">France</option>
-														<option value="GF">French Guiana</option>
-														<option value="PF">French Polynesia</option>
-														<option value="TF">French Southern Territories</option>
-														<option value="GA">Gabon</option>
-														<option value="GM">Gambia</option>
-														<option value="GE">Georgia</option>
-														<option value="DE">Germany</option>
-														<option value="GH">Ghana</option>
-														<option value="GI">Gibraltar</option>
-														<option value="GR">Greece</option>
-														<option value="GL">Greenland</option>
-														<option value="GD">Grenada</option>
-														<option value="GP">Guadeloupe</option>
-														<option value="GU">Guam</option>
-														<option value="GT">Guatemala</option>
-														<option value="GG">Guernsey</option>
-														<option value="GN">Guinea</option>
-														<option value="GW">Guinea-Bissau</option>
-														<option value="GY">Guyana</option>
-														<option value="HT">Haiti</option>
-														<option value="HM">Heard Island and McDonald Islands</option>
-														<option value="HN">Honduras</option>
-														<option value="HK">Hong Kong</option>
-														<option value="HU">Hungary</option>
-														<option value="IS">Iceland</option>
-														<option value="IN">India</option>
-														<option value="ID">Indonesia</option>
-														<option value="IR">Iran (Islamic Republic of)</option>
-														<option value="IQ">Iraq</option>
-														<option value="IE">Ireland (Republic of)</option>
-														<option value="IM">Isle of Man</option>
-														<option value="IL">Israel</option>
-														<option value="IT">Italy</option>
-														<option value="JM">Jamaica</option>
-														<option value="JP">Japan</option>
-														<option value="JE">Jersey</option>
-														<option value="JO">Jordan</option>
-														<option value="KZ">Kazakhstan</option>
-														<option value="KE">Kenya</option>
-														<option value="KI">Kiribati</option>
-														<option value="KP">Korea (Democratic People&#039;s Republic of)
-														</option>
-														<option value="KR">Korea (Republic of)</option>
-														<option value="XK">Kosovo</option>
-														<option value="KW">Kuwait</option>
-														<option value="KG">Kyrgyzstan</option>
-														<option value="LA">Lao People&#039;s Democratic Republic
-														</option>
-														<option value="LV">Latvia</option>
-														<option value="LB">Lebanon</option>
-														<option value="LS">Lesotho</option>
-														<option value="LR">Liberia</option>
-														<option value="LY">Libya</option>
-														<option value="LI">Liechtenstein</option>
-														<option value="LT">Lithuania</option>
-														<option value="LU">Luxembourg</option>
-														<option value="MO">Macao</option>
-														<option value="MG">Madagascar</option>
-														<option value="MW">Malawi</option>
-														<option value="MY">Malaysia</option>
-														<option value="MV">Maldives</option>
-														<option value="ML">Mali</option>
-														<option value="MT">Malta</option>
-														<option value="MH">Marshall Islands</option>
-														<option value="MQ">Martinique</option>
-														<option value="MR">Mauritania</option>
-														<option value="MU">Mauritius</option>
-														<option value="YT">Mayotte</option>
-														<option value="MX">Mexico</option>
-														<option value="FM">Micronesia (Federated States of)</option>
-														<option value="MD">Moldova (Republic of)</option>
-														<option value="MC">Monaco</option>
-														<option value="MN">Mongolia</option>
-														<option value="ME">Montenegro</option>
-														<option value="MS">Montserrat</option>
-														<option value="MA">Morocco</option>
-														<option value="MZ">Mozambique</option>
-														<option value="MM">Myanmar</option>
-														<option value="NA">Namibia</option>
-														<option value="NR">Nauru</option>
-														<option value="NP">Nepal</option>
-														<option value="NL">Netherlands</option>
-														<option value="NC">New Caledonia</option>
-														<option value="NZ">New Zealand</option>
-														<option value="NI">Nicaragua</option>
-														<option value="NE">Niger</option>
-														<option value="NG">Nigeria</option>
-														<option value="NU">Niue</option>
-														<option value="NF">Norfolk Island</option>
-														<option value="MK">North Macedonia (Republic of)</option>
-														<option value="MP">Northern Mariana Islands</option>
-														<option value="NO">Norway</option>
-														<option value="OM">Oman</option>
-														<option value="PK">Pakistan</option>
-														<option value="PW">Palau</option>
-														<option value="PS">Palestine (State of)</option>
-														<option value="PA">Panama</option>
-														<option value="PG">Papua New Guinea</option>
-														<option value="PY">Paraguay</option>
-														<option value="PE">Peru</option>
-														<option value="PH">Philippines</option>
-														<option value="PN">Pitcairn</option>
-														<option value="PL">Poland</option>
-														<option value="PT">Portugal</option>
-														<option value="PR">Puerto Rico</option>
-														<option value="QA">Qatar</option>
-														<option value="RO">Romania</option>
-														<option value="RU">Russian Federation</option>
-														<option value="RW">Rwanda</option>
-														<option value="RE">Réunion</option>
-														<option value="BL">Saint Barthélemy</option>
-														<option value="SH">Saint Helena, Ascension and Tristan da Cunha
-														</option>
-														<option value="KN">Saint Kitts and Nevis</option>
-														<option value="LC">Saint Lucia</option>
-														<option value="MF">Saint Martin (French part)</option>
-														<option value="PM">Saint Pierre and Miquelon</option>
-														<option value="VC">Saint Vincent and the Grenadines</option>
-														<option value="WS">Samoa</option>
-														<option value="SM">San Marino</option>
-														<option value="ST">Sao Tome and Principe</option>
-														<option value="SA">Saudi Arabia</option>
-														<option value="SN">Senegal</option>
-														<option value="RS">Serbia</option>
-														<option value="SC">Seychelles</option>
-														<option value="SL">Sierra Leone</option>
-														<option value="SG">Singapore</option>
-														<option value="SX">Sint Maarten (Dutch part)</option>
-														<option value="SK">Slovakia</option>
-														<option value="SI">Slovenia</option>
-														<option value="SB">Solomon Islands</option>
-														<option value="SO">Somalia</option>
-														<option value="ZA">South Africa</option>
-														<option value="GS">South Georgia and the South Sandwich Islands
-														</option>
-														<option value="SS">South Sudan</option>
-														<option value="ES">Spain</option>
-														<option value="LK">Sri Lanka</option>
-														<option value="SD">Sudan</option>
-														<option value="SR">Suriname</option>
-														<option value="SJ">Svalbard and Jan Mayen</option>
-														<option value="SE">Sweden</option>
-														<option value="CH">Switzerland</option>
-														<option value="SY">Syrian Arab Republic</option>
-														<option value="TW">Taiwan, Republic of China</option>
-														<option value="TJ">Tajikistan</option>
-														<option value="TZ">Tanzania (United Republic of)</option>
-														<option value="TH">Thailand</option>
-														<option value="TL">Timor-Leste</option>
-														<option value="TG">Togo</option>
-														<option value="TK">Tokelau</option>
-														<option value="TO">Tonga</option>
-														<option value="TT">Trinidad and Tobago</option>
-														<option value="TN">Tunisia</option>
-														<option value="TM">Turkmenistan</option>
-														<option value="TC">Turks and Caicos Islands</option>
-														<option value="TV">Tuvalu</option>
-														<option value="TR">Türkiye</option>
-														<option value="UG">Uganda</option>
-														<option value="UA">Ukraine</option>
-														<option value="AE">United Arab Emirates</option>
-														<option value="GB">United Kingdom of Great Britain and Northern
-															Ireland</option>
-														<option value="UM">United States Minor Outlying Islands</option>
-														<option value="US">United States of America</option>
-														<option value="UY">Uruguay</option>
-														<option value="UZ">Uzbekistan</option>
-														<option value="VU">Vanuatu</option>
-														<option value="VA">Vatican City State</option>
-														<option value="VE">Venezuela (Bolivarian Republic of)</option>
-														<option value="VN">Vietnam</option>
-														<option value="VG">Virgin Islands (British)</option>
-														<option value="VI">Virgin Islands (U.S.)</option>
-														<option value="WF">Wallis and Futuna</option>
-														<option value="EH">Western Sahara</option>
-														<option value="YE">Yemen</option>
-														<option value="ZM">Zambia</option>
-														<option value="ZW">Zimbabwe</option>
-														<option value="AX">Åland Islands</option>
-													</select><label for="wpforms-2528-field_26-country"
-														class="wpforms-field-sublabel after">Country</label></div>
-											</div>
-										</fieldset>
-									</div>
-									<div id="wpforms-2528-field_17-container" class="wpforms-field wpforms-field-text"
-										data-field-id="17"><label class="wpforms-field-label"
-											for="wpforms-2528-field_17">Current Occupation</label><input type="text"
-											id="wpforms-2528-field_17" class="wpforms-field-large"
-											name="wpforms[fields][17]" aria-errormessage="wpforms-2528-field_17-error">
-									</div>
-									<div id="wpforms-2528-field_2-container"
-										class="wpforms-field wpforms-field-textarea" data-field-id="2"><label
-											class="wpforms-field-label" for="wpforms-2528-field_2">Please tell us about
-											your case in general. Include any relevant details such as dates and events.
-											<span class="wpforms-required-label"
-												aria-hidden="true">*</span></label><textarea id="wpforms-2528-field_2"
-											class="wpforms-field-medium wpforms-field-required"
-											name="wpforms[fields][2]" aria-errormessage="wpforms-2528-field_2-error"
-											required=""></textarea></div>
-									<div id="wpforms-2528-field_18-container"
-										class="wpforms-field wpforms-field-textarea" data-field-id="18"><label
-											class="wpforms-field-label" for="wpforms-2528-field_18">What are the names
-											of the people you interacted with, and what platforms did you communicate
-											on? <span class="wpforms-required-label"
-												aria-hidden="true">*</span></label><textarea id="wpforms-2528-field_18"
-											class="wpforms-field-medium wpforms-field-required"
-											name="wpforms[fields][18]" aria-errormessage="wpforms-2528-field_18-error"
-											required=""></textarea></div>
-									<div id="wpforms-2528-field_28-container"
-										class="wpforms-field wpforms-field-radio wpforms-conditional-trigger"
-										data-field-id="28">
-										<fieldset>
-											<legend class="wpforms-field-label">Did you find the scammers through any
-												paid advertisement or sponsored social media post? <span
-													class="wpforms-required-label" aria-hidden="true">*</span></legend>
-											<ul id="wpforms-2528-field_28" class="wpforms-field-required">
-												<li class="choice-1 depth-1"><input type="radio"
-														id="wpforms-2528-field_28_1" name="wpforms[fields][28]"
-														value="Yes" aria-errormessage="wpforms-2528-field_28_1-error"
-														required=""><label class="wpforms-field-label-inline"
-														for="wpforms-2528-field_28_1">Yes</label></li>
-												<li class="choice-2 depth-1"><input type="radio"
-														id="wpforms-2528-field_28_2" name="wpforms[fields][28]"
-														value="No" aria-errormessage="wpforms-2528-field_28_2-error"
-														required=""><label class="wpforms-field-label-inline"
-														for="wpforms-2528-field_28_2">No</label></li>
-											</ul>
-										</fieldset>
-									</div>
-									<div id="wpforms-2528-field_29-container"
-										class="wpforms-field wpforms-field-textarea wpforms-conditional-field wpforms-conditional-show"
-										data-field-id="29" style="display:none;"><label class="wpforms-field-label"
-											for="wpforms-2528-field_29">If so, on what platform did you click on the ad
-											(i.e., Facebook, Instagram, Google, etc.)? <span
-												class="wpforms-required-label"
-												aria-hidden="true">*</span></label><textarea id="wpforms-2528-field_29"
-											class="wpforms-field-medium wpforms-field-required"
-											name="wpforms[fields][29]" aria-errormessage="wpforms-2528-field_29-error"
-											required=""></textarea></div>
-									<div id="wpforms-2528-field_19-container"
-										class="wpforms-field wpforms-field-textarea" data-field-id="19"><label
-											class="wpforms-field-label" for="wpforms-2528-field_19">How much of your
-											money or crypto did you transfer to the scammers (excluding supposed
-											profits)? <span class="wpforms-required-label"
-												aria-hidden="true">*</span></label><textarea id="wpforms-2528-field_19"
-											class="wpforms-field-medium wpforms-field-required"
-											name="wpforms[fields][19]" aria-errormessage="wpforms-2528-field_19-error"
-											required=""></textarea></div>
-									<div id="wpforms-2528-field_3-container" class="wpforms-field wpforms-field-text"
-										data-field-type="text" data-field-id="3">
-										<label class="wpforms-field-label" for="wpforms-2528-field_3">of Were
-											Name</label>
-										<input type="text" id="wpforms-2528-field_3" class="wpforms-field-medium"
-											name="wpforms[fields][3]">
-									</div>
-									<div id="wpforms-2528-field_30-container"
-										class="wpforms-field wpforms-field-textarea" data-field-id="30"><label
-											class="wpforms-field-label" for="wpforms-2528-field_30">Were the
-											transactions made via bank wire, in crypto, or both? <span
-												class="wpforms-required-label"
-												aria-hidden="true">*</span></label><textarea id="wpforms-2528-field_30"
-											class="wpforms-field-medium wpforms-field-required"
-											name="wpforms[fields][30]" aria-errormessage="wpforms-2528-field_30-error"
-											required=""></textarea></div>
-									<div id="wpforms-2528-field_20-container"
-										class="wpforms-field wpforms-field-textarea" data-field-id="20"><label
-											class="wpforms-field-label" for="wpforms-2528-field_20">Which banks or
-											crypto platforms did you send money from? <span
-												class="wpforms-required-label"
-												aria-hidden="true">*</span></label><textarea id="wpforms-2528-field_20"
-											class="wpforms-field-medium wpforms-field-required"
-											name="wpforms[fields][20]" aria-errormessage="wpforms-2528-field_20-error"
-											required=""></textarea></div>
-									<div id="wpforms-2528-field_21-container"
-										class="wpforms-field wpforms-field-textarea" data-field-id="21"><label
-											class="wpforms-field-label" for="wpforms-2528-field_21">What is the date of
-											the last transaction or the last date money or crypto was sent? <span
-												class="wpforms-required-label"
-												aria-hidden="true">*</span></label><textarea id="wpforms-2528-field_21"
-											class="wpforms-field-medium wpforms-field-required"
-											name="wpforms[fields][21]" aria-errormessage="wpforms-2528-field_21-error"
-											required=""></textarea></div>
-									<div id="wpforms-2528-field_22-container"
-										class="wpforms-field wpforms-field-textarea" data-field-id="22"><label
-											class="wpforms-field-label" for="wpforms-2528-field_22">Anything else
-											you&#039;d like to share with us?</label><textarea
-											id="wpforms-2528-field_22" class="wpforms-field-medium"
-											name="wpforms[fields][22]"
-											aria-errormessage="wpforms-2528-field_22-error"></textarea></div>
-									<div id="wpforms-2528-field_9-container"
-										class="wpforms-field wpforms-field-checkbox" data-field-id="9">
-										<fieldset>
-											<legend class="wpforms-field-label wpforms-label-hide" aria-hidden="false">
-												Disclaimer <span class="wpforms-required-label"
-													aria-hidden="true">*</span></legend>
-											<ul id="wpforms-2528-field_9" class="wpforms-field-required">
-												<li class="choice-1 depth-1"><input type="checkbox"
-														id="wpforms-2528-field_9_1" name="wpforms[fields][9][]"
-														value="I have read and understood the Disclaimer listed below and acknowledge that submission of this form does not create an attorney-client relationship."
-														aria-errormessage="wpforms-2528-field_9_1-error"
-														aria-describedby="wpforms-2528-field_9-description"
-														required=""><label class="wpforms-field-label-inline"
-														for="wpforms-2528-field_9_1">I have read and understood the
-														Disclaimer listed below and acknowledge that submission of this
-														form does not create an attorney-client relationship. <span
-															class="wpforms-required-label">*</span></label></li>
-											</ul>
-											<div id="wpforms-2528-field_9-description"
-												class="wpforms-field-description wpforms-disclaimer-description">Thank
-												you for visiting the website of Berg PC (https://bergpc.com/). The
-												materials on this web site were prepared by Berg PC for information
-												purposes only and should not be construed as legal advice or legal
-												opinion on any specific facts or circumstances. These materials do not
-												constitute legal advice. None of the information necessarily reflects
-												the opinions of Berg PC its attorneys, or its clients.<br>
-												<br>
-												Communication by you via this Site does not establish an attorney-client
-												relationship with Berg PC or any individual attorney at the firm. Berg
-												PC and its attorneys cannot agree to maintain the confidentiality of
-												communications sent through this Site. Please do not send any
-												information about your legal problem. Attorney’s professional
-												obligations require that before accepting any new client or new matter,
-												the attorney must determine whether there are any actual or potential
-												conflicts with any existing or former clients. If you wish to inquire
-												about becoming a client of Berg PC, please request a personal interview.
-												We will not consider any e-mail regarding new client representation
-												other than a request for a personal interview. Transmitted messages are
-												not confidential and are not protected by the attorney-client
-												relationship. No attorney-client relationship is created by sending an
-												e-mail or message using this Site or its contact forms.<br>
-												<br>
-												The information provided at this site is subject to change without
-												notice. You should not rely on this information or its applicability to
-												any specific circumstances without speaking with an attorney. The
-												information is not guaranteed to be correct, complete, or current. We
-												make no warranty, expressed or implied, about the accuracy or
-												reliability of the information at this website or at any other website
-												to which this site is linked. Information provided at this site is
-												consistent only with basic principles of Texas law and no other
-												jurisdiction. Berg PC cannot promise that the information on this site
-												is applicable to your circumstances, correct, complete, and up-to-date;
-												that your access will be uninterrupted; or that material accessible from
-												this site is free of viruses.<br>
-												<br>
-												Persons contacting Berg PC through the Internet e-mail facility provided
-												through this site should not send confidential or sensitive information.
-												Berg PC does not currently collect personal identifying information
-												through our web site except: for such information that your ISP
-												automatically provides to our web server; such information that you send
-												to us in an e-mail message; and such information that you submit to us
-												in a web form. Berg PC will use personal identifying information for our
-												own proper purposes, but we will not sell information to third
-												parties.<br>
-												<br>
-												E-mail sent to us may not be secure. If you choose to send us an e-mail
-												message, we may retain the content of the e-mail, your e-mail address
-												and our response, and it becomes the property of Berg PC.<br>
-												<br>
-												The information provided at this site is not privileged and does not
-												create an attorney-client relationship between you and Berg PC or any of
-												its attorneys unless or until you have retained us complete with
-												documentation confirming the retention and its scope. This web site is
-												not an offer to represent you.<br>
-												<br>
-												Berg PC has attorneys licensed to practice in Texas, Colorado*, and
-												Pennsylvania* (*inactive). The firm does not intend to practice law in
-												any jurisdiction where the firm is not licensed. Berg PC has one office
-												location in Texas. Our main office is located at 24 Greenway Plaza,
-												Suite 1800 Houston, Texas 77046. Unless otherwise stated, our attorneys
-												claiming certification in an area of law are not certified by the Texas
-												Board of Legal Specialization.<br>
-												<br>
-												Material at this site may be considered advertising under the rules of
-												the Supreme Court of Texas. The hiring of a lawyer is an important
-												decision that should not be based solely on advertising.<br>
-												<br>
-												You may reproduce materials available at this site for your own personal
-												use and for non commercial distribution. All copies must include our
-												copyright notice.<br>
-												<br>
-												Berg PC does not intend any sources and/or links to be a referral to
-												and/or an endorsement of the source identified or of the entity linked
-												or the information made available through the source or the link. Berg
-												PC will remove any source and/or link from this site at the request of
-												the source identified or of the entity linked. This web site is not
-												sponsored by and/or associated with the sources identified and/or the
-												entities linked.<br>
-												<br>
-												Berg PC encourages you to review this Disclaimer and Other Notices
-												periodically for updates that will be posted on our web site. If you
-												have any further questions, please contact us.
-											</div>
-										</fieldset>
-									</div>
 									<script>
 										(function () {
 											const style = document.createElement('style');
-											style.appendChild(document.createTextNode('#wpforms-2528-field_3-container { position: absolute !important; overflow: hidden !important; display: inline !important; height: 1px !important; width: 1px !important; z-index: -1000 !important; padding: 0 !important; } #wpforms-2528-field_3-container input { visibility: hidden; } #wpforms-conversational-form-page #wpforms-2528-field_3-container label { counter-increment: none; }'));
+											style.appendChild(document.createTextNode('#wpforms-3600-field_1-container { position: absolute !important; overflow: hidden !important; display: inline !important; height: 1px !important; width: 1px !important; z-index: -1000 !important; padding: 0 !important; } #wpforms-3600-field_1-container input { visibility: hidden; } #wpforms-conversational-form-page #wpforms-3600-field_1-container label { counter-increment: none; }'));
 											document.head.appendChild(style);
 											document.currentScript?.remove();
 										})();
 									</script>
 								</div><!-- .wpforms-field-container -->
 								<div class="wpforms-submit-container"><input type="hidden" name="wpforms[id]"
-										value="2528">
-							<input type="hidden" name="form_id" value="2528"><input type="hidden" name="page_title"
-										value="Cryptocurrency Fraud &#038; Recovery"><input type="hidden"
-										name="page_url"
-										value="https://bergpc.com/practice-areas/crypto-litigation/fraud-recovery/"><input
-										type="hidden" name="url_referer" value=""><input type="hidden" name="page_id"
-										value="2132"><input type="hidden" name="wpforms[post_id]" value="2132"><button
-										type="submit" name="wpforms[submit]" id="wpforms-submit-2528"
-										class="wpforms-submit" data-alt-text="Submitting..." data-submit-text="Submit"
-										aria-live="assertive" value="wpforms-submit">Submit</button></div>
+										value="3600"><input type="hidden" name="page_title" value="{{LAWYER_NAME}}"><input
+										type="hidden" name="page_url"
+										value="index.htm"><input type="hidden"
+										name="url_referer" value="index.htm"><input
+										type="hidden" name="page_id" value="3759"><input type="hidden"
+										name="wpforms[post_id]" value="{{LAWYER_PAGE_ID}}"><button type="submit"
+										name="wpforms[submit]" id="wpforms-submit-3600" class="wpforms-submit"
+										data-alt-text="Downloading..." data-submit-text="Download vCard"
+										aria-live="assertive" value="wpforms-submit">Download vCard</button></div>
 							</form>
 						</div> <!-- .wpforms-container -->
 					</div>
@@ -7139,104 +5882,85 @@
 			document.addEventListener(event, lazyloadRunObserver);
 		});
 	</script>
-	<link rel='stylesheet' id='wpforms-layout-css'
-		href='../../../wp-content/plugins/wpforms/assets/pro/css/fields/layout.min.css?ver=1.10.0.4' media='all'>
-	<link rel='stylesheet' id='wpforms-layout-screen-big-css'
-		href='../../../wp-content/plugins/wpforms/assets/pro/css/fields/layout-screen-big.min.css?ver=1.10.0.4'
-		media='(min-width: 601px)'>
-	<link rel='stylesheet' id='wpforms-layout-screen-small-css'
-		href='../../../wp-content/plugins/wpforms/assets/pro/css/fields/layout-screen-small.min.css?ver=1.10.0.4'
-		media='(max-width: 600px)'>
-	<link rel='stylesheet' id='wpforms-smart-phone-field-css'
-		href='../../../wp-content/plugins/wpforms/assets/pro/css/fields/phone/intl-tel-input.min.css?ver=25.11.3'
-		media='all'>
+	<link rel='stylesheet' id='elementor-post-3639-css'
+		href='../../wp-content/uploads/elementor/css/post-3639.css?ver=1777665706' media='all'>
+	<link rel='stylesheet' id='e-popup-css'
+		href='../../wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=4.0.4' media='all'>
 	<link rel='stylesheet' id='wpforms-modern-base-css'
-		href='../../../wp-content/plugins/wpforms/assets/css/frontend/modern/wpforms-base.min.css?ver=1.10.0.4'
+		href='../../wp-content/plugins/wpforms/assets/css/frontend/modern/wpforms-base.min.css?ver=1.10.0.4'
 		media='all'>
 	<link rel='stylesheet' id='wpforms-pro-modern-base-css'
-		href='../../../wp-content/plugins/wpforms/assets/pro/css/frontend/modern/wpforms-base.min.css?ver=1.10.0.4'
+		href='../../wp-content/plugins/wpforms/assets/pro/css/frontend/modern/wpforms-base.min.css?ver=1.10.0.4'
 		media='all'>
 	<script id="astra-theme-js-js-extra">
 		var astra = { "break_point": "921", "isRtl": "", "is_scroll_to_id": "", "is_scroll_to_top": "", "is_header_footer_builder_active": "1", "responsive_cart_click": "flyout", "is_dark_palette": "" };
 		//# sourceURL=astra-theme-js-js-extra
 	</script>
-	<script src="../../../wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.13.1"
+	<script src="../../wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.13.1"
 		id="astra-theme-js-js"></script>
-	<script src="../../../wp-content/plugins/honeypot/includes/js/wpa.js?ver=2.3.04" id="wpascript-js"></script>
+	<script src="../../wp-content/plugins/honeypot/includes/js/wpa.js?ver=2.3.04" id="wpascript-js"></script>
 	<script id="wpascript-js-after">
-		wpa_field_info = { "wpa_field_name": "bhmrqc1587", "wpa_field_value": 176842, "wpa_add_test": "no" }
+		wpa_field_info = { "wpa_field_name": "bhmrqc1587", "wpa_field_value": 845960, "wpa_add_test": "no" }
 		//# sourceURL=wpascript-js-after
 	</script>
-	<script src="../../../wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+	<script src="../../wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
 	<script id="starter-templates-zip-preview-js-extra">
 		var starter_templates_zip_preview = { "AstColorPaletteVarPrefix": "--ast-global-color-", "AstEleColorPaletteVarPrefix": ["ast-global-color-0", "ast-global-color-1", "ast-global-color-2", "ast-global-color-3", "ast-global-color-4", "ast-global-color-5", "ast-global-color-6", "ast-global-color-7", "ast-global-color-8"] };
 		//# sourceURL=starter-templates-zip-preview-js-extra
 	</script>
 	<script
-		src="../../../wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js?ver=09382f635556bec359b3"
+		src="../../wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js?ver=09382f635556bec359b3"
 		id="starter-templates-zip-preview-js"></script>
-	<script src="../../../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.0.5"
+	<script src="../../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.0.5"
 		id="elementor-webpack-runtime-js"></script>
-	<script src="../../../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.0.5"
+	<script src="../../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.0.5"
 		id="elementor-frontend-modules-js"></script>
-	<script src="../../../wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+	<script src="../../wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
 	<script id="elementor-frontend-js-before">
-		var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } }, "hasCustomBreakpoints": false }, "version": "4.0.5", "is_static": false, "experimentalFeatures": { "e_font_icon_svg": true, "additional_custom_breakpoints": true, "container": true, "theme_builder_v2": true, "nested-elements": true, "global_classes_should_enforce_capabilities": true, "e_variables": true, "e_opt_in_v4_page": true, "e_components": true, "e_interactions": true, "e_widget_creation": true, "import-export-customization": true, "e_pro_atomic_form": true, "e_pro_variables": true, "e_pro_interactions": true }, "urls": { "assets": "https:\/\/bergpc.com\/wp-content\/plugins\/elementor\/assets\/", "ajaxurl": "https:\/\/bergpc.com\/wp-admin\/admin-ajax.php", "uploadUrl": "https:\/\/bergpc.com\/wp-content\/uploads" }, "nonces": { "floatingButtonsClickTracking": "cbb0dc8c36", "atomicFormsSendForm": "405c91158f" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 2132, "title": "Cryptocurrency%20Fraud%20%26%20Recovery%20Lawyers%20%7C%20Houston%2C%20TX", "excerpt": "", "featuredImage": false } };
+		var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } }, "hasCustomBreakpoints": false }, "version": "4.0.5", "is_static": false, "experimentalFeatures": { "e_font_icon_svg": true, "additional_custom_breakpoints": true, "container": true, "theme_builder_v2": true, "nested-elements": true, "global_classes_should_enforce_capabilities": true, "e_variables": true, "e_opt_in_v4_page": true, "e_components": true, "e_interactions": true, "e_widget_creation": true, "import-export-customization": true, "e_pro_atomic_form": true, "e_pro_variables": true, "e_pro_interactions": true }, "urls": { "assets": "https:\/\/bergpc.com\/wp-content\/plugins\/elementor\/assets\/", "ajaxurl": "https:\/\/bergpc.com\/wp-admin\/admin-ajax.php", "uploadUrl": "https:\/\/bergpc.com\/wp-content\/uploads" }, "nonces": { "floatingButtonsClickTracking": "11ba389eb7", "atomicFormsSendForm": "0706022548" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 3759, "title": "Tracy%20Moberg%20%7C%20Business%20Manager%20%7C%20Berg%20PC", "excerpt": "", "featuredImage": false } };
 		//# sourceURL=elementor-frontend-js-before
 	</script>
-	<script src="../../../wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.0.5"
+	<script src="../../wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.0.5"
 		id="elementor-frontend-js"></script>
-	<script src="../../../wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=4.0.4"
+	<script src="../../wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5"
+		id="swiper-js"></script>
+	<script src="../../wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=4.0.4"
 		id="elementor-pro-webpack-runtime-js"></script>
-	<script src="../../../wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
-	<script src="../../../wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+	<script src="../../wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+	<script src="../../wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
 	<script id="wp-i18n-js-after">
 		wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['ltr'] });
 		//# sourceURL=wp-i18n-js-after
 	</script>
 	<script id="elementor-pro-frontend-js-before">
-		var ElementorProFrontendConfig = { "ajaxurl": "https:\/\/bergpc.com\/wp-admin\/admin-ajax.php", "nonce": "4595d9ed41", "urls": { "assets": "https:\/\/bergpc.com\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": "https:\/\/bergpc.com\/wp-json\/" }, "settings": { "lazy_load_background_images": true }, "popup": { "hasPopUps": true }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" }, "x-twitter": { "title": "X" }, "threads": { "title": "Threads" } }, "facebook_sdk": { "lang": "en_US", "app_id": "" }, "lottie": { "defaultAnimationUrl": "https:\/\/bergpc.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };
+		var ElementorProFrontendConfig = { "ajaxurl": "https:\/\/bergpc.com\/wp-admin\/admin-ajax.php", "nonce": "5e0830e2fd", "urls": { "assets": "https:\/\/bergpc.com\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": "https:\/\/bergpc.com\/wp-json\/" }, "settings": { "lazy_load_background_images": true }, "popup": { "hasPopUps": true }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" }, "x-twitter": { "title": "X" }, "threads": { "title": "Threads" } }, "facebook_sdk": { "lang": "en_US", "app_id": "" }, "lottie": { "defaultAnimationUrl": "https:\/\/bergpc.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };
 		//# sourceURL=elementor-pro-frontend-js-before
 	</script>
-	<script src="../../../wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.0.4"
+	<script src="../../wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.0.4"
 		id="elementor-pro-frontend-js"></script>
-	<script src="../../../wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.0.4"
+	<script src="../../wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.0.4"
 		id="pro-elements-handlers-js"></script>
-	<script src="../../../wp-includes/js/underscore.min.js?ver=1.13.7" id="underscore-js"></script>
+	<script src="../../wp-includes/js/underscore.min.js?ver=1.13.7" id="underscore-js"></script>
 	<script id="wp-util-js-extra">
 		var _wpUtilSettings = { "ajax": { "url": "/wp-admin/admin-ajax.php" } };
 		//# sourceURL=wp-util-js-extra
 	</script>
-	<script src="../../../wp-includes/js/wp-util.min.js?ver=6.9.4" id="wp-util-js"></script>
-	<script src="../../../wp-content/plugins/wpforms/assets/js/frontend/wpforms.min.js?ver=1.10.0.4"
+	<script src="../../wp-includes/js/wp-util.min.js?ver=6.9.4" id="wp-util-js"></script>
+	<script src="../../wp-content/plugins/wpforms/assets/js/frontend/wpforms.min.js?ver=1.10.0.4"
 		id="wpforms-js"></script>
 	<script id="wpforms-elementor-js-extra">
 		var wpformsElementorVars = { "captcha_provider": "recaptcha", "recaptcha_type": "v2" };
 		//# sourceURL=wpforms-elementor-js-extra
 	</script>
-	<script src="../../../wp-content/plugins/wpforms/assets/js/integrations/elementor/frontend.min.js?ver=1.10.0.4"
+	<script src="../../wp-content/plugins/wpforms/assets/js/integrations/elementor/frontend.min.js?ver=1.10.0.4"
 		id="wpforms-elementor-js"></script>
-	<script
-		src="../../../wp-content/plugins/wpforms/assets/pro/js/frontend/conditional-logic-fields.min.js?ver=1.10.0.4"
-		id="wpforms-builder-conditionals-js"></script>
-	<script
-		src="../../../wp-content/plugins/wpforms/assets/pro/lib/intl-tel-input/intlTelInputWithUtils.min.js?ver=25.11.3"
-		id="wpforms-smart-phone-field-js"></script>
-	<script src="../../../wp-content/plugins/wpforms/assets/pro/js/frontend/fields/phone.min.js?ver=1.10.0.4"
-		id="wpforms-smart-phone-field-core-js"></script>
-	<script src="../../../wp-content/plugins/wpforms/assets/lib/jquery.validate.min.js?ver=1.21.0"
+	<script src="../../wp-content/plugins/wpforms/assets/lib/jquery.validate.min.js?ver=1.21.0"
 		id="wpforms-validation-js"></script>
-	<script src="../../../wp-content/plugins/wpforms/assets/lib/jquery.inputmask.min.js?ver=5.0.9"
-		id="wpforms-maskedinput-js"></script>
-	<script src="../../../wp-content/plugins/wpforms/assets/lib/mailcheck.min.js?ver=1.1.2"
-		id="wpforms-mailcheck-js"></script>
-	<script src="../../../wp-content/plugins/wpforms/assets/lib/punycode.min.js?ver=1.0.0"
-		id="wpforms-punycode-js"></script>
-	<script src="../../../wp-content/plugins/wpforms/assets/js/share/utils.min.js?ver=1.10.0.4"
+	<script src="../../wp-content/plugins/wpforms/assets/js/share/utils.min.js?ver=1.10.0.4"
 		id="wpforms-generic-utils-js"></script>
-	<script src="../../../wp-content/plugins/wpforms/assets/js/frontend/wpforms-modern.min.js?ver=1.10.0.4"
+	<script src="../../wp-content/plugins/wpforms/assets/js/frontend/wpforms-modern.min.js?ver=1.10.0.4"
 		id="wpforms-modern-js"></script>
-	<script src="../../../wp-content/plugins/wpforms/assets/js/frontend/fields/address.min.js?ver=1.10.0.4"
+	<script src="../../wp-content/plugins/wpforms/assets/js/frontend/fields/address.min.js?ver=1.10.0.4"
 		id="wpforms-address-field-js"></script>
 	<script>
 		/(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", function () { var t, e = location.hash.substring(1); /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1), t.focus()) }, !1);
@@ -7251,34 +5975,29 @@
 	</script>
 	<script type='text/javascript'>
 		/* <![CDATA[ */
-		var wpforms_settings = { "val_required": "This field is required.", "val_email": "Please enter a valid email address.", "val_email_suggestion": "Did you mean {suggestion}?", "val_email_suggestion_title": "Click to accept this suggestion.", "val_email_restricted": "This email address is not allowed.", "val_number": "Please enter a valid number.", "val_number_positive": "Please enter a valid positive number.", "val_minimum_price": "Amount entered is less than the required minimum.", "val_confirm": "Field values do not match.", "val_checklimit": "You have exceeded the number of allowed selections: {#}.", "val_limit_characters": "{count} of {limit} max characters.", "val_limit_words": "{count} of {limit} max words.", "val_min": "Please enter a value greater than or equal to {0}.", "val_max": "Please enter a value less than or equal to {0}.", "val_recaptcha_fail_msg": "Google reCAPTCHA verification failed, please try again later.", "val_turnstile_fail_msg": "Cloudflare Turnstile verification failed, please try again later.", "val_inputmask_incomplete": "Please fill out the field in required format.", "uuid_cookie": "1", "locale": "en", "country": "", "country_list_label": "Country list", "wpforms_plugin_url": "https:\/\/bergpc.com\/wp-content\/plugins\/wpforms\/", "gdpr": "", "ajaxurl": "https:\/\/bergpc.com\/wp-admin\/admin-ajax.php", "mailcheck_enabled": "1", "mailcheck_domains": [], "mailcheck_toplevel_domains": ["dev"], "is_ssl": "1", "currency_code": "USD", "currency_thousands": ",", "currency_decimals": "2", "currency_decimal": ".", "currency_symbol": "$", "currency_symbol_pos": "left", "val_requiredpayment": "Payment is required.", "val_creditcard": "Please enter a valid credit card number.", "css_vars": ["field-border-radius", "field-border-style", "field-border-size", "field-background-color", "field-border-color", "field-text-color", "field-menu-color", "label-color", "label-sublabel-color", "label-error-color", "button-border-radius", "button-border-style", "button-border-size", "button-background-color", "button-border-color", "button-text-color", "page-break-color", "background-image", "background-position", "background-repeat", "background-size", "background-width", "background-height", "background-color", "background-url", "container-padding", "container-border-style", "container-border-width", "container-border-color", "container-border-radius", "field-size-input-height", "field-size-input-spacing", "field-size-font-size", "field-size-line-height", "field-size-padding-h", "field-size-checkbox-size", "field-size-sublabel-spacing", "field-size-icon-size", "label-size-font-size", "label-size-line-height", "label-size-sublabel-font-size", "label-size-sublabel-line-height", "button-size-font-size", "button-size-height", "button-size-padding-h", "button-size-margin-top", "container-shadow-size-box-shadow"], "val_post_max_size": "The total size of the selected files {totalSize} MB exceeds the allowed limit {maxSize} MB.", "val_time12h": "Please enter time in 12-hour AM\/PM format (eg 8:45 AM).", "val_time24h": "Please enter time in 24-hour format (eg 22:45).", "val_time_limit": "Please enter time between {minTime} and {maxTime}.", "val_url": "Please enter a valid URL.", "val_fileextension": "File type is not allowed.", "val_filesize": "File exceeds max size allowed. File was not uploaded.", "post_max_size": "1073741824", "isModernMarkupEnabled": "1", "formErrorMessagePrefix": "Form error message", "errorMessagePrefix": "Error message", "submitBtnDisabled": "Submit button is disabled during form submission.", "readOnlyDisallowedFields": ["captcha", "repeater", "map", "content", "divider", "hidden", "html", "entry-preview", "pagebreak", "layout", "payment-total"], "error_updating_token": "Error updating token. Please try again or contact support if the issue persists.", "network_error": "Network error or server is unreachable. Check your connection or try again later.", "token_cache_lifetime": "86400", "hn_data": { "2528": 3 }, "address_field": { "list_countries_without_states": ["GB", "DE", "CH", "NL"] }, "val_phone": "Please enter a valid phone number.", "val_password_strength": "A stronger password is required. Consider using upper and lower case letters, numbers, and symbols.", "entry_preview_iframe_styles": ["https:\/\/bergpc.com\/wp-includes\/js\/tinymce\/skins\/lightgray\/content.min.css?ver=6.9.4", "https:\/\/bergpc.com\/wp-includes\/css\/dashicons.min.css?ver=6.9.4", "https:\/\/bergpc.com\/wp-includes\/js\/tinymce\/skins\/wordpress\/wp-content.css?ver=6.9.4", "https:\/\/bergpc.com\/wp-content\/plugins\/wpforms\/assets\/pro\/css\/fields\/richtext\/editor-content.min.css"], "indicatorStepsPattern": "Step {current} of {total}" }
-		/* ]]> */
-	</script>
-	<script type='text/javascript'>
-		/* <![CDATA[ */
-		var wpforms_conditional_logic = { "2528": { "29": { "logic": [[{ "field": "28", "operator": "==", "value": "Yes", "type": "radio" }]], "action": "show" } } }
+		var wpforms_settings = { "val_required": "This field is required.", "val_email": "Please enter a valid email address.", "val_email_suggestion": "Did you mean {suggestion}?", "val_email_suggestion_title": "Click to accept this suggestion.", "val_email_restricted": "This email address is not allowed.", "val_number": "Please enter a valid number.", "val_number_positive": "Please enter a valid positive number.", "val_minimum_price": "Amount entered is less than the required minimum.", "val_confirm": "Field values do not match.", "val_checklimit": "You have exceeded the number of allowed selections: {#}.", "val_limit_characters": "{count} of {limit} max characters.", "val_limit_words": "{count} of {limit} max words.", "val_min": "Please enter a value greater than or equal to {0}.", "val_max": "Please enter a value less than or equal to {0}.", "val_recaptcha_fail_msg": "Google reCAPTCHA verification failed, please try again later.", "val_turnstile_fail_msg": "Cloudflare Turnstile verification failed, please try again later.", "val_inputmask_incomplete": "Please fill out the field in required format.", "uuid_cookie": "1", "locale": "en", "country": "", "country_list_label": "Country list", "wpforms_plugin_url": "https:\/\/bergpc.com\/wp-content\/plugins\/wpforms\/", "gdpr": "", "ajaxurl": "https:\/\/bergpc.com\/wp-admin\/admin-ajax.php", "mailcheck_enabled": "1", "mailcheck_domains": [], "mailcheck_toplevel_domains": ["dev"], "is_ssl": "1", "currency_code": "USD", "currency_thousands": ",", "currency_decimals": "2", "currency_decimal": ".", "currency_symbol": "$", "currency_symbol_pos": "left", "val_requiredpayment": "Payment is required.", "val_creditcard": "Please enter a valid credit card number.", "css_vars": ["field-border-radius", "field-border-style", "field-border-size", "field-background-color", "field-border-color", "field-text-color", "field-menu-color", "label-color", "label-sublabel-color", "label-error-color", "button-border-radius", "button-border-style", "button-border-size", "button-background-color", "button-border-color", "button-text-color", "page-break-color", "background-image", "background-position", "background-repeat", "background-size", "background-width", "background-height", "background-color", "background-url", "container-padding", "container-border-style", "container-border-width", "container-border-color", "container-border-radius", "field-size-input-height", "field-size-input-spacing", "field-size-font-size", "field-size-line-height", "field-size-padding-h", "field-size-checkbox-size", "field-size-sublabel-spacing", "field-size-icon-size", "label-size-font-size", "label-size-line-height", "label-size-sublabel-font-size", "label-size-sublabel-line-height", "button-size-font-size", "button-size-height", "button-size-padding-h", "button-size-margin-top", "container-shadow-size-box-shadow"], "val_post_max_size": "The total size of the selected files {totalSize} MB exceeds the allowed limit {maxSize} MB.", "val_time12h": "Please enter time in 12-hour AM\/PM format (eg 8:45 AM).", "val_time24h": "Please enter time in 24-hour format (eg 22:45).", "val_time_limit": "Please enter time between {minTime} and {maxTime}.", "val_url": "Please enter a valid URL.", "val_fileextension": "File type is not allowed.", "val_filesize": "File exceeds max size allowed. File was not uploaded.", "post_max_size": "1073741824", "isModernMarkupEnabled": "1", "formErrorMessagePrefix": "Form error message", "errorMessagePrefix": "Error message", "submitBtnDisabled": "Submit button is disabled during form submission.", "readOnlyDisallowedFields": ["captcha", "repeater", "map", "content", "divider", "hidden", "html", "entry-preview", "pagebreak", "layout", "payment-total"], "error_updating_token": "Error updating token. Please try again or contact support if the issue persists.", "network_error": "Network error or server is unreachable. Check your connection or try again later.", "token_cache_lifetime": "86400", "hn_data": { "3600": 1 }, "address_field": { "list_countries_without_states": ["GB", "DE", "CH", "NL"] }, "val_phone": "Please enter a valid phone number.", "val_password_strength": "A stronger password is required. Consider using upper and lower case letters, numbers, and symbols.", "entry_preview_iframe_styles": ["https:\/\/bergpc.com\/wp-includes\/js\/tinymce\/skins\/lightgray\/content.min.css?ver=6.9.4", "https:\/\/bergpc.com\/wp-includes\/css\/dashicons.min.css?ver=6.9.4", "https:\/\/bergpc.com\/wp-includes\/js\/tinymce\/skins\/wordpress\/wp-content.css?ver=6.9.4", "https:\/\/bergpc.com\/wp-content\/plugins\/wpforms\/assets\/pro\/css\/fields\/richtext\/editor-content.min.css"], "indicatorStepsPattern": "Step {current} of {total}" }
 		/* ]]> */
 	</script>
 	<script>'undefined' === typeof _trfq || (window._trfq = []); 'undefined' === typeof _trfd && (window._trfd = []),
 			_trfd.push({ 'tccl.baseHost': 'secureserver.net' }),
 			_trfd.push({ 'ap': 'wpaas_v2' },
-				{ 'server': 'd574fd446d3b' },
+				{ 'server': '0956fe2a0877' },
 				{ 'pod': 'c20-prod-p3-us-west-2' },
 				{ 'xid': '45641908' },
 				{ 'wp': '6.9.4' },
-				{ 'php': '8.3.30' },
+				{ 'php': '8.3.31' },
 				{ 'loggedin': '0' },
 				{ 'cdn': '1' },
 				{ 'builder': 'elementor' },
 				{ 'theme': 'astra' },
 				{ 'wds': '0' },
 				{ 'wp_alloptions_count': '416' },
-				{ 'wp_alloptions_bytes': '435711' },
+				{ 'wp_alloptions_bytes': '435096' },
 				{ 'gdl_coming_soon_page': '0' }
 				, { 'appid': '672380' });
 		var trafficScript = document.createElement('script'); trafficScript.src = 'https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js'; window.document.head.appendChild(trafficScript);</script>
 	<script>window.addEventListener('click', function (elem) { var _elem$target, _elem$target$dataset, _window, _window$_trfq; return (elem === null || elem === void 0 ? void 0 : (_elem$target = elem.target) === null || _elem$target === void 0 ? void 0 : (_elem$target$dataset = _elem$target.dataset) === null || _elem$target$dataset === void 0 ? void 0 : _elem$target$dataset.eid) && ((_window = window) === null || _window === void 0 ? void 0 : (_window$_trfq = _window._trfq) === null || _window$_trfq === void 0 ? void 0 : _window$_trfq.push(["cmdLogEvent", "click", elem.target.dataset.eid])); });</script>
-	<script src='../../../signals/js/clients/tti/tti.min.js' onload="window.tti.calculateTTI()"></script>
+	<script src='../../signals/js/clients/tti/tti.min.js' onload="window.tti.calculateTTI()"></script>
 </body>
 
 </html>

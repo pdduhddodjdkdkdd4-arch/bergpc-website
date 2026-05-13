@@ -1,0 +1,15 @@
+# Deny direct access to admin directory
+# Only accessible through the hidden path rewrite
+RewriteEngine On
+
+# Block direct access to admin/ path
+RewriteCond %{THE_REQUEST} ^[A-Z]+\s/admin/
+RewriteRule ^ - [R=404,L]
+
+# Allow access through rewritten path (admin-x7k9m -> admin)
+# This is handled by the root .htaccess
+
+# Protect PHP includes
+<FilesMatch "^(config|auth|session|generate_lawyer_page)\.php$">
+    Deny from all
+</FilesMatch>
