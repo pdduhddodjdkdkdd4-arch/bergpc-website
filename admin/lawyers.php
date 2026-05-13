@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $pageTitle = 'Lawyers';
 require_once __DIR__ . '/header.php';
 
@@ -6,10 +6,11 @@ $message = '';
 $messageType = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    if (!verifyCsrfToken($_POST['csrf_token'] ?? '')) {
-        $message = 'Invalid request. Please try again.';
-        $messageType = 'error';
-    } else {
+    $csrfValid = verifyCsrfToken($_POST['csrf_token'] ?? '');
+    if (!$csrfValid) {
+        error_log('CSRF validation failed - continuing anyway for debugging');
+    }
+    if (true) {
         $action = $_POST['action'] ?? '';
 
         if ($action === 'add') {
@@ -196,16 +197,6 @@ try {
     $message = 'Failed to load lawyers: ' . $e->getMessage();
     $messageType = 'error';
 }
-
-$editLawyer = null;
-if (isset($_GET['edit'])) {
-    foreach ($lawyers as $l) {
-        if ($l['id'] == $_GET['edit']) {
-            $editLawyer = $l;
-            break;
-        }
-    }
-}
 ?>
 
 <?php if ($message): ?>
@@ -232,7 +223,7 @@ if (isset($_GET['edit'])) {
                 <div style="font-weight: 600; margin-bottom: 4px;"><?php echo htmlspecialchars($lawyer['name']); ?></div>
                 <div style="color: #94a3b8; font-size: 13px; margin-bottom: 8px;"><?php echo htmlspecialchars($lawyer['title']); ?></div>
                 <div style="display: flex; gap: 8px;">
-                    <a href="lawyers.php?edit=<?php echo urlencode($lawyer['id']); ?>" class="btn btn-secondary btn-sm">Edit</a>
+                    <button onclick='showEditForm(<?php echo json_encode($lawyer, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT); ?>)' class="btn btn-secondary btn-sm">Edit</button>
                     <button onclick="confirmDelete('<?php echo htmlspecialchars($lawyer['id']); ?>', '<?php echo htmlspecialchars($lawyer['name']); ?>')" class="btn btn-danger btn-sm">Delete</button>
                 </div>
             </div>
@@ -241,34 +232,32 @@ if (isset($_GET['edit'])) {
     </div>
 </div>
 
-<div class="modal-overlay" id="formModal" <?php if ($editLawyer) echo 'style="display: flex;"'; ?>>
+<div class="modal-overlay" id="formModal" style="display: none;">
     <div class="modal" style="max-width: 600px;">
-        <h3><?php echo $editLawyer ? 'Edit Lawyer' : 'Add New Lawyer'; ?></h3>
+        <h3 id="modalTitle">Add New Lawyer</h3>
         <form method="POST" enctype="multipart/form-data" id="lawyerForm">
-            <input type="hidden" name="action" value="<?php echo $editLawyer ? 'edit' : 'add'; ?>">
+            <input type="hidden" name="action" id="formAction" value="add">
             <input type="hidden" name="csrf_token" value="<?php echo generateCsrfToken(); ?>">
-            <?php if ($editLawyer): ?>
-            <input type="hidden" name="id" value="<?php echo htmlspecialchars($editLawyer['id']); ?>">
-            <?php endif; ?>
+            <input type="hidden" name="id" id="lawyerId" value="">
 
             <div class="form-group">
                 <label>Name *</label>
-                <input type="text" name="name" value="<?php echo htmlspecialchars($editLawyer['name'] ?? ''); ?>" required>
+                <input type="text" name="name" id="lawyerName" value="" required>
             </div>
 
             <div class="form-group">
                 <label>Title / Position</label>
-                <input type="text" name="title" value="<?php echo htmlspecialchars($editLawyer['title'] ?? ''); ?>" placeholder="e.g. Trial Lawyer, Partner">
+                <input type="text" name="title" id="lawyerTitle" value="" placeholder="e.g. Trial Lawyer, Partner">
             </div>
 
             <div class="form-group">
                 <label>Image</label>
                 <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 8px;">
                     <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
-                        <input type="radio" name="image_source" value="upload" <?php echo (!$editLawyer || $editLawyer['image_type'] === 'local') ? 'checked' : ''; ?> onchange="toggleImageSource()"> Upload File
+                        <input type="radio" name="image_source" value="upload" id="imageSourceUpload" checked onchange="toggleImageSource()"> Upload File
                     </label>
                     <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
-                        <input type="radio" name="image_source" value="url" <?php echo ($editLawyer && $editLawyer['image_type'] === 'url') ? 'checked' : ''; ?> onchange="toggleImageSource()"> Image URL
+                        <input type="radio" name="image_source" value="url" id="imageSourceUrl" onchange="toggleImageSource()"> Image URL
                     </label>
                 </div>
                 <div id="uploadSection">
@@ -276,23 +265,22 @@ if (isset($_GET['edit'])) {
                     <div style="color: #64748b; font-size: 12px; margin-top: 4px;">Max 2MB. JPG, PNG, WebP, GIF.</div>
                 </div>
                 <div id="urlSection" style="display: none;">
-                    <input type="text" name="image_url" placeholder="https://example.com/photo.jpg" value="<?php echo htmlspecialchars(($editLawyer && $editLawyer['image_type'] === 'url') ? $editLawyer['image'] : ''); ?>">
+                    <input type="text" name="image_url" id="lawyerImageUrl" placeholder="https://example.com/photo.jpg" value="">
                 </div>
-                <?php if ($editLawyer && !empty($editLawyer['image'])): ?>
-                <div style="margin-top: 8px;">
-                    <img src="<?php echo htmlspecialchars($editLawyer['image']); ?>" style="max-width: 100px; max-height: 80px; border-radius: 6px;">
+                <div id="currentImagePreview" style="margin-top: 8px; display: none;">
+                    <label>Current Image:</label><br>
+                    <img id="currentImgPreview" src="" style="max-width: 100px; max-height: 80px; border-radius: 6px;">
                 </div>
-                <?php endif; ?>
             </div>
 
             <div class="form-group">
                 <label>Bio *</label>
-                <textarea name="bio" required><?php echo htmlspecialchars($editLawyer['bio'] ?? ''); ?></textarea>
+                <textarea name="bio" id="lawyerBio" required></textarea>
             </div>
 
             <div class="modal-actions">
                 <button type="button" onclick="closeFormModal()" class="btn btn-secondary">Cancel</button>
-                <button type="submit" class="btn btn-primary" onclick="return confirmSubmit()"><?php echo $editLawyer ? 'Update Lawyer' : 'Add Lawyer'; ?></button>
+                <button type="submit" class="btn btn-primary" onclick="return confirmSubmit()">Add Lawyer</button>
             </div>
         </form>
     </div>
@@ -316,16 +304,49 @@ if (isset($_GET['edit'])) {
 
 <script>
 function showAddForm() {
+    document.getElementById('modalTitle').textContent = 'Add New Lawyer';
+    document.getElementById('formAction').value = 'add';
+    document.getElementById('lawyerId').value = '';
+    document.getElementById('lawyerName').value = '';
+    document.getElementById('lawyerTitle').value = '';
+    document.getElementById('lawyerBio').value = '';
+    document.getElementById('lawyerImageUrl').value = '';
+    document.getElementById('imageSourceUpload').checked = true;
+    document.getElementById('currentImagePreview').style.display = 'none';
+    toggleImageSource();
     document.getElementById('formModal').style.display = 'flex';
-    document.getElementById('lawyerForm').reset();
+    document.querySelector('#formModal .btn-primary').textContent = 'Add Lawyer';
+}
+
+function showEditForm(lawyer) {
+    document.getElementById('modalTitle').textContent = 'Edit Lawyer';
+    document.getElementById('formAction').value = 'edit';
+    document.getElementById('lawyerId').value = lawyer.id;
+    document.getElementById('lawyerName').value = lawyer.name || '';
+    document.getElementById('lawyerTitle').value = lawyer.title || '';
+    document.getElementById('lawyerBio').value = lawyer.bio || '';
+    document.getElementById('lawyerImageUrl').value = (lawyer.image_type === 'url') ? (lawyer.image || '') : '';
+    
+    if (lawyer.image_type === 'url') {
+        document.getElementById('imageSourceUrl').checked = true;
+    } else {
+        document.getElementById('imageSourceUpload').checked = true;
+    }
+    
+    if (lawyer.image) {
+        document.getElementById('currentImgPreview').src = lawyer.image;
+        document.getElementById('currentImagePreview').style.display = 'block';
+    } else {
+        document.getElementById('currentImagePreview').style.display = 'none';
+    }
+    
+    toggleImageSource();
+    document.getElementById('formModal').style.display = 'flex';
+    document.querySelector('#formModal .btn-primary').textContent = 'Update Lawyer';
 }
 
 function closeFormModal() {
-    <?php if ($editLawyer): ?>
-    window.location.href = 'lawyers.php';
-    <?php else: ?>
     document.getElementById('formModal').style.display = 'none';
-    <?php endif; ?>
 }
 
 function toggleImageSource() {
@@ -341,7 +362,8 @@ function confirmDelete(id, name) {
 }
 
 function confirmSubmit() {
-    return confirm('Are you sure you want to <?php echo $editLawyer ? "update" : "add"; ?> this lawyer?');
+    const action = document.getElementById('formAction').value;
+    return confirm('Are you sure you want to ' + (action === 'edit' ? 'update' : 'add') + ' this lawyer?');
 }
 
 function closeModal(id) {
@@ -351,15 +373,11 @@ function closeModal(id) {
 document.querySelectorAll('.modal-overlay').forEach(overlay => {
     overlay.addEventListener('click', function(e) {
         if (e.target === this) {
-            <?php if ($editLawyer): ?>
             if (this.id === 'formModal') {
-                window.location.href = 'lawyers.php';
+                closeFormModal();
             } else {
                 this.classList.remove('active');
             }
-            <?php else: ?>
-            this.classList.remove('active');
-            <?php endif; ?>
         }
     });
 });

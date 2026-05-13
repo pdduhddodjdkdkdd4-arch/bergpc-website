@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $pageTitle = 'Form Submissions';
 require_once __DIR__ . '/header.php';
 
@@ -60,18 +60,33 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
                 header('Content-Type: text/csv');
                 header('Content-Disposition: attachment; filename="submissions_' . date('Y-m-d') . '.csv"');
                 $output = fopen('php://output', 'w');
-                fputcsv($output, ['ID', 'Form', 'Submitted At', 'Name', 'Email', 'Phone', 'Data']);
+                
+                $allFields = [];
                 foreach ($allSubmissions as $sub) {
-                    $name = ($sub['data']['wpforms[fields][13][first]'] ?? $sub['data']['wpforms[fields][19][first]'] ?? '') . ' ' . ($sub['data']['wpforms[fields][13][last]'] ?? $sub['data']['wpforms[fields][19][last]'] ?? '');
-                    fputcsv($output, [
+                    if (is_array($sub['data'])) {
+                        foreach (array_keys($sub['data']) as $field) {
+                            if (!in_array($field, $allFields)) {
+                                $allFields[] = $field;
+                            }
+                        }
+                    }
+                }
+                
+                $headers = array_merge(['ID', 'Form', 'Submitted At', 'IP', 'User Agent'], $allFields);
+                fputcsv($output, $headers);
+                
+                foreach ($allSubmissions as $sub) {
+                    $row = [
                         $sub['submission_id'],
                         $sub['form_name'],
                         $sub['submitted_at'],
-                        trim($name),
-                        $sub['data']['wpforms[fields][1]'] ?? '',
-                        $sub['data']['wpforms[fields][25]'] ?? '',
-                        json_encode($sub['data'])
-                    ]);
+                        $sub['ip'] ?? '',
+                        $sub['user_agent'] ?? ''
+                    ];
+                    foreach ($allFields as $field) {
+                        $row[] = isset($sub['data'][$field]) ? (is_array($sub['data'][$field]) ? implode(', ', $sub['data'][$field]) : $sub['data'][$field]) : '';
+                    }
+                    fputcsv($output, $row);
                 }
                 fclose($output);
                 exit;
@@ -138,6 +153,45 @@ try {
     $message = 'Database error: ' . $e->getMessage();
     $messageType = 'error';
 }
+
+function getDisplayName($data) {
+    if (!is_array($data)) return 'N/A';
+    $first = '';
+    $last = '';
+    if (isset($data['wpforms[fields][13][first]'])) {
+        $first = $data['wpforms[fields][13][first]'];
+    } elseif (isset($data['wpforms[fields][19][first]'])) {
+        $first = $data['wpforms[fields][19][first]'];
+    }
+    if (isset($data['wpforms[fields][13][last]'])) {
+        $last = $data['wpforms[fields][13][last]'];
+    } elseif (isset($data['wpforms[fields][19][last]'])) {
+        $last = $data['wpforms[fields][19][last]'];
+    }
+    $name = trim("$first $last");
+    if (empty($name)) {
+        foreach ($data as $key => $value) {
+            if (stripos($key, 'name') !== false && !empty($value)) {
+                $name = $value;
+                break;
+            }
+        }
+    }
+    return empty($name) ? 'N/A' : htmlspecialchars($name);
+}
+
+function getDisplayEmail($data) {
+    if (!is_array($data)) return 'N/A';
+    if (isset($data['wpforms[fields][1]'])) {
+        return htmlspecialchars($data['wpforms[fields][1]']);
+    }
+    foreach ($data as $key => $value) {
+        if (stripos($key, 'email') !== false && !empty($value)) {
+            return htmlspecialchars($value);
+        }
+    }
+    return 'N/A';
+}
 ?>
 
 <div class="card">
@@ -145,7 +199,7 @@ try {
         <h2>Form Submissions (<?php echo $total; ?>)</h2>
         <div class="toolbar">
             <button onclick="refreshPage()" class="btn btn-secondary btn-sm">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
                 Refresh
             </button>
             <button onclick="downloadAll()" class="btn btn-primary btn-sm">Download All CSV</button>
@@ -194,8 +248,8 @@ try {
                     <td class="checkbox-cell"><input type="checkbox" class="sub-checkbox" value="<?php echo htmlspecialchars($sub['submission_id']); ?>"></td>
                     <td><?php echo date('M j, Y g:i A', strtotime($sub['submitted_at'])); ?></td>
                     <td><span class="badge badge-blue"><?php echo htmlspecialchars($sub['form_name']); ?></span></td>
-                    <td><?php echo htmlspecialchars(($sub['data']['wpforms[fields][13][first]'] ?? $sub['data']['wpforms[fields][19][first]'] ?? 'N/A') . ' ' . ($sub['data']['wpforms[fields][13][last]'] ?? $sub['data']['wpforms[fields][19][last]'] ?? '')); ?></td>
-                    <td><?php echo htmlspecialchars($sub['data']['wpforms[fields][1]'] ?? 'N/A'); ?></td>
+                    <td><?php echo getDisplayName($sub['data']); ?></td>
+                    <td><?php echo getDisplayEmail($sub['data']); ?></td>
                     <td>
                         <button onclick='viewDetail(<?php echo json_encode($sub, JSON_HEX_APOS | JSON_HEX_QUOT); ?>)' class="btn btn-secondary btn-sm">View</button>
                         <button onclick="deleteSingle('<?php echo htmlspecialchars($sub['submission_id']); ?>')" class="btn btn-danger btn-sm">Delete</button>
@@ -232,9 +286,9 @@ try {
 </div>
 
 <div class="modal-overlay" id="detailModal">
-    <div class="modal" style="max-width: 700px;">
+    <div class="modal" style="max-width: 800px;">
         <h3>Submission Details</h3>
-        <div id="detailContent"></div>
+        <div id="detailContent" style="max-height: 60vh; overflow-y: auto;"></div>
         <div class="modal-actions">
             <button onclick="closeModal('detailModal')" class="btn btn-secondary">Close</button>
         </div>
@@ -276,14 +330,49 @@ function getSelectedIds() {
 }
 
 function viewDetail(sub) {
-    let html = '<div style="max-height: 400px; overflow-y: auto;">';
-    html += '<div class="detail-row"><div class="detail-label">ID</div><div class="detail-value">' + sub.submission_id + '</div></div>';
-    html += '<div class="detail-row"><div class="detail-label">Form</div><div class="detail-value">' + sub.form_name + '</div></div>';
-    html += '<div class="detail-row"><div class="detail-label">Submitted</div><div class="detail-value">' + sub.submitted_at + '</div></div>';
-    html += '<div class="detail-row"><div class="detail-label">IP</div><div class="detail-value">' + sub.ip + '</div></div>';
-    for (let key in sub.data) {
-        let label = key.replace('wpforms[fields][', '').replace(']', '').replace('[', ' - ');
-        html += '<div class="detail-row"><div class="detail-label">' + label + '</div><div class="detail-value">' + sub.data[key] + '</div></div>';
+    let html = '<div style="padding: 16px 0;">';
+    html += '<div style="display: grid; grid-template-columns: 1fr 2fr; gap: 8px; padding: 8px 0; border-bottom: 1px solid #374151;"><div style="font-weight: 600; color: #94a3b8;">ID</div><div>' + sub.submission_id + '</div></div>';
+    html += '<div style="display: grid; grid-template-columns: 1fr 2fr; gap: 8px; padding: 8px 0; border-bottom: 1px solid #374151;"><div style="font-weight: 600; color: #94a3b8;">Form</div><div>' + sub.form_name + '</div></div>';
+    html += '<div style="display: grid; grid-template-columns: 1fr 2fr; gap: 8px; padding: 8px 0; border-bottom: 1px solid #374151;"><div style="font-weight: 600; color: #94a3b8;">Submitted</div><div>' + sub.submitted_at + '</div></div>';
+    html += '<div style="display: grid; grid-template-columns: 1fr 2fr; gap: 8px; padding: 8px 0; border-bottom: 1px solid #374151;"><div style="font-weight: 600; color: #94a3b8;">IP</div><div>' + (sub.ip || 'N/A') + '</div></div>';
+    
+    if (sub.data && typeof sub.data === 'object') {
+        const sortedKeys = Object.keys(sub.data).sort();
+        for (let key of sortedKeys) {
+            let label = key;
+            if (label.startsWith('wpforms[fields][')) {
+                label = label.replace('wpforms[fields][', '').replace(/\]$/, '').replace(/\]\[/g, ' - ');
+                const fieldNames = {
+                    '1': 'Email',
+                    '2': 'Case Details',
+                    '3': 'Honeypot',
+                    '4': 'Additional Field',
+                    '13': 'Name',
+                    '17': 'Company',
+                    '18': 'Cryptocurrency Type',
+                    '19': 'Amount Lost',
+                    '20': 'Date of Loss',
+                    '21': 'Transaction ID',
+                    '22': 'Additional Information',
+                    '25': 'Phone',
+                    '26': 'Address',
+                    '27': 'Disclaimer Acceptance',
+                    '30': 'How did you hear about us?',
+                    '9': 'Disclaimer'
+                };
+                const fieldId = label.split(' - ')[0];
+                if (fieldNames[fieldId]) {
+                    label = fieldNames[fieldId] + (label.indexOf(' - ') > 0 ? ' (' + label.split(' - ').slice(1).join(' - ') + ')' : '');
+                }
+            }
+            
+            let value = sub.data[key];
+            if (Array.isArray(value)) {
+                value = value.join(', ');
+            }
+            
+            html += '<div style="display: grid; grid-template-columns: 1fr 2fr; gap: 8px; padding: 8px 0; border-bottom: 1px solid #374151;"><div style="font-weight: 600; color: #94a3b8;">' + label + '</div><div>' + (value || 'N/A') + '</div></div>';
+        }
     }
     html += '</div>';
     document.getElementById('detailContent').innerHTML = html;

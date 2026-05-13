@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 header('Content-Type: application/json; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST');
@@ -24,21 +24,45 @@ $formConfig = FORM_CONFIGS[$formId];
 $honeypotField = $formConfig['honeypot'];
 
 $honeypotValue = '';
-foreach ($_POST as $key => $value) {
-    if (strpos($key, $honeypotField) !== false || $key === $honeypotField) {
-        $honeypotValue = $value;
-        break;
-    }
+if (isset($_POST[$honeypotField])) {
+    $honeypotValue = $_POST[$honeypotField];
+} elseif (isset($_POST['wpforms']) && isset($_POST['wpforms']['fields']) && isset($_POST['wpforms']['fields'][$honeypotField])) {
+    $honeypotValue = $_POST['wpforms']['fields'][$honeypotField];
 }
+
 if (!empty($honeypotValue)) {
     echo json_encode(['success' => true, 'message' => 'Thank you for your submission']);
     exit;
 }
 
+function flattenArray($array, $prefix = '') {
+    $result = [];
+    foreach ($array as $key => $value) {
+        $newKey = $prefix ? $prefix . '[' . $key . ']' : $key;
+        if (is_array($value)) {
+            $result = array_merge($result, flattenArray($value, $newKey));
+        } else {
+            $result[$newKey] = $value;
+        }
+    }
+    return $result;
+}
+
 $formData = [];
+
+if (isset($_POST['wpforms']) && is_array($_POST['wpforms'])) {
+    $wpformsData = flattenArray($_POST['wpforms'], 'wpforms');
+    $formData = array_merge($formData, $wpformsData);
+}
+
 foreach ($_POST as $key => $value) {
-    if (strpos($key, 'wpforms[fields]') === 0) {
-        $formData[$key] = is_array($value) ? implode(', ', $value) : $value;
+    if ($key !== 'wpforms') {
+        if (is_array($value)) {
+            $flatSub = flattenArray($value, $key);
+            $formData = array_merge($formData, $flatSub);
+        } else {
+            $formData[$key] = $value;
+        }
     }
 }
 
@@ -49,25 +73,25 @@ if (empty($formData)) {
 }
 
 try {
-		$db = Database::getInstance()->getConnection();
-		$submissionId = uniqid('sub_', true);
-		
-		$stmt = $db->prepare("INSERT INTO form_submissions
-			(submission_id, form_id, form_name, data, ip, user_agent)
-			VALUES (?, ?, ?, ?, ?, ?)");
-		
-		$stmt->execute([
-			$submissionId,
-			$formId,
-			$formConfig['name'],
-			json_encode($formData),
-			$_SERVER['REMOTE_ADDR'] ?? 'unknown',
-			$_SERVER['HTTP_USER_AGENT'] ?? 'unknown'
-		]);
-		
-		header('Location: /practice-areas/business-litigation-thank-you/');
-		exit;
-	} catch(PDOException $e) {
-		http_response_code(500);
-		echo json_encode(['success' => false, 'message' => 'Database error']);
-	}
+    $db = Database::getInstance()->getConnection();
+    $submissionId = uniqid('sub_', true);
+    
+    $stmt = $db->prepare("INSERT INTO form_submissions
+        (submission_id, form_id, form_name, data, ip, user_agent)
+        VALUES (?, ?, ?, ?, ?, ?)");
+    
+    $stmt->execute([
+        $submissionId,
+        $formId,
+        $formConfig['name'],
+        json_encode($formData),
+        $_SERVER['REMOTE_ADDR'] ?? 'unknown',
+        $_SERVER['HTTP_USER_AGENT'] ?? 'unknown'
+    ]);
+    
+    header('Location: /practice-areas/business-litigation-thank-you/');
+    exit;
+} catch(PDOException $e) {
+    http_response_code(500);
+    echo json_encode(['success' => false, 'message' => 'Database error: ' . $e->getMessage()]);
+}
