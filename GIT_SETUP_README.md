@@ -6,7 +6,7 @@
 - ✅ 用户信息已配置
 - ✅ 远程仓库已添加
 - ✅ 凭证已配置
-- ✅ 首次提交已完成
+- ✅ 分支管理脚本已创建
 - ✅ 自动提交脚本已创建
 
 ---
@@ -19,34 +19,64 @@
 
 ---
 
-## 🚀 自动提交使用方法
+## 🌿 分支管理策略
 
-### 方法1：使用自动提交脚本（推荐）
+### 分支类型
 
-每次任务完成后，我会自动执行以下命令来提交代码：
+| 类型 | 用途 | 命名规范 |
+|------|------|----------|
+| `master` | 主分支，稳定版本 | 始终保持可部署状态 |
+| `feature/*` | 新功能开发 | `feature/add-lawyer-profile` |
+| `fix/*` | Bug修复 | `fix/footer-layout` |
+| `hotfix/*` | 紧急修复 | `hotfix/critical-bug` |
+| `task/*` | 日常任务 | `task/update-contact-info` |
+
+### 工作流程
+
+1. **创建新分支** → 开始任务前
+2. **开发修改** → 在分支上进行代码修改
+3. **提交推送** → 将更改提交到分支
+4. **合并到master** → 任务完成后合并
+
+---
+
+## 🚀 分支管理脚本使用方法
+
+### 1. 创建新分支
 
 ```powershell
-# 基本用法（自动生成提交信息）
-.\auto_commit.ps1
+# 创建功能分支
+.\new_branch.ps1 -Type "feature" -Name "add-lawyer-profile"
 
-# 自定义提交信息
-.\auto_commit.ps1 -Message "修复页脚布局问题"
+# 创建修复分支
+.\new_branch.ps1 -Type "fix" -Name "footer-layout"
+
+# 创建任务分支
+.\new_branch.ps1 -Type "task" -Name "update-contact-info"
+
+# 创建紧急修复分支
+.\new_branch.ps1 -Type "hotfix" -Name "critical-bug"
 ```
 
-### 方法2：手动提交
+### 2. 在分支上提交更改
 
-```bash
-# 1. 检查状态
-git status
+```powershell
+# 在当前分支提交更改
+.\commit_and_push.ps1 -Message "添加新律师 Tomas Francisco Tijerina"
+```
 
-# 2. 添加所有更改
-git add .
+### 3. 合并到主分支
 
-# 3. 提交
-git commit -m "你的提交信息"
+```powershell
+# 将分支合并到 master
+.\merge_to_master.ps1 -Branch "feature/add-lawyer-profile"
+```
 
-# 4. 推送
-git push origin master
+### 4. 快捷提交（直接提交到当前分支）
+
+```powershell
+# 自动提交脚本（适用于快速修改）
+.\auto_commit.ps1 -Message "修复页脚布局"
 ```
 
 ---
@@ -72,6 +102,12 @@ Git 凭证已配置，未来推送无需再次输入用户名和密码。
 git log --oneline -n 10
 ```
 
+### 4. 查看分支列表
+
+```bash
+git branch -a
+```
+
 ---
 
 ## 🔧 常用 Git 命令
@@ -89,30 +125,51 @@ git remote -v
 # 查看提交历史
 git log
 
+# 查看所有分支
+git branch -a
+
+# 切换分支
+git checkout <branch-name>
+
+# 创建并切换分支
+git checkout -b <branch-name>
+
 # 撤销未提交的更改
 git checkout -- .
 
-# 查看分支
-git branch
+# 删除本地分支
+git branch -d <branch-name>
+
+# 删除远程分支
+git push origin --delete <branch-name>
 ```
 
 ---
 
 ## 📊 当前状态
 
-- **最新提交**: a7924c8 - Initial commit: Berg PC Website archive with all pages and assets
+- **最新提交**: c73a5cb - Add Git setup files and auto-commit script
 - **文件总数**: 已上传所有网站文件到 GitHub
 - **仓库状态**: 正常
 
 ---
 
-## 🎯 后续工作
+## 🎯 推荐工作流程
 
-每次任务完成后，我会：
-1. 检测代码是否有错误
-2. 自动执行 `auto_commit.ps1` 脚本
-3. 将所有更改提交到 GitHub
-4. 显示提交记录
+**每次任务开始前：**
+```powershell
+.\new_branch.ps1 -Type "task" -Name "task-name"
+```
+
+**任务进行中：**
+```powershell
+.\commit_and_push.ps1 -Message "你的更改描述"
+```
+
+**任务完成后：**
+```powershell
+.\merge_to_master.ps1 -Branch "task/task-name"
+```
 
 ---
 
