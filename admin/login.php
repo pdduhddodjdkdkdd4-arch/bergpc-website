@@ -15,7 +15,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $error = 'Invalid credentials';
         } elseif (authenticate($username, $password)) {
             session_write_close();
-            header('Location: index.php');
+            $adminPath = defined('ADMIN_PATH') ? '/' . ADMIN_PATH : '/admin';
+            $proto = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+            $host = $_SERVER['SERVER_NAME'];
+            $port = '';
+            if (($proto === 'http' && $_SERVER['SERVER_PORT'] != 80) || ($proto === 'https' && $_SERVER['SERVER_PORT'] != 443)) {
+                $port = ':' . $_SERVER['SERVER_PORT'];
+            }
+            header('Location: ' . $proto . '://' . $host . $port . $adminPath . '/index.php');
             exit;
         } else {
             $error = 'Invalid credentials';

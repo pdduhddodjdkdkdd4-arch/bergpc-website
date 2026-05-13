@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
                     $placeholders = implode(',', array_fill(0, count($idsToDelete), '?'));
                     $stmt = $db->prepare("DELETE FROM form_submissions WHERE submission_id IN ($placeholders)");
                     $stmt->execute($idsToDelete);
-                } catch(PDOException $e) {
+                } catch(Throwable $e) {
                     $message = 'Database error: ' . $e->getMessage();
                     $messageType = 'error';
                 }
@@ -75,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
                 }
                 fclose($output);
                 exit;
-            } catch(PDOException $e) {
+            } catch(Throwable $e) {
                 $message = 'Database error: ' . $e->getMessage();
                 $messageType = 'error';
             }
@@ -131,7 +131,7 @@ try {
     foreach ($submissions as &$sub) {
         $sub['data'] = json_decode($sub['data'], true);
     }
-} catch(PDOException $e) {
+} catch(Throwable $e) {
     $submissions = [];
     $total = 0;
     $totalPages = 1;

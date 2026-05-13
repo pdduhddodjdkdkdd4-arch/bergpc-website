@@ -49,24 +49,25 @@ if (empty($formData)) {
 }
 
 try {
-    $db = Database::getInstance()->getConnection();
-    $submissionId = uniqid('sub_', true);
-    
-    $stmt = $db->prepare("INSERT INTO form_submissions
-        (submission_id, form_id, form_name, data, ip, user_agent)
-        VALUES (?, ?, ?, ?, ?, ?)");
-    
-    $stmt->execute([
-        $submissionId,
-        $formId,
-        $formConfig['name'],
-        json_encode($formData),
-        $_SERVER['REMOTE_ADDR'] ?? 'unknown',
-        $_SERVER['HTTP_USER_AGENT'] ?? 'unknown'
-    ]);
-    
-    echo json_encode(['success' => true, 'message' => 'Thank you for your submission']);
-} catch(PDOException $e) {
-    http_response_code(500);
-    echo json_encode(['success' => false, 'message' => 'Database error']);
-}
+		$db = Database::getInstance()->getConnection();
+		$submissionId = uniqid('sub_', true);
+		
+		$stmt = $db->prepare("INSERT INTO form_submissions
+			(submission_id, form_id, form_name, data, ip, user_agent)
+			VALUES (?, ?, ?, ?, ?, ?)");
+		
+		$stmt->execute([
+			$submissionId,
+			$formId,
+			$formConfig['name'],
+			json_encode($formData),
+			$_SERVER['REMOTE_ADDR'] ?? 'unknown',
+			$_SERVER['HTTP_USER_AGENT'] ?? 'unknown'
+		]);
+		
+		header('Location: /practice-areas/business-litigation-thank-you/');
+		exit;
+	} catch(PDOException $e) {
+		http_response_code(500);
+		echo json_encode(['success' => false, 'message' => 'Database error']);
+	}

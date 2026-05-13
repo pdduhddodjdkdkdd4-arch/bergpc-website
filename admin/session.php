@@ -1,5 +1,13 @@
 <?php
-session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_set_cookie_params([
+        'path' => '/',
+        'httponly' => true,
+        'secure' => isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off',
+        'samesite' => 'Lax'
+    ]);
+    session_start();
+}
 
 function isLoggedIn() {
     if (!isset($_SESSION['admin_logged_in']) || !$_SESSION['admin_logged_in']) {
@@ -15,8 +23,14 @@ function isLoggedIn() {
 
 function requireLogin() {
     if (!isLoggedIn()) {
-        $base = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\');
-        header('Location: ' . $base . '/login.php');
+        $adminPath = defined('ADMIN_PATH') ? '/' . ADMIN_PATH : '/admin';
+        $proto = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+        $host = $_SERVER['SERVER_NAME'];
+        $port = '';
+        if (($proto === 'http' && $_SERVER['SERVER_PORT'] != 80) || ($proto === 'https' && $_SERVER['SERVER_PORT'] != 443)) {
+            $port = ':' . $_SERVER['SERVER_PORT'];
+        }
+        header('Location: ' . $proto . '://' . $host . $port . $adminPath . '/login.php');
         exit;
     }
 }
@@ -44,7 +58,7 @@ function login($username, $password) {
         }
 
         return false;
-    } catch (Exception $e) {
+    } catch (Throwable $e) {
         if (defined('ADMIN_USERNAME') && defined('ADMIN_FALLBACK_PASSWORD')) {
             if ($username === ADMIN_USERNAME && $password === ADMIN_FALLBACK_PASSWORD) {
                 admin_set_session($username);

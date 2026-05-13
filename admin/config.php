@@ -31,3 +31,5 @@ define('FORM_CONFIGS', [
 define('CSRF_TOKEN_LIFETIME', 3600);
 define('ALLOWED_IMAGE_TYPES', ['image/jpeg', 'image/png', 'image/webp', 'image/gif']);
 define('ALLOWED_IMAGE_EXTENSIONS', ['jpg', 'jpeg', 'png', 'webp', 'gif']);
+
+require_once __DIR__ . '/db.php';

@@ -75,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                     $message = 'Lawyer added successfully!';
                     $messageType = 'success';
-                } catch(PDOException $e) {
+                } catch(Throwable $e) {
                     $message = 'Database error: ' . $e->getMessage();
                     $messageType = 'error';
                 }
@@ -145,7 +145,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $message = 'Lawyer updated successfully!';
                     $messageType = 'success';
                 }
-            } catch(PDOException $e) {
+            } catch(Throwable $e) {
                 $message = 'Database error: ' . $e->getMessage();
                 $messageType = 'error';
             }
@@ -179,7 +179,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $message = 'Lawyer deleted successfully!';
                     $messageType = 'success';
                 }
-            } catch(PDOException $e) {
+            } catch(Throwable $e) {
                 $message = 'Database error: ' . $e->getMessage();
                 $messageType = 'error';
             }
@@ -191,7 +191,7 @@ try {
     $db = Database::getInstance()->getConnection();
     $stmt = $db->query("SELECT * FROM lawyers ORDER BY created_at DESC");
     $lawyers = $stmt->fetchAll(PDO::FETCH_ASSOC);
-} catch(PDOException $e) {
+} catch(Throwable $e) {
     $lawyers = [];
     $message = 'Failed to load lawyers: ' . $e->getMessage();
     $messageType = 'error';

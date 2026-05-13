@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
 $pageTitle = 'Dashboard';
 require_once __DIR__ . '/header.php';
 
@@ -20,7 +23,7 @@ try {
     foreach ($recentSubmissions as &$sub) {
         $sub['data'] = json_decode($sub['data'], true);
     }
-} catch(PDOException $e) {
+} catch(Throwable $e) {
     $submissionsCount = 0;
     $formTypes = 0;
     $lawyersCount = 0;
@@ -29,6 +32,12 @@ try {
     $messageType = 'error';
 }
 ?>
+
+<?php if (isset($message)): ?>
+<div style="background: <?php echo $messageType === 'success' ? '#064e3b' : '#7f1d1d'; ?>; color: <?php echo $messageType === 'success' ? '#34d399' : '#fca5a5'; ?>; padding: 12px 16px; border-radius: 8px; margin-bottom: 20px;">
+    <?php echo htmlspecialchars($message); ?>
+</div>
+<?php endif; ?>
 
 <div class="stats-grid">
     <div class="stat-card">
