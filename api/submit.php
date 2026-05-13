@@ -21,13 +21,18 @@ if (empty($formId) || !isset(FORM_CONFIGS[$formId])) {
 }
 
 $formConfig = FORM_CONFIGS[$formId];
-$honeypotField = $formConfig['honeypot'];
+$honeypotConfig = $formConfig['honeypot'];
+
+$honeypotFieldId = $honeypotConfig;
+if (preg_match('/\[(\d+)\]$/', $honeypotConfig, $matches)) {
+    $honeypotFieldId = $matches[1];
+}
 
 $honeypotValue = '';
-if (isset($_POST[$honeypotField])) {
-    $honeypotValue = $_POST[$honeypotField];
-} elseif (isset($_POST['wpforms']) && isset($_POST['wpforms']['fields']) && isset($_POST['wpforms']['fields'][$honeypotField])) {
-    $honeypotValue = $_POST['wpforms']['fields'][$honeypotField];
+if (isset($_POST['wpforms']) && isset($_POST['wpforms']['fields']) && isset($_POST['wpforms']['fields'][$honeypotFieldId])) {
+    $honeypotValue = $_POST['wpforms']['fields'][$honeypotFieldId];
+} elseif (isset($_POST[$honeypotConfig])) {
+    $honeypotValue = $_POST[$honeypotConfig];
 }
 
 if (!empty($honeypotValue)) {
