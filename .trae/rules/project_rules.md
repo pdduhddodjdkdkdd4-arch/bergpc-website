@@ -34,5 +34,6 @@
 
 ## 网站联系信息
 
-- 邮箱：info@bergpc.com
+- 域名：bergpcc.com
+- 邮箱：info@bergpcc.com
 - 电话：(713) 526-0200

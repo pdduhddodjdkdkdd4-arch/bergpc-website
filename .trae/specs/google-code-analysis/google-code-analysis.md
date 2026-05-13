@@ -1,4 +1,4 @@
-# 网站谷歌相关代码 - 详细分析与归类
+﻿# 网站谷歌相关代码 - 详细分析与归类
 
 ## 概述
 经全面搜索分析，网站中包含以下几类谷歌相关代码和引入资源，涉及 **47个HTML页面**。
@@ -44,10 +44,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 - [index.htm](file:///d:/JZ/bergpc.com/bergpc.com/index.htm#L104-L110)
 - [contact/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/contact/index.htm#L97-L103)
 - [blog/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/blog/index.htm)
-- [lawyers/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/lawyers/index.htm)
-- [lawyers/geoffrey-berg/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/lawyers/geoffrey-berg/index.htm)
-- [practice-areas/business-litigation/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/practice-areas/business-litigation/index.htm)
-- [practice-areas/crypto-litigation/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/practice-areas/crypto-litigation/index.htm)
+- [lawyers/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/lawyers/index.htm)
+- [lawyers/geoffrey-berg/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/lawyers/geoffrey-berg/index.htm)
+- [practice-areas/business-litigation/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/practice-areas/business-litigation/index.htm)
+- [practice-areas/crypto-litigation/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/practice-areas/crypto-litigation/index.htm)
 - 以及所有其他40个HTML页面...
 
 **特点**:
@@ -157,22 +157,22 @@ var wpforms_settings = {...,"val_recaptcha_fail_msg":"Google reCAPTCHA verificat
 3. [blog/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/blog/index.htm)
 4. [blog/page/2/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/blog/page/2/index.htm)
 5. [blog/page/3/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/blog/page/3/index.htm)
-6. [lawyers/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/lawyers/index.htm)
-7. [lawyers/geoffrey-berg/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/lawyers/geoffrey-berg/index.htm)
-8. [lawyers/gil-melman/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/lawyers/gil-melman/index.htm)
-9. [lawyers/james-c-plummer/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/lawyers/james-c-plummer/index.htm)
-10. [lawyers/kathryn-e-nelson/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/lawyers/kathryn-e-nelson/index.htm)
-11. [lawyers/tracy-moebes/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/lawyers/tracy-moebes/index.htm)
-12. [practice-areas/business-litigation/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/practice-areas/business-litigation/index.htm)
-13. [practice-areas/business-litigation/breach-of-contract/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/practice-areas/business-litigation/breach-of-contract/index.htm)
-14. [practice-areas/business-litigation/business-divorce/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/practice-areas/business-litigation/business-divorce/index.htm)
-15. [practice-areas/business-litigation/non-compete-disputes/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/practice-areas/business-litigation/non-compete-disputes/index.htm)
-16. [practice-areas/business-litigation/partnership-disputes/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/practice-areas/business-litigation/partnership-disputes/index.htm)
-17. [practice-areas/crypto-blockchain-business-transactions/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/practice-areas/crypto-blockchain-business-transactions/index.htm)
-18. [practice-areas/crypto-litigation/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/practice-areas/crypto-litigation/index.htm)
-19. [practice-areas/crypto-litigation/2025-coinbase-data-breach/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/practice-areas/crypto-litigation/2025-coinbase-data-breach/index.htm)
-20. [practice-areas/crypto-litigation/2025-meta-crypto-scam-ads-investigation/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/practice-areas/crypto-litigation/2025-meta-crypto-scam-ads-investigation/index.htm)
-21. [practice-areas/crypto-litigation/fraud-recovery/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/practice-areas/crypto-litigation/fraud-recovery/index.htm)
+6. [lawyers/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/lawyers/index.htm)
+7. [lawyers/geoffrey-berg/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/lawyers/geoffrey-berg/index.htm)
+8. [lawyers/gil-melman/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/lawyers/gil-melman/index.htm)
+9. [lawyers/james-c-plummer/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/lawyers/james-c-plummer/index.htm)
+10. [lawyers/kathryn-e-nelson/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/lawyers/kathryn-e-nelson/index.htm)
+11. [lawyers/tracy-moebes/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/lawyers/tracy-moebes/index.htm)
+12. [practice-areas/business-litigation/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/practice-areas/business-litigation/index.htm)
+13. [practice-areas/business-litigation/breach-of-contract/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/practice-areas/business-litigation/breach-of-contract/index.htm)
+14. [practice-areas/business-litigation/business-divorce/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/practice-areas/business-litigation/business-divorce/index.htm)
+15. [practice-areas/business-litigation/non-compete-disputes/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/practice-areas/business-litigation/non-compete-disputes/index.htm)
+16. [practice-areas/business-litigation/partnership-disputes/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/practice-areas/business-litigation/partnership-disputes/index.htm)
+17. [practice-areas/crypto-blockchain-business-transactions/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/practice-areas/crypto-blockchain-business-transactions/index.htm)
+18. [practice-areas/crypto-litigation/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/practice-areas/crypto-litigation/index.htm)
+19. [practice-areas/crypto-litigation/2025-coinbase-data-breach/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/practice-areas/crypto-litigation/2025-coinbase-data-breach/index.htm)
+20. [practice-areas/crypto-litigation/2025-meta-crypto-scam-ads-investigation/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/practice-areas/crypto-litigation/2025-meta-crypto-scam-ads-investigation/index.htm)
+21. [practice-areas/crypto-litigation/fraud-recovery/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/practice-areas/crypto-litigation/fraud-recovery/index.htm)
 22. [category/business-litigation/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/category/business-litigation/index.htm)
 23. [category/business-litigation/page/2/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/category/business-litigation/page/2/index.htm)
 24. [category/crypto-litigation/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/category/crypto-litigation/index.htm)
@@ -198,7 +198,7 @@ var wpforms_settings = {...,"val_recaptcha_fail_msg":"Google reCAPTCHA verificat
 44. [the-slavery-behind-crypto-scams/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/the-slavery-behind-crypto-scams/index.htm)
 45. [what-happens-when-dissolving-a-partnership/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/what-happens-when-dissolving-a-partnership/index.htm)
 46. [what-is-material-breach-of-contract-in-texas/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/what-is-material-breach-of-contract-in-texas/index.htm)
-47. [wp-json/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/wp-json/index.htm)
+47. [wp-json/index.htm](file:///d:/JZ/bergpc.com/bergpcc.com/wp-json/index.htm)
 
 ---
 
