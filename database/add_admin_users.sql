@@ -7,4 +7,4 @@ CREATE TABLE IF NOT EXISTS admin_users (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 INSERT INTO admin_users (username, password_hash) VALUES
-('bergpc_admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi');
+('bergpc_admin', '$2y$12$l7nxbSz0FHCW7IabTtRljuenn1vlbowpS20/vxAu7adrFqCaQciyW');

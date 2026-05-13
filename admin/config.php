@@ -14,6 +14,9 @@ define('DB_USER', 'Klinevargas');
 define('DB_PASSWORD', 'a&oxspTw3G903S;[');
 define('DB_CHARSET', 'utf8mb4');
 
+define('ADMIN_USERNAME', 'bergpc_admin');
+define('ADMIN_FALLBACK_PASSWORD', 'admin123');
+
 define('FORM_CONFIGS', [
     '2528' => ['name' => 'Crypto Fraud & Recovery', 'honeypot' => 'wpforms[fields][3]'],
     '4147' => ['name' => 'Meta Crypto Scam Ads Investigation', 'honeypot' => 'wpforms[fields][3]'],
