@@ -1,4 +1,4 @@
-﻿<?php
+﻿﻿<?php
 $pageTitle = 'Form Submissions';
 require_once __DIR__ . '/header.php';
 
