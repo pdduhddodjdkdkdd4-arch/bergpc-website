@@ -7,6 +7,8 @@ class Database {
         $dsn = "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=" . DB_CHARSET;
         $this->connection = new PDO($dsn, DB_USER, DB_PASSWORD);
         $this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $this->connection->setAttribute(PDO::ATTR_EMULATE_PREPARES, true);
+        $this->connection->setAttribute(PDO::ATTR_STRINGIFY_FETCHES, false);
     }
 
     public static function getInstance() {

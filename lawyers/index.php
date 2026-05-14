@@ -1,4 +1,4 @@
-﻿﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -5376,6 +5376,9 @@ if (file_exists(__DIR__ . '/../admin/config.php') && file_exists(__DIR__ . '/../
 function generateElementId() {
     return substr(md5(uniqid(mt_rand(), true)), 0, 8);
 }
+
+// Lawyers with existing static pages - should link to their static index.htm
+$staticPageSlugs = ['geoffrey-berg', 'kathryn-e-nelson', 'tomas-f-tijerina', 'tracy-moberg'];
 ?>
 									<div style="--e-con-grid-template-rows: repeat(<?php echo max(1, ceil(count($lawyers) / 2)); ?>, 1fr);" class="elementor-element elementor-element-3dbb98f e-grid e-con-boxed e-con e-parent"
 										data-id="3dbb98f" data-element_type="container" data-e-type="container">
@@ -5386,6 +5389,8 @@ function generateElementId() {
     $title = htmlspecialchars($lawyer['title']);
     $slug = htmlspecialchars($lawyer['slug']);
     $image = htmlspecialchars($lawyer['image']);
+    // Use static page link if exists, otherwise use profile.php
+    $lawyerUrl = in_array($slug, $staticPageSlugs) ? $slug . '/' : 'profile.php?slug=' . urlencode($slug);
 ?>
 											<div class="elementor-element elementor-element-<?php echo $elementId; ?> elementor-position-top elementor-widget elementor-widget-image-box"
 												data-id="<?php echo $elementId; ?>" data-element_type="widget"
@@ -5393,7 +5398,7 @@ function generateElementId() {
 												<div class="elementor-widget-container">
 													<div class="elementor-image-box-wrapper">
 														<figure class="elementor-image-box-img"><a
-																href="<?php echo $slug; ?>/index.htm" tabindex="-1"><img
+																href="<?php echo $lawyerUrl; ?>" tabindex="-1"><img
 																	decoding="async" width="1024" height="683"
 																	src="<?php echo $image; ?>"
 																	class="elementor-animation-float attachment-large size-large"
@@ -5402,7 +5407,7 @@ function generateElementId() {
 														</figure>
 														<div class="elementor-image-box-content">
 															<h3 class="elementor-image-box-title"><a
-																	href="<?php echo $slug; ?>/index.htm"><?php echo $name; ?></a>
+																	href="<?php echo $lawyerUrl; ?>"><?php echo $name; ?></a>
 															</h3>
 															<p class="elementor-image-box-description"><?php echo $title; ?></p>
 														</div>
@@ -5727,7 +5732,7 @@ function generateElementId() {
 					<div class="elementor-widget-container">
 						<div class="wpforms-container wpforms-render-modern" id="wpforms-3778">
 							<form id="wpforms-form-3778" class="wpforms-validate wpforms-form" data-formid="3778"
-								method="post" enctype="multipart/form-data" action="/api/submit.php"
+								method="post" enctype="multipart/form-data" action="/practice-areas/business-litigation-thank-you/"
 								data-token="5e705326842d7ad5aef1817f7df594da" data-token-time="1778499778"><noscript
 									class="wpforms-error-noscript">Please enable JavaScript in your browser to complete
 									this form.</noscript>

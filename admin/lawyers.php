@@ -1,6 +1,10 @@
-﻿<?php
+<?php
 $pageTitle = 'Lawyers';
 require_once __DIR__ . '/header.php';
+
+// Protected lawyers - cannot be deleted or edited
+$protectedDeleteSlugs = ['geoffrey-berg', 'kathryn-e-nelson', 'tomas-f-tijerina', 'tracy-moberg'];
+$protectedEditSlugs = ['geoffrey-berg', 'kathryn-e-nelson', 'tracy-moberg'];
 
 $message = '';
 $messageType = '';
@@ -21,8 +25,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $imageType = 'url';
             $imagePath = $imageUrl;
 
+            // Generate slug from name
             $slug = strtolower(preg_replace('/[^a-z0-9]+/i', '-', $name));
             $slug = trim($slug, '-');
+            
+            // If slug is empty (e.g., Chinese characters only), use timestamp
+            if (empty($slug)) {
+                $slug = 'lawyer-' . time();
+            }
 
             if (isset($_FILES['image_file']) && $_FILES['image_file']['error'] === UPLOAD_ERR_OK) {
                 $file = $_FILES['image_file'];
@@ -97,7 +107,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $stmt->execute([$id]);
                 $lawyer = $stmt->fetch(PDO::FETCH_ASSOC);
 
-                if ($lawyer) {
+                // Check if lawyer is protected from editing
+                if ($lawyer && in_array($lawyer['slug'], $protectedEditSlugs)) {
+                    $message = 'This lawyer cannot be edited. They are protected.';
+                    $messageType = 'error';
+                } elseif ($lawyer) {
                     $updateData = [
                         'name' => $name,
                         'title' => $title,
@@ -157,21 +171,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             try {
                 $db = Database::getInstance()->getConnection();
-
+                
+                // First check if the lawyer is protected from deletion
                 $stmt = $db->prepare("SELECT * FROM lawyers WHERE id = ?");
                 $stmt->execute([$id]);
                 $lawyer = $stmt->fetch(PDO::FETCH_ASSOC);
-
-                if ($lawyer) {
+                
+                if ($lawyer && in_array($lawyer['slug'], $protectedDeleteSlugs)) {
+                    $message = 'This lawyer cannot be deleted. They are protected.';
+                    $messageType = 'error';
+                } elseif ($lawyer) {
+                    // Delete image if locally stored
                     if ($lawyer['image_type'] === 'local' && !empty($lawyer['image'])) {
                         $imagePath = __DIR__ . '/../' . $lawyer['image'];
                         if (file_exists($imagePath)) unlink($imagePath);
                     }
-                    $pageDir = __DIR__ . '/../lawyers/' . $lawyer['slug'];
-                    if (is_dir($pageDir)) {
-                        $files = glob($pageDir . '/*');
-                        foreach ($files as $file) unlink($file);
-                        rmdir($pageDir);
+                    
+                    // Delete lawyer page directory (with safety checks)
+                    $slug = $lawyer['slug'] ?? '';
+                    $lawyersDir = realpath(__DIR__ . '/../lawyers');
+                    if (!empty($slug) && $lawyersDir !== false) {
+                        $pageDir = $lawyersDir . '/' . $slug;
+                        if (is_dir($pageDir) && strpos(realpath($pageDir), $lawyersDir) === 0 && realpath($pageDir) !== $lawyersDir) {
+                            $files = glob($pageDir . '/*');
+                            foreach ($files as $file) unlink($file);
+                            rmdir($pageDir);
+                        }
                     }
 
                     $stmt = $db->prepare("DELETE FROM lawyers WHERE id = ?");
@@ -223,8 +248,16 @@ try {
                 <div style="font-weight: 600; margin-bottom: 4px;"><?php echo htmlspecialchars($lawyer['name']); ?></div>
                 <div style="color: #94a3b8; font-size: 13px; margin-bottom: 8px;"><?php echo htmlspecialchars($lawyer['title']); ?></div>
                 <div style="display: flex; gap: 8px;">
+                    <?php if (!in_array($lawyer['slug'], $protectedEditSlugs)): ?>
                     <button onclick='showEditForm(<?php echo json_encode($lawyer, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT); ?>)' class="btn btn-secondary btn-sm">Edit</button>
+                    <?php else: ?>
+                    <button class="btn btn-secondary btn-sm" disabled style="opacity: 0.4; cursor: not-allowed;" title="This lawyer cannot be edited">Edit</button>
+                    <?php endif; ?>
+                    <?php if (!in_array($lawyer['slug'], $protectedDeleteSlugs)): ?>
                     <button onclick="confirmDelete('<?php echo htmlspecialchars($lawyer['id']); ?>', '<?php echo htmlspecialchars($lawyer['name']); ?>')" class="btn btn-danger btn-sm">Delete</button>
+                    <?php else: ?>
+                    <button class="btn btn-danger btn-sm" disabled style="opacity: 0.4; cursor: not-allowed;" title="This lawyer cannot be deleted">Delete</button>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>

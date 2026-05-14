@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -56,21 +56,24 @@
 
 	<!-- This site is optimized with the Yoast SEO plugin v27.5 - https://yoast.com/product/yoast-seo-wordpress/ -->
 	<title>{{LAWYER_NAME}} | {{LAWYER_TITLE}} | Berg PC</title>
-	<meta name="description"`n`tcontent="{{LAWYER_DESCRIPTION}}">
+	<meta name="description"
+	content="{{LAWYER_DESCRIPTION}}">
 	<link rel="canonical" href="index.htm">
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="{{LAWYER_NAME}} | {{LAWYER_TITLE}} | Berg PC">
-	<meta property="og:description"`n`tcontent="{{LAWYER_DESCRIPTION}}">
+	<meta property="og:description"
+	content="{{LAWYER_DESCRIPTION}}">
 	<meta property="og:url" content="index.htm">
 	<meta property="og:site_name" content="Berg PC">
-	<meta property="article:modified_time" content="2025-05-01T17:05:28+00:00">
+	<meta property="article:modified_time" content="{{LAWYER_DATE_MODIFIED}}">
 	<meta property="og:image" content="{{LAWYER_IMAGE_PATH}}">
 	<meta property="og:image:width" content="2560">
 	<meta property="og:image:height" content="1706">
 	<meta property="og:image:type" content="image/jpeg">
 	<meta name="twitter:card" content="summary_large_image">
-	<script type="application/ld+json"`n`tclass="yoast-schema-graph">{{LAWYER_JSON_LD}}</script>
+	<script type="application/ld+json"
+	class="yoast-schema-graph">{{LAWYER_JSON_LD}}</script>
 	<!-- / Yoast SEO plugin. -->
 
 
@@ -4445,7 +4448,7 @@
 		href='../../wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.0.5' media='all'>
 	<link rel='stylesheet' id='widget-image-carousel-css'
 		href='../../wp-content/plugins/elementor/assets/css/widget-image-carousel.min.css?ver=4.0.5' media='all'>
-	<link rel='stylesheet' id='elementor-post-3759-css'
+	<link rel='stylesheet' id='elementor-post-{{LAWYER_PAGE_ID}}-css'
 		href='../../wp-content/uploads/elementor/css/post-{{LAWYER_PAGE_ID}}.css?ver=1777693012' media='all'>
 	<link rel='stylesheet' id='hfe-elementor-icons-css'
 		href='../../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.34.0' media='all'>
@@ -5844,7 +5847,7 @@
 										type="hidden" name="page_url"
 										value="index.htm"><input type="hidden"
 										name="url_referer" value="index.htm"><input
-										type="hidden" name="page_id" value="3759"><input type="hidden"
+										type="hidden" name="page_id" value="{{LAWYER_PAGE_ID}}"><input type="hidden"
 										name="wpforms[post_id]" value="{{LAWYER_PAGE_ID}}"><button type="submit"
 										name="wpforms[submit]" id="wpforms-submit-3600" class="wpforms-submit"
 										data-alt-text="Downloading..." data-submit-text="Download vCard"
@@ -5917,7 +5920,7 @@
 		id="elementor-frontend-modules-js"></script>
 	<script src="../../wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
 	<script id="elementor-frontend-js-before">
-		var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } }, "hasCustomBreakpoints": false }, "version": "4.0.5", "is_static": false, "experimentalFeatures": { "e_font_icon_svg": true, "additional_custom_breakpoints": true, "container": true, "theme_builder_v2": true, "nested-elements": true, "global_classes_should_enforce_capabilities": true, "e_variables": true, "e_opt_in_v4_page": true, "e_components": true, "e_interactions": true, "e_widget_creation": true, "import-export-customization": true, "e_pro_atomic_form": true, "e_pro_variables": true, "e_pro_interactions": true }, "urls": { "assets": "https:\\/\\/bergpcc.com\\/wp-content\/plugins\/elementor\/assets\/", "ajaxurl": "https:\\/\\/bergpcc.com\\/wp-admin\/admin-ajax.php", "uploadUrl": "https:\\/\\/bergpcc.com\\/wp-content\/uploads" }, "nonces": { "floatingButtonsClickTracking": "11ba389eb7", "atomicFormsSendForm": "0706022548" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 3759, "title": "Tracy%20Moberg%20%7C%20Business%20Manager%20%7C%20Berg%20PC", "excerpt": "", "featuredImage": false } };
+		var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } }, "hasCustomBreakpoints": false }, "version": "4.0.5", "is_static": false, "experimentalFeatures": { "e_font_icon_svg": true, "additional_custom_breakpoints": true, "container": true, "theme_builder_v2": true, "nested-elements": true, "global_classes_should_enforce_capabilities": true, "e_variables": true, "e_opt_in_v4_page": true, "e_components": true, "e_interactions": true, "e_widget_creation": true, "import-export-customization": true, "e_pro_atomic_form": true, "e_pro_variables": true, "e_pro_interactions": true }, "urls": { "assets": "https:\\/\\/bergpcc.com\\/wp-content\/plugins\/elementor\/assets\/", "ajaxurl": "https:\\/\\/bergpcc.com\\/wp-admin\/admin-ajax.php", "uploadUrl": "https:\\/\\/bergpcc.com\\/wp-content\/uploads" }, "nonces": { "floatingButtonsClickTracking": "11ba389eb7", "atomicFormsSendForm": "0706022548" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": {{LAWYER_PAGE_ID}}, "title": "{{LAWYER_NAME_ENCODED}}", "excerpt": "", "featuredImage": false } };
 		//# sourceURL=elementor-frontend-js-before
 	</script>
 	<script src="../../wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.0.5"

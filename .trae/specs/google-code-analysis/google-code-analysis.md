@@ -192,7 +192,7 @@ var wpforms_settings = {...,"val_recaptcha_fail_msg":"Google reCAPTCHA verificat
 38. [grounds-for-suing-a-business-partner/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/grounds-for-suing-a-business-partner/index.htm)
 39. [how-is-stolen-crypto-tracked/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/how-is-stolen-crypto-tracked/index.htm)
 40. [how-to-handle-disputes-in-a-partnership/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/how-to-handle-disputes-in-a-partnership/index.htm)
-41. [how-to-recover-cryptocurrency-with-the-right-lawyer-in-court/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/how-to-recover-cryptocurrency-with-the-right-lawyer-in-court/index.htm)
+41. [crypto-scam-fund-recovery-guide-digital-asset-investigation-and-recovery-process-analysis/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/crypto-scam-fund-recovery-guide-digital-asset-investigation-and-recovery-process-analysis/index.htm)
 42. [how-to-spot-and-avoid-crypto-lawyer-scams/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/how-to-spot-and-avoid-crypto-lawyer-scams/index.htm)
 43. [meta-earns-billions-from-victims-lured-into-crypto-scams-by-facebook-ads/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/meta-earns-billions-from-victims-lured-into-crypto-scams-by-facebook-ads/index.htm)
 44. [the-slavery-behind-crypto-scams/index.htm](file:///d:/JZ/bergpc.com/bergpc.com/the-slavery-behind-crypto-scams/index.htm)

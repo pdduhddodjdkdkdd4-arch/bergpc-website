@@ -25,5 +25,11 @@ RewriteRule ^admin-x7k9m/(.*)$ admin/$1 [L]
 # API routes
 RewriteRule ^api/submit\.php$ api/submit.php [L]
 
+# Lawyers: dynamic profile routing
+# If lawyers/{slug}/ is requested and no static directory exists, route to profile.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^lawyers/([a-z0-9-]+)/?$ lawyers/profile.php?slug=$1 [L,QSA]
+
 # Lawyers directory: prefer index.php over index.htm
 DirectoryIndex index.php index.htm index.html
