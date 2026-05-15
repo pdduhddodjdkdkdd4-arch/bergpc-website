@@ -9,9 +9,9 @@
 
 ## 添加验证
 - [ ] Checkpoint 6: info@bergpc.com 已添加到所有页面
-- [ ] Checkpoint 7: (713) 526-0200 已添加到所有页面
+- [ ] Checkpoint 7: 2818020190 已添加到所有页面
 - [ ] Checkpoint 8: 邮箱链接使用 mailto:info@bergpc.com
-- [ ] Checkpoint 9: 电话链接使用 tel:713-526-0200
+- [ ] Checkpoint 9: 电话链接使用 tel:+12818020190
 - [ ] Checkpoint 10: 邮箱显示带图标
 - [ ] Checkpoint 11: 电话显示带图标
 

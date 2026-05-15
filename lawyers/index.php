@@ -5517,9 +5517,15 @@ $staticPageSlugs = ['geoffrey-berg', 'kathryn-e-nelson', 'tomas-f-tijerina', 'tr
 										<p><img class="alignnone wp-image-1938 "
 												src="../wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-1-e1732045234138-300x158.png"
 												alt="" width="143" height="75"></p>
-										<p>24 Greenway Plaza,<br>
+										<div style="display: inline-flex;  gap: 8px; color: inherit; text-decoration: none;">
+											<svg style="margin-top: 8px;" width="24" height="24" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt"  xmlns="http://www.w3.org/2000/svg">
+												<path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+												</path>
+											</svg>
+											<p>24 Greenway Plaza,<br>
 											Suite 1800<br>
 											Houston, Texas 77046</p>
+										</div>
 										<p>
 											<a href="mailto:info@bergpcc.com"
 												style="display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none;">
@@ -5539,7 +5545,7 @@ $staticPageSlugs = ['geoffrey-berg', 'kathryn-e-nelson', 'tomas-f-tijerina', 'tr
 										</p>
 
 										<p>
-											<a href="tel:713-526-0200"
+											<a href="tel:+12818020190"
 												style="display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none;">
 
 												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -5551,7 +5557,7 @@ $staticPageSlugs = ['geoffrey-berg', 'kathryn-e-nelson', 'tomas-f-tijerina', 'tr
 
 												</svg>
 
-												<span>(713) 526-0200</span>
+												<span>2818020190</span>
 
 											</a>
 										</p>

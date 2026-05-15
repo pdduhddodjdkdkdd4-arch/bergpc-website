@@ -21,10 +21,10 @@
         <span>info@bergpcc.com</span>
     </a>
 
-    <a href="tel:713-526-0200"
+    <a href="tel:+12818020190"
         style="display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none;">
         <svg>...</svg>
-        <span>(713) 526-0200</span>
+        <span>2818020190</span>
     </a>
 
 </div>
@@ -41,10 +41,10 @@
 </p>
 
 <p>
-    <a href="tel:713-526-0200"
+    <a href="tel:+12818020190"
         style="display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none;">
         <svg>...</svg>
-        <span>(713) 526-0200</span>
+        <span>2818020190</span>
     </a>
 </p>
 ```

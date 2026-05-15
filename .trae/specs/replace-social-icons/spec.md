@@ -8,7 +8,7 @@
 ## Goals
 - 删除所有47个页面中的社交媒体图标链接（YouTube、Facebook、LinkedIn、X）
 - 替换为邮箱联系方式：info@bergpc.com
-- 替换为电话联系方式：(713) 526-0200
+- 替换为电话联系方式：2818020190
 - 保持页脚布局美观，使用图标+文字的方式显示联系方式
 
 ## Non-Goals (Out of Scope)
@@ -20,7 +20,7 @@
 - 网站当前在页脚显示4个社交媒体图标：YouTube、Facebook、LinkedIn、X
 - 替换为更直接的联系方式，方便用户联系律所
 - 邮箱：info@bergpc.com
-- 电话：(713) 526-0200
+- 电话：2818020190
 
 ## Functional Requirements
 - **FR-1**: 删除所有页面的页脚社交媒体图标区域
@@ -61,7 +61,7 @@
 ### AC-3: 联系电话已添加
 - **Given**: 47个HTML页面
 - **When**: 修改完成后
-- **Then**: 所有页面显示电话 (713) 526-0200（带tel链接）
+- **Then**: 所有页面显示电话 2818020190（带tel链接）
 - **Verification**: `programmatic`
 
 ### AC-4: 布局美观

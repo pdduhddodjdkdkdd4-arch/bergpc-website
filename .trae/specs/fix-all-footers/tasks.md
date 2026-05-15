@@ -17,7 +17,7 @@
 - **Test Requirements**:
   - `programmatic`: index.htm 中不再有注释占位符
   - `programmatic`: index.htm 中有 info@bergpc.com 邮箱
-  - `programmatic`: index.htm 中有 (713) 526-0200 电话
+  - `programmatic`: index.htm 中有 2818020190 电话
   - `human-judgment`: 布局美观，一行显示一个
 - **Notes**: 使用 flex 布局，垂直排列
 
