@@ -1,7 +1,6 @@
-DirectoryIndex router.php
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.*)$ router.php [QSA,L]
-</IfModule>
+RewriteEngine On
+
+# 保护敏感文件
+<FilesMatch "^(config|auth|session|db|generate_lawyer_page)\.php$">
+    Require all denied
+</FilesMatch>

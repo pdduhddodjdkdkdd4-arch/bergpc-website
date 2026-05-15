@@ -51,9 +51,7 @@ if (!$lawyer) {
     exit;
 }
 
-// Generate element IDs and other dynamic values
-$pageId = rand(1000, 9999);
-$wpImageId = rand(3000, 9999);
+// Generate dynamic values
 $now = date('c');
 $publishedDate = $lawyer['created_at'] ?? $now;
 $modifiedDate = $lawyer['updated_at'] ?? $now;
@@ -167,13 +165,23 @@ $replacements = [
     '{{LAWYER_DESCRIPTION}}' => htmlspecialchars($description),
     '{{LAWYER_DATE_PUBLISHED}}' => $publishedDate,
     '{{LAWYER_DATE_MODIFIED}}' => $modifiedDate,
-    '{{LAWYER_PAGE_ID}}' => $pageId,
-    '{{LAWYER_WP_IMAGE_ID}}' => $wpImageId,
     '{{CURRENT_YEAR}}' => date('Y'),
     '{{LAWYER_JSON_LD}}' => $jsonLd,
 ];
 
 $html = str_replace(array_keys($replacements), array_values($replacements), $template);
+
+// Fix relative paths - template uses ../../wp-content/ but profile.php is in /lawyers/ directory
+// so we need to change to ../wp-content/ (one level up instead of two)
+$html = str_replace('../../wp-content/', '../wp-content/', $html);
+$html = str_replace('../../wp-includes/', '../wp-includes/', $html);
+$html = str_replace('../../feed/', '../feed/', $html);
+$html = str_replace('../../comments/', '../comments/', $html);
+$html = str_replace('../../wp-json/', '../wp-json/', $html);
+$html = str_replace('../../signals/', '../signals/', $html);
+$html = str_replace('../../index.htm', '../', $html);
+$html = str_replace('../../lawyers/', './', $html);
+$html = str_replace('../../practice-areas/', '../practice-areas/', $html);
 
 // Output the HTML
 echo $html;
