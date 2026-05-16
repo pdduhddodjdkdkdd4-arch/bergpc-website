@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -11,6 +11,13 @@
 		type="font/woff2" crossorigin="">
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
 	<style>
+		* {
+			--display: grid;
+			--e-con-grid-template-columns: repeat(3, 1fr);
+			--e-con-grid-template-rows: repeat(2, 1fr);
+			--grid-auto-flow: row;
+		}
+
 		html.sdui-panel-open body:not(.wp-admin) {
 			margin-right: 400px
 		}
@@ -56,12 +63,14 @@
 
 	<!-- This site is optimized with the Yoast SEO plugin v27.5 - https://yoast.com/product/yoast-seo-wordpress/ -->
 	<title>Testimonials | Berg PC</title>
-	<meta name="description" content="Read testimonials and success stories from clients who have worked with Berg PC on cryptocurrency fraud recovery and business litigation cases.">
+	<meta name="description"
+		content="Read testimonials and success stories from clients who have worked with Berg PC on cryptocurrency fraud recovery and business litigation cases.">
 	<link rel="canonical" href="index.htm">
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Testimonials | Berg PC">
-	<meta property="og:description" content="Read testimonials and success stories from clients who have worked with Berg PC on cryptocurrency fraud recovery and business litigation cases.">
+	<meta property="og:description"
+		content="Read testimonials and success stories from clients who have worked with Berg PC on cryptocurrency fraud recovery and business litigation cases.">
 	<meta property="og:url" content="https://bergpcc.com/testimonials/">
 	<meta property="og:site_name" content="Berg PC">
 	<meta property="article:modified_time" content="2025-07-10T16:16:55+00:00">
@@ -4443,8 +4452,8 @@
 		media='all'>
 	<link rel='stylesheet' id='widget-image-box-css'
 		href='../wp-content/plugins/elementor/assets/css/widget-image-box.min.css?ver=4.0.5' media='all'>
-	<link rel='stylesheet' id='elementor-post-9999-css'
-		href='../wp-content/uploads/elementor/css/post-9999.css?ver=1777665936' media='all'>
+	<link rel='stylesheet' id='elementor-post-2306-css'
+		href='../wp-content/uploads/elementor/css/post-2306.css?ver=1777663803' media='all'>
 	<link rel='stylesheet' id='hfe-elementor-icons-css'
 		href='../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.34.0' media='all'>
 	<link rel='stylesheet' id='hfe-icons-list-css'
@@ -4687,6 +4696,7 @@
 	<link rel='stylesheet' href='owl.carousel.min.css'>
 	<link rel='stylesheet' href='owl.theme.default.min.css'>
 	<link rel='stylesheet' href='animate.min.css'>
+	<link rel='stylesheet' href='wpo-minify-header-5d13f3bc.min.css'>
 	<!-- Testimonials Custom Styles -->
 	<style>
 		/* ====== Module 1: Clients Feedback Carousel ====== */
@@ -4694,11 +4704,13 @@
 			padding: 80px 0;
 			background: #f9f9f9;
 		}
+
 		.testimonials-section .area__content {
 			text-align: center;
 			max-width: 700px;
 			margin: 0 auto 60px;
 		}
+
 		.testimonials-section .area__subtitle {
 			font-size: 14px;
 			font-weight: 600;
@@ -4707,6 +4719,7 @@
 			color: #c8a45a;
 			margin-bottom: 10px;
 		}
+
 		.testimonials-section .area__title {
 			font-size: 36px;
 			font-weight: 700;
@@ -4714,30 +4727,35 @@
 			margin-bottom: 15px;
 			line-height: 1.3;
 		}
+
 		.testimonials-section .area__title p {
 			margin: 0;
 		}
+
 		.testimonials-section .area__description {
 			font-size: 16px;
 			color: #666;
 			line-height: 1.7;
 		}
+
 		.testimonials-section .area__description p {
 			margin: 0;
 		}
 
 		/* Single testimonial card */
 		.single__testmonial {
-			background: #fff;
+			/* background: #fff; */
 			border-radius: 12px;
 			padding: 35px 30px 30px;
-			box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+			/* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06); */
 			position: relative;
 			transition: box-shadow 0.3s ease;
 		}
+
 		.single__testmonial:hover {
-			box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+			/* box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); */
 		}
+
 		.single__testmonial::before {
 			content: '\201C';
 			position: absolute;
@@ -4749,25 +4767,30 @@
 			line-height: 1;
 			opacity: 0.3;
 		}
+
 		.author__content {
 			margin-bottom: 25px;
 		}
+
 		.testmonial__description p {
 			font-size: 15px;
 			line-height: 1.75;
 			color: #444;
 			margin: 0;
 		}
+
 		.author__thumb__designation__warp {
 			display: flex;
 			align-items: center;
 			gap: 15px;
 		}
+
 		.author__thumb__designation {
 			display: flex;
 			align-items: center;
 			gap: 15px;
 		}
+
 		.author__thumb img {
 			width: 55px;
 			height: 55px;
@@ -4775,6 +4798,7 @@
 			object-fit: cover;
 			border: 3px solid #c8a45a;
 		}
+
 		.author__name {
 			font-size: 16px;
 			font-weight: 600;
@@ -4785,14 +4809,25 @@
 		/* Carousel navigation arrows */
 		.testimonials-carousel-wrap {
 			position: relative;
+			padding: 0 60px;
 		}
+
 		.testimonials-carousel-wrap .owl-nav {
 			position: absolute;
 			top: 50%;
 			transform: translateY(-50%);
 			width: 100%;
 			pointer-events: none;
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity 0.3s ease, visibility 0.3s ease;
 		}
+
+		.testimonials-carousel-wrap:hover .owl-nav {
+			opacity: 1;
+			visibility: visible;
+		}
+
 		.testimonials-carousel-wrap .owl-nav .owl-prev,
 		.testimonials-carousel-wrap .owl-nav .owl-next {
 			pointer-events: auto;
@@ -4808,35 +4843,74 @@
 			transition: background 0.3s ease;
 			position: absolute;
 		}
+
 		.testimonials-carousel-wrap .owl-nav .owl-prev:hover,
 		.testimonials-carousel-wrap .owl-nav .owl-next:hover {
 			background: #c8a45a !important;
 		}
+
 		.testimonials-carousel-wrap .owl-nav .owl-prev {
 			left: -60px;
 		}
+
 		.testimonials-carousel-wrap .owl-nav .owl-next {
 			right: -60px;
 		}
+
 		.testimonials-carousel-wrap .owl-nav .owl-prev i,
 		.testimonials-carousel-wrap .owl-nav .owl-next i {
 			font-style: normal;
 		}
 
 		@media (max-width: 1200px) {
-			.testimonials-carousel-wrap .owl-nav .owl-prev { left: -25px; }
-			.testimonials-carousel-wrap .owl-nav .owl-next { right: -25px; }
+			.testimonials-carousel-wrap .owl-nav .owl-prev {
+				left: -25px;
+			}
+
+			.testimonials-carousel-wrap .owl-nav .owl-next {
+				right: -25px;
+			}
+
+			.testimonials-carousel-wrap {
+				padding: 0 25px;
+			}
 		}
+
 		@media (max-width: 768px) {
-			.testimonials-section .area__title { font-size: 28px; }
+			.testimonials-section .area__title {
+				font-size: 28px;
+			}
+
 			.testimonials-carousel-wrap .owl-nav .owl-prev,
 			.testimonials-carousel-wrap .owl-nav .owl-next {
 				width: 40px;
 				height: 40px;
 				font-size: 14px;
 			}
-			.testimonials-carousel-wrap .owl-nav .owl-prev { left: -10px; }
-			.testimonials-carousel-wrap .owl-nav .owl-next { right: -10px; }
+
+			.testimonials-carousel-wrap .owl-nav .owl-prev {
+				left: -10px;
+			}
+
+			.testimonials-carousel-wrap .owl-nav .owl-next {
+				right: -10px;
+			}
+
+			.testimonials-carousel-wrap {
+				padding: 0 10px;
+			}
+		}
+
+		.ultimate-testmonial-carousel .owl-controls,
+		.ultimate-testmonial-carousel .owl-nav,
+		.ultimate-testmonial-carousel .owl-dots,
+		.ultimate-testmonial-carousel .owl-prev,
+		.ultimate-testmonial-carousel .owl-next {
+			display: none !important;
+		}
+
+		.ultimate-testmonial-carousel .owl-item {
+			height: 310px;
 		}
 
 		/* ====== Module 2: Video Grid ====== */
@@ -4844,6 +4918,7 @@
 			padding: 80px 0;
 			background: #fff;
 		}
+
 		.video-grid {
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
@@ -4852,14 +4927,17 @@
 			margin: 0 auto;
 			padding: 0 20px;
 		}
+
 		.video-grid-item {
 			position: relative;
-			padding-bottom: 56.25%; /* 16:9 */
+			padding-bottom: 56.25%;
+			/* 16:9 */
 			height: 0;
 			overflow: hidden;
 			border-radius: 12px;
-			box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+			box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 		}
+
 		.video-grid-item iframe {
 			position: absolute;
 			top: 0;
@@ -4869,11 +4947,13 @@
 			border: none;
 			border-radius: 12px;
 		}
+
 		@media (max-width: 992px) {
 			.video-grid {
 				grid-template-columns: repeat(2, 1fr);
 			}
 		}
+
 		@media (max-width: 576px) {
 			.video-grid {
 				grid-template-columns: 1fr;
@@ -4883,7 +4963,7 @@
 </head>
 
 <body itemtype='https://schema.org/WebPage' itemscope='itemscope'
-	class="wp-singular page-template-default page page-id-9999 page-parent wp-custom-logo wp-embed-responsive wp-theme-astra ehf-template-astra ehf-stylesheet-astra ast-desktop ast-page-builder-template ast-no-sidebar astra-4.13.1 ast-single-post ast-inherit-site-logo-transparent ast-theme-transparent-header ast-hfb-header elementor-default elementor-kit-23 elementor-page elementor-page-9999">
+	class="wp-singular page-template-default page page-id-517 page-parent wp-custom-logo wp-embed-responsive wp-theme-astra ehf-template-astra ehf-stylesheet-astra ast-desktop ast-page-builder-template ast-no-sidebar astra-4.13.1 ast-single-post ast-inherit-site-logo-transparent ast-theme-transparent-header ast-hfb-header elementor-default elementor-kit-23 elementor-page elementor-page-9999">
 	<script>
 		(function () { var w = document.documentElement.clientWidth; if (w > 0 && w <= 921) { document.body.classList.add('ast-header-break-point'); document.body.classList.remove('ast-desktop'); } })();
 	</script>
@@ -4910,7 +4990,7 @@
 										data-section="title_tagline">
 										<div class="site-branding ast-site-identity"
 											itemtype="https://schema.org/Organization" itemscope="itemscope">
-											<span class="site-logo-img"><a href="../index.htm" class="custom-logo-link"
+											<span class="site-logo-img"><a href="../" class="custom-logo-link"
 													rel="home"><img width="280" height="110"
 														src="../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-280x110.png"
 														class="custom-logo" alt="Berg PC" decoding="async"
@@ -4950,14 +5030,13 @@
 														<ul id="ast-hf-menu-1"
 															class="main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border inline-on-mobile">
 															<li id="menu-item-2292"
-																class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-9999 menu-item-2292">
-																<a href="index.htm"
-																	class="menu-link">Team</a>
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2292">
+																<a href="../lawyers/" class="menu-link">Team</a>
 															</li>
 															<li id="menu-item-2240"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2240">
 																<a aria-expanded="false"
-																	href="../practice-areas/business-litigation/index.htm"
+																	href="../practice-areas/business-litigation/"
 																	class="menu-link">Business Litigation<span
 																		role="button"
 																		class="dropdown-menu-toggle ast-header-navigation-arrow"
@@ -4995,7 +5074,7 @@
 																<ul class="sub-menu">
 																	<li id="menu-item-4218"
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4218">
-																		<a href="../practice-areas/business-litigation/breach-of-contract/index.htm"
+																		<a href="../practice-areas/business-litigation/breach-of-contract/"
 																			class="menu-link"><span
 																				class="ast-icon icon-arrow"><svg
 																					class="ast-arrow-svg"
@@ -5013,7 +5092,7 @@
 																	</li>
 																	<li id="menu-item-4219"
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4219">
-																		<a href="../practice-areas/business-litigation/partnership-disputes/index.htm"
+																		<a href="../practice-areas/business-litigation/partnership-disputes/"
 																			class="menu-link"><span
 																				class="ast-icon icon-arrow"><svg
 																					class="ast-arrow-svg"
@@ -5031,7 +5110,7 @@
 																	</li>
 																	<li id="menu-item-4220"
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4220">
-																		<a href="../practice-areas/business-litigation/business-divorce/index.htm"
+																		<a href="../practice-areas/business-litigation/business-divorce/"
 																			class="menu-link"><span
 																				class="ast-icon icon-arrow"><svg
 																					class="ast-arrow-svg"
@@ -5049,7 +5128,7 @@
 																	</li>
 																	<li id="menu-item-4221"
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4221">
-																		<a href="../practice-areas/business-litigation/non-compete-disputes/index.htm"
+																		<a href="../practice-areas/business-litigation/non-compete-disputes/"
 																			class="menu-link"><span
 																				class="ast-icon icon-arrow"><svg
 																					class="ast-arrow-svg"
@@ -5070,7 +5149,7 @@
 															<li id="menu-item-4266"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4266">
 																<a aria-expanded="false"
-																	href="../practice-areas/crypto-litigation/index.htm"
+																	href="../practice-areas/crypto-litigation/"
 																	class="menu-link">Crypto Litigation<span
 																		role="button"
 																		class="dropdown-menu-toggle ast-header-navigation-arrow"
@@ -5108,7 +5187,7 @@
 																<ul class="sub-menu">
 																	<li id="menu-item-4217"
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4217">
-																		<a href="../practice-areas/crypto-litigation/fraud-recovery/index.htm"
+																		<a href="../practice-areas/crypto-litigation/fraud-recovery/"
 																			class="menu-link"><span
 																				class="ast-icon icon-arrow"><svg
 																					class="ast-arrow-svg"
@@ -5126,7 +5205,7 @@
 																	</li>
 																	<li id="menu-item-4250"
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4250">
-																		<a href="../practice-areas/crypto-blockchain-business-transactions/index.htm"
+																		<a href="../practice-areas/crypto-blockchain-business-transactions/"
 																			class="menu-link"><span
 																				class="ast-icon icon-arrow"><svg
 																					class="ast-arrow-svg"
@@ -5144,7 +5223,7 @@
 																	</li>
 																	<li id="menu-item-4215"
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4215">
-																		<a href="../practice-areas/crypto-litigation/2025-meta-crypto-scam-ads-investigation/index.htm"
+																		<a href="../practice-areas/crypto-litigation/2025-meta-crypto-scam-ads-investigation/"
 																			class="menu-link"><span
 																				class="ast-icon icon-arrow"><svg
 																					class="ast-arrow-svg"
@@ -5162,7 +5241,7 @@
 																	</li>
 																	<li id="menu-item-4216"
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4216">
-																		<a href="../practice-areas/crypto-litigation/2025-coinbase-data-breach/index.htm"
+																		<a href="../practice-areas/crypto-litigation/2025-coinbase-data-breach/"
 																			class="menu-link"><span
 																				class="ast-icon icon-arrow"><svg
 																					class="ast-arrow-svg"
@@ -5180,18 +5259,17 @@
 																	</li>
 																</ul>
 															</li>
-															<!-- <li id="menu-item-3864"
-																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3864">
-																<a href="../podcast/index.htm"
-																	class="menu-link">Podcast</a>
-															</li> -->
 															<li id="menu-item-1949"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1949">
-																<a href="../blog/index.htm" class="menu-link">Blog</a>
-															</li>											<li id="menu-item-testimonials-desktop"
-												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-testimonials-desktop">
-												<a href="../testimonials/" class="menu-link">Testimonials</a>
-											</li>
+																<a href="../blog/" class="menu-link">Blog</a>
+															</li>
+															<li id="menu-item-testimonials-desktop"
+																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-testimonials-desktop"
+																current-menu-item current_page_item page_item
+																page-item-517 current_page_item>
+																<a href="../testimonials/"
+																	class="menu-link">Testimonials</a>
+															</li>
 														</ul>
 													</div>
 												</nav>
@@ -5218,7 +5296,7 @@
 									data-section="title_tagline">
 									<div class="site-branding ast-site-identity"
 										itemtype="https://schema.org/Organization" itemscope="itemscope">
-										<span class="site-logo-img"><a href="../index.htm" class="custom-logo-link"
+										<span class="site-logo-img"><a href="../" class="custom-logo-link"
 												rel="home"><img width="280" height="110"
 													src="../wp-content/uploads/2024/12/cropped-Berg-PC-White-2-280x110.png"
 													class="custom-logo" alt="Berg PC" decoding="async"
@@ -5274,16 +5352,15 @@
 											class="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile">
 											<li id="menu-item-1386"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1386">
-												<a href="../index.htm" class="menu-link">Home</a>
+												<a href="../" class="menu-link">Home</a>
 											</li>
 											<li id="menu-item-1388"
-												class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-9999 menu-item-1388">
-												<a href="index.htm" class="menu-link">Team</a>
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1388">
+												<a href="../lawyers/" class="menu-link">Team</a>
 											</li>
 											<li id="menu-item-3540"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3540">
-												<a aria-expanded="false"
-													href="../practice-areas/business-litigation/index.htm"
+												<a aria-expanded="false" href="../practice-areas/business-litigation/"
 													class="menu-link">Business Litigation<span role="button"
 														class="dropdown-menu-toggle ast-header-navigation-arrow"
 														tabindex="0" aria-expanded="false" aria-label="Menu Toggle"
@@ -5313,7 +5390,7 @@
 												<ul class="sub-menu">
 													<li id="menu-item-4239"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4239">
-														<a href="../practice-areas/business-litigation/breach-of-contract/index.htm"
+														<a href="../practice-areas/business-litigation/breach-of-contract/"
 															class="menu-link"><span class="ast-icon icon-arrow"><svg
 																	class="ast-arrow-svg"
 																	xmlns="http://www.w3.org/2000/svg"
@@ -5329,7 +5406,7 @@
 													</li>
 													<li id="menu-item-4240"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4240">
-														<a href="../practice-areas/business-litigation/partnership-disputes/index.htm"
+														<a href="../practice-areas/business-litigation/partnership-disputes/"
 															class="menu-link"><span class="ast-icon icon-arrow"><svg
 																	class="ast-arrow-svg"
 																	xmlns="http://www.w3.org/2000/svg"
@@ -5345,7 +5422,7 @@
 													</li>
 													<li id="menu-item-4241"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4241">
-														<a href="../practice-areas/business-litigation/business-divorce/index.htm"
+														<a href="../practice-areas/business-litigation/business-divorce/"
 															class="menu-link"><span class="ast-icon icon-arrow"><svg
 																	class="ast-arrow-svg"
 																	xmlns="http://www.w3.org/2000/svg"
@@ -5361,7 +5438,7 @@
 													</li>
 													<li id="menu-item-4242"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4242">
-														<a href="../practice-areas/business-litigation/non-compete-disputes/index.htm"
+														<a href="../practice-areas/business-litigation/non-compete-disputes/"
 															class="menu-link"><span class="ast-icon icon-arrow"><svg
 																	class="ast-arrow-svg"
 																	xmlns="http://www.w3.org/2000/svg"
@@ -5380,7 +5457,7 @@
 											<li id="menu-item-3541"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3541">
 												<a aria-expanded="false"
-													href="../practice-areas/crypto-litigation/fraud-recovery/index.htm"
+													href="../practice-areas/crypto-litigation/fraud-recovery/"
 													class="menu-link">Crypto Litigation<span role="button"
 														class="dropdown-menu-toggle ast-header-navigation-arrow"
 														tabindex="0" aria-expanded="false" aria-label="Menu Toggle"
@@ -5410,7 +5487,7 @@
 												<ul class="sub-menu">
 													<li id="menu-item-4237"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4237">
-														<a href="../practice-areas/crypto-litigation/fraud-recovery/index.htm"
+														<a href="../practice-areas/crypto-litigation/fraud-recovery/"
 															class="menu-link"><span class="ast-icon icon-arrow"><svg
 																	class="ast-arrow-svg"
 																	xmlns="http://www.w3.org/2000/svg"
@@ -5426,7 +5503,7 @@
 													</li>
 													<li id="menu-item-4236"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4236">
-														<a href="../practice-areas/crypto-litigation/2025-meta-crypto-scam-ads-investigation/index.htm"
+														<a href="../practice-areas/crypto-litigation/2025-meta-crypto-scam-ads-investigation/"
 															class="menu-link"><span class="ast-icon icon-arrow"><svg
 																	class="ast-arrow-svg"
 																	xmlns="http://www.w3.org/2000/svg"
@@ -5442,7 +5519,7 @@
 													</li>
 													<li id="menu-item-4238"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4238">
-														<a href="../practice-areas/crypto-litigation/2025-coinbase-data-breach/index.htm"
+														<a href="../practice-areas/crypto-litigation/2025-coinbase-data-breach/"
 															class="menu-link"><span class="ast-icon icon-arrow"><svg
 																	class="ast-arrow-svg"
 																	xmlns="http://www.w3.org/2000/svg"
@@ -5460,16 +5537,22 @@
 											</li>
 											<li id="menu-item-3542"
 												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3542">
-												<a href="../blog/index.htm" class="menu-link">Blog</a>
-											</li>											<li id="menu-item-testimonials-desktop"
-												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-testimonials-desktop">
+												<a href="../blog/" class="menu-link">Blog</a>
+											</li>
+											<li id="menu-item-testimonials-desktop"
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-testimonials-desktop"
+												current-menu-item current_page_item page_item page-item-517
+												current_page_item>
 												<a href="../testimonials/" class="menu-link">Testimonials</a>
 											</li>
 											<li id="menu-item-1392"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1392">
-												<a href="../contact/index.htm" class="menu-link">Contact</a>
-											</li>											<li id="menu-item-testimonials-mobile"
-												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-testimonials-mobile">
+												<a href="../contact/" class="menu-link">Contact</a>
+											</li>
+											<li id="menu-item-testimonials-mobile"
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-testimonials-mobile"
+												current-menu-item current_page_item page_item page-item-517
+												current_page_item>
 												<a href="../testimonials/" class="menu-link">Testimonials</a>
 											</li>
 										</ul>
@@ -5489,124 +5572,881 @@
 
 
 					<main id="main" class="site-main">
-						<article class="post-9999 page type-page status-publish ast-article-single" id="post-9999"
+						<article class="post-517 page type-page status-publish ast-article-single" id="post-2306"
 							itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
 
 							<header class="entry-header ast-no-title ast-header-without-markup">
 							</header> <!-- .entry-header -->
 
-														<div class="entry-content clear" itemprop="text">
-								<div data-elementor-type="wp-page" data-elementor-id="9999" class="elementor elementor-9999" data-elementor-post-type="page">
+							<div class="entry-content clear" itemprop="text">
+								<div data-elementor-type="wp-page" data-elementor-id="2306"
+									class="elementor elementor-2306" data-elementor-post-type="page">
 
-									<!-- ====== Module 1: Clients Feedback Carousel ====== -->
-									<section class="testimonials-section">
-										<div class="area__content animated fadeIn">
-											<div class="area__subtitle">Testimonial</div>
-											<div class="area__title"><p>Clients Feedback</p></div>
-											<div class="area__description"><p>Nothing speaks louder than the voices of those we have helped. See how our dedicated team has earned the trust and gratitude of clients.</p></div>
-										</div>
-
-										<div class="testimonials-carousel-wrap">
-											<div class="testimonials-carousel owl-carousel owl-theme">
-
-												<div class="single__testmonial">
-													<div class="author__content">
-														<div class="testmonial__description"><p>I thought my crypto was gone forever after falling victim to a phishing scam. I had invested so much and felt completely helpless. But thanks to Berg PC, I got back $32,750 in just a few weeks. Their team was incredibly professional and kept me updated throughout the process. Their expertise and quick action were lifesavers. I'm extremely satisfied with their service and would recommend them to anyone in need.</p></div>
-													</div>
-													<div class="author__thumb__designation__warp">
-														<div class="author__thumb__designation">
-															<div class="author__thumb"><img decoding="async" src="8-150x150.jpg" alt="Testimonials"></div>
-															<h4 class="author__name">Isabella Thunderbird</h4>
-														</div>
+									<div class="elementor-element elementor-element-8d47204 e-flex e-con-boxed e-con e-parent"
+										data-id="8d47204" data-element_type="container" data-e-type="container"
+										data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+										<div class="e-con-inner">
+											<div class="elementor-element elementor-element-034a0db e-con-full e-flex e-con e-child"
+												data-id="034a0db" data-element_type="container" data-e-type="container">
+												<div class="elementor-element elementor-element-5f947da elementor-widget elementor-widget-heading"
+													data-id="5f947da" data-element_type="widget" data-e-type="widget"
+													data-e-type="widget" data-widget_type="heading.default">
+													<div class="elementor-widget-container">
+														<!-- <h1 class="elementor-heading-title elementor-size-default">
+															Testimonials</h1> -->
 													</div>
 												</div>
-
-												<div class="single__testmonial">
-													<div class="author__content">
-														<div class="testmonial__description"><p>I invested in what seemed like a legitimate opportunity, only to find out it was a sophisticated scam. I was devastated, thinking my $45,300 was lost forever. Then I contacted Berg PC. They stepped in and recovered my funds, guiding me through each step of the process. Their dedication and efficiency were remarkable, and their support was invaluable. I truly appreciate their help and can't thank them enough for their efforts.</p></div>
-													</div>
-													<div class="author__thumb__designation__warp">
-														<div class="author__thumb__designation">
-															<div class="author__thumb"><img decoding="async" src="1-150x150.jpg" alt="Testimonials"></div>
-															<h4 class="author__name">Ethan Wildhorse</h4>
-														</div>
-													</div>
-												</div>
-
-												<div class="single__testmonial">
-													<div class="author__content">
-														<div class="testmonial__description"><p>After a devastating bank scam, I was at a complete loss and didn't know where to turn. My account had been drained of $38,600, and I felt violated and hopeless. Berg PC came to my rescue, offering not just their services but also much-needed reassurance and support. They managed to retrieve the full amount and provided constant updates, easing my worries.</p></div>
-													</div>
-													<div class="author__thumb__designation__warp">
-														<div class="author__thumb__designation">
-															<div class="author__thumb"><img decoding="async" src="9-150x150.webp" alt="Testimonials"></div>
-															<h4 class="author__name">Hannah Skybloom</h4>
-														</div>
-													</div>
-												</div>
-
-												<div class="single__testmonial">
-													<div class="author__content">
-														<div class="testmonial__description"><p>I was scammed out of $47,200 in an investment fraud. Berg PC was a beacon of hope. They worked tirelessly to recover my money. The whole experience was seamless and stress-free, thanks to their expertise. I am beyond thankful for their help and highly recommend them.</p></div>
-													</div>
-													<div class="author__thumb__designation__warp">
-														<div class="author__thumb__designation">
-															<div class="author__thumb"><img decoding="async" src="5-150x150.webp" alt="Testimonials"></div>
-															<h4 class="author__name">Andrew Stormcloud</h4>
-														</div>
-													</div>
-												</div>
-
-												<div class="single__testmonial">
-													<div class="author__content">
-														<div class="testmonial__description"><p>Losing $33,150 in a crypto scam was devastating. I ran into debt to friends and my family members especially when I was looking for funds to cover up for my company's production materials. Berg PC stepped in and turned the situation around. They were supportive and professional, and their quick actions led to a full recovery of my funds.</p></div>
-													</div>
-													<div class="author__thumb__designation__warp">
-														<div class="author__thumb__designation">
-															<div class="author__thumb"><img decoding="async" src="7-1-150x150.jpg" alt="Testimonials"></div>
-															<h4 class="author__name">Emma Riverstone</h4>
-														</div>
-													</div>
-												</div>
-
-												<div class="single__testmonial">
-													<div class="author__content">
-														<div class="testmonial__description"><p>When I lost $40,500 in a banking scam when I was looking for a loan to complete my building project, I was in shock. Berg PC came to the rescue and acted swiftly. Their professionalism and constant communication made a tough situation bearable. They recovered my money in full and restored my peace of mind. I can't thank them enough.</p></div>
-													</div>
-													<div class="author__thumb__designation__warp">
-														<div class="author__thumb__designation">
-															<div class="author__thumb"><img decoding="async" src="istockphoto-1059661424-612x612-1-150x150.jpg" alt="Testimonials"></div>
-															<h4 class="author__name">Jacob Shadowfox</h4>
-														</div>
-													</div>
-												</div>
-
 											</div>
 										</div>
-									</section>
+									</div>
+
+
+									<!-- ====== Module 1: Clients Feedback Carousel ====== -->
+									<div class="content-area clearfix">
+										<div data-elementor-type="wp-page" data-elementor-id="1474"
+											class="elementor elementor-1474">
+
+											<section
+												class="elementor-section elementor-top-section elementor-element elementor-element-38022e5 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+												data-id="38022e5" data-element_type="section" data-e-type="section"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-container elementor-column-gap-default">
+													<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c460bc2"
+														data-id="c460bc2" data-element_type="column"
+														data-e-type="column">
+														<div class="elementor-widget-wrap elementor-element-populated">
+															<section
+																class="elementor-section elementor-inner-section elementor-element elementor-element-5f36454 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+																data-id="5f36454" data-element_type="section"
+																data-e-type="section">
+																<div
+																	class="elementor-container elementor-column-gap-default">
+																	<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e6774af"
+																		data-id="e6774af" data-element_type="column"
+																		data-e-type="column">
+																		<div class="elementor-widget-wrap">
+																		</div>
+																	</div>
+																	<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b336641"
+																		data-id="b336641" data-element_type="column"
+																		data-e-type="column">
+																		<div
+																			class="elementor-widget-wrap elementor-element-populated">
+																			<div class="elementor-element elementor-element-f4e7994 elementor-widget elementor-widget-UltimateAreaTitle "
+																				data-id="f4e7994"
+																				data-element_type="widget"
+																				data-e-type="widget"
+																				data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;ultimate_floating_fx_translate_y&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+																				data-widget_type="UltimateAreaTitle.default">
+																				<div class="elementor-widget-container">
+																					<div class="area__content">
+
+																						<div class="area__subtitle">
+																							Testimonial
+																						</div>
+																						<div class="area__title">
+																							<p>Clients Feedback</p>
+																						</div>
+																						<div class="area__description">
+																							<p>Nothing speaks louder
+																								than the
+																								voices of those we have
+																								helped.
+																								See how our dedicated
+																								team has
+																								earned the trust and
+																								gratitude
+																								of clients.</p>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d42e672"
+																		data-id="d42e672" data-element_type="column"
+																		data-e-type="column">
+																		<div class="elementor-widget-wrap">
+																		</div>
+																	</div>
+																</div>
+															</section>
+															<section
+																class="elementor-section elementor-inner-section elementor-element elementor-element-a3dacb0 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+																data-id="a3dacb0" data-element_type="section"
+																data-e-type="section">
+																<div
+																	class="elementor-container elementor-column-gap-default">
+																	<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-19dbaed"
+																		data-id="19dbaed" data-element_type="column"
+																		data-e-type="column">
+																		<div
+																			class="elementor-widget-wrap elementor-element-populated">
+																			<div class="elementor-element elementor-element-a2cf4c3 elementor-widget elementor-widget-UltimateTestmonial "
+																				data-id="a2cf4c3"
+																				data-element_type="widget"
+																				data-e-type="widget"
+																				data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;ultimate_floating_fx_translate_y&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+																				data-widget_type="UltimateTestmonial.default">
+																				<div class="elementor-widget-container">
+
+																					<div
+																						class="sldier-content-area tesmonial_custom_style outside_vertical_center_nav testimonials-carousel-wrap">
+																						<div class="ultimate-testmonial-carousel ultimate-carousel-active owl-carousel owl-theme owl-responsive-1200 owl-loaded"
+																							data-settings="{&quot;item_on_large&quot;:2,&quot;item_on_medium&quot;:2,&quot;item_on_tablet&quot;:1,&quot;item_on_mobile&quot;:1,&quot;stage_padding&quot;:0,&quot;item_margin&quot;:20,&quot;autoplay&quot;:true,&quot;autoplaytimeout&quot;:3000,&quot;slide_speed&quot;:1000,&quot;slide_animation&quot;:&quot;yes&quot;,&quot;slide_animate_in&quot;:&quot;fadeInDown&quot;,&quot;slide_animate_out&quot;:&quot;fadeOutDown&quot;,&quot;nav&quot;:true,&quot;nav_position&quot;:&quot;outside_vertical_center_nav&quot;,&quot;next_icon&quot;:&quot;eicon eicon-chevron-double-right&quot;,&quot;prev_icon&quot;:&quot;eicon eicon-chevron-double-left&quot;,&quot;dots&quot;:false,&quot;loop&quot;:true,&quot;hover_pause&quot;:true,&quot;center&quot;:false,&quot;rtl&quot;:false}">
+
+
+
+
+
+
+																							<div
+																								class="owl-stage-outer">
+																								<div class="owl-stage"
+																									style="transform: translate3d(-3360px, 0px, 0px); transition: 1s; width: 5600px;">
+																									<div class="owl-item cloned"
+																										style="width: 740px; margin-right: 20px;">
+																										<div
+																											class="single__testmonial">
+																											<div
+																												class="author__content">
+																												<div
+																													class="testmonial__description">
+																													<p>Losing
+																														$33,150
+																														in
+																														a
+																														crypto
+																														scam
+																														was
+																														devastating.
+																														I
+																														ran
+																														into
+																														dept
+																														to
+																														friends
+																														and
+																														my
+																														family
+																														members
+																														especially
+																														when 
+																														was
+																														looking
+																														for
+																														funds
+																														to
+																														cover
+																														up
+																														for
+																														my
+																														company's
+																														production
+																														materials.
+																														Levin
+																														law
+																														stepped
+																														in
+																														and
+																														turned
+																														the
+																														situation
+																														around.
+																														They
+																														were
+																														supportive
+																														and
+																														professional,
+																														and
+																														their
+																														quick
+																														actions
+																														led
+																														to
+																														a
+																														full
+																														recovery
+																														of
+																														my
+																														funds.
+																														I
+																														am
+																														everly
+																														thankful
+																														to
+																														Rapid
+																														Trace
+																														for
+																														helping
+																														me
+																														restore
+																														my
+																														business
+																														by
+																														recovering
+																														my
+																														funds
+																														from
+																														wiked
+																														scammers. 
+																													</p>
+																												</div>
+																											</div>
+																											<div
+																												class="author__thumb__designation__warp">
+																												<div
+																													class="author__thumb__designation">
+																													<div
+																														class="author__thumb">
+																														<img decoding="async"
+																															src="7-1-150x150.jpg"
+																															alt="Testimonials">
+																													</div>
+																													<h4
+																														class="author__name">
+																														Emma
+																														Riverstone
+																													</h4>
+																												</div>
+																											</div>
+																										</div>
+																									</div>
+																									<div class="owl-item cloned"
+																										style="width: 740px; margin-right: 20px;">
+																										<div
+																											class="single__testmonial">
+																											<div
+																												class="author__content">
+																												<div
+																													class="testmonial__description">
+																													<p>When
+																														I
+																														lost
+																														$40,500
+																														in
+																														a
+																														banking
+																														scam
+																														when
+																														i 
+																														was
+																														looking
+																														for
+																														a
+																														loan
+																														to
+																														complete
+																														my
+																														buiding
+																														project,
+																														I
+																														was
+																														in
+																														shock.
+																														Levin
+																														law
+																														came
+																														to
+																														the
+																														rescue
+																														and
+																														acted
+																														swiftly.
+																														Their
+																														professionalism
+																														and
+																														constant
+																														communication
+																														this
+																														me
+																														made
+																														a
+																														tough
+																														situation
+																														bearable.
+																														They
+																														recovered
+																														my
+																														money
+																														in
+																														full
+																														and
+																														restored
+																														my
+																														peace
+																														of
+																														mind.
+																														I
+																														can't
+																														thank
+																														them
+																														enough.
+																														I'm
+																														extremely
+																														pleased
+																														with
+																														their
+																														service
+																														and
+																														support
+																														for
+																														recovering
+																														my
+																														lost
+																														funds
+																														form
+																														fake
+																														banking
+																														agents.
+																													</p>
+																												</div>
+																											</div>
+																											<div
+																												class="author__thumb__designation__warp">
+																												<div
+																													class="author__thumb__designation">
+																													<div
+																														class="author__thumb">
+																														<img decoding="async"
+																															src="istockphoto-1059661424-612x612-1-150x150.jpg"
+																															alt="Testimonials">
+																													</div>
+																													<h4
+																														class="author__name">
+																														Jacob
+																														Shadowfox
+																													</h4>
+																												</div>
+																											</div>
+																										</div>
+																									</div>
+																									<div class="owl-item"
+																										style="width: 740px; margin-right: 20px;">
+																										<div
+																											class="single__testmonial">
+																											<div
+																												class="author__content">
+																												<div
+																													class="testmonial__description">
+																													<p>I thought
+																														my
+																														crypto
+																														was
+																														gone
+																														forever
+																														after
+																														falling
+																														victim
+																														to
+																														a
+																														phishing
+																														scam.
+																														I
+																														had
+																														invested
+																														so
+																														much
+																														and
+																														felt
+																														completely
+																														helpless.
+																														But
+																														thanks
+																														to
+																														Levin
+																														law,
+																														I
+																														got
+																														back
+																														$32,750
+																														in
+																														just
+																														a
+																														few
+																														weeks.
+																														Their
+																														team
+																														was
+																														incredibly
+																														professional
+																														and
+																														kept
+																														me
+																														updated
+																														throughout
+																														the
+																														process.
+																														Their
+																														expertise
+																														and
+																														quick
+																														action
+																														were
+																														lifesavers.
+																														I'm
+																														extremely
+																														satisfied
+																														with
+																														their
+																														service
+																														and
+																														would
+																														recommend
+																														them
+																														to
+																														anyone
+																														in
+																														need.
+																													</p>
+																												</div>
+																											</div>
+																											<div
+																												class="author__thumb__designation__warp">
+																												<div
+																													class="author__thumb__designation">
+																													<div
+																														class="author__thumb">
+																														<img decoding="async"
+																															src="8-150x150.jpg"
+																															alt="Testimonials">
+																													</div>
+																													<h4
+																														class="author__name">
+																														Isabella
+																														Thunderbird
+																													</h4>
+																												</div>
+																											</div>
+																										</div>
+																									</div>
+																									<div class="owl-item"
+																										style="width: 740px; margin-right: 20px;">
+																										<div
+																											class="single__testmonial">
+																											<div
+																												class="author__content">
+																												<div
+																													class="testmonial__description">
+																													<p>I invested
+																														in
+																														what
+																														seemed
+																														like
+																														a
+																														legitimate
+																														opportunity,
+																														only
+																														to
+																														find
+																														out
+																														it
+																														was
+																														a
+																														sophisticated
+																														scam.
+																														I
+																														was
+																														devastated,
+																														thinking
+																														my
+																														$45,300
+																														was
+																														lost
+																														forever.
+																														Then
+																														I
+																														contacted
+																														Levin
+																														law.
+																														They
+																														stepped
+																														in
+																														and
+																														recovered
+																														my
+																														funds,
+																														guiding
+																														me
+																														through
+																														each
+																														step
+																														of
+																														the
+																														process.
+																														Their
+																														dedication
+																														and
+																														efficiency
+																														were
+																														remarkable,
+																														and
+																														their
+																														support
+																														was
+																														invaluable.
+																														I
+																														truly
+																														appreciate
+																														their
+																														help
+																														and
+																														can’t
+																														thank
+																														them
+																														enough
+																														for
+																														their
+																														efforts.
+																													</p>
+																												</div>
+																											</div>
+																											<div
+																												class="author__thumb__designation__warp">
+																												<div
+																													class="author__thumb__designation">
+																													<div
+																														class="author__thumb">
+																														<img decoding="async"
+																															src="1-150x150.jpg"
+																															alt="Testimonials">
+																													</div>
+																													<h4
+																														class="author__name">
+																														Ethan
+																														Wildhorse
+																													</h4>
+																												</div>
+																											</div>
+																										</div>
+																									</div>
+																									<div class="owl-item"
+																										style="width: 740px; margin-right: 20px;">
+																										<div
+																											class="single__testmonial">
+																											<div
+																												class="author__content">
+																												<div
+																													class="testmonial__description">
+																													<p>After
+																														a
+																														devastating
+																														bank
+																														scam,
+																														I
+																														was
+																														at
+																														a
+																														complete
+																														loss
+																														and
+																														didn’t
+																														know
+																														where
+																														to
+																														turn.
+																														My
+																														account
+																														had
+																														been
+																														drained
+																														of
+																														$38,600,
+																														and
+																														I
+																														felt
+																														violated
+																														and
+																														hopeless.
+																														Levin
+																														law
+																														came
+																														to
+																														my
+																														rescue,
+																														offering
+																														not
+																														just
+																														their
+																														services
+																														but
+																														also
+																														much-needed
+																														reassurance
+																														and
+																														support.
+																														They
+																														managed
+																														to
+																														retrieve
+																														the
+																														full
+																														amount
+																														and
+																														provided
+																														constant
+																														updates,
+																														easing
+																														my
+																														worries.
+																														Their
+																														support
+																														and
+																														professionalism
+																														were
+																														outstanding,
+																														and
+																														I'm
+																														very
+																														grateful
+																														for
+																														their
+																														assistance.
+																													</p>
+																												</div>
+																											</div>
+																											<div
+																												class="author__thumb__designation__warp">
+																												<div
+																													class="author__thumb__designation">
+																													<div
+																														class="author__thumb">
+																														<img decoding="async"
+																															src="9-150x150.webp"
+																															alt="Testimonials">
+																													</div>
+																													<h4
+																														class="author__name">
+																														Hannah
+																														Skybloom
+																													</h4>
+																												</div>
+																											</div>
+																										</div>
+																									</div>
+																									<div class="owl-item"
+																										style="width: 740px; margin-right: 20px;">
+																										<div
+																											class="single__testmonial">
+																											<div
+																												class="author__content">
+																												<div
+																													class="testmonial__description">
+																													<p>I was
+																														scammed
+																														out
+																														of
+																														$47,200
+																														in
+																														an
+																														investment
+																														fraud.
+																														Levin
+																														law
+																														was
+																														a
+																														beacon
+																														of
+																														hope.
+																														They
+																														worked
+																														tirelessly
+																														to
+																														recover
+																														my
+																														money.
+																														The
+																														whole
+																														experience
+																														was
+																														seamless
+																														and
+																														stress-free,
+																														The
+																														also
+																														educated
+																														me
+																														against
+																														falling
+																														prey
+																														to
+																														online
+																														scammers
+																														that
+																														disguise
+																														as
+																														real
+																														people
+																														to
+																														rake
+																														people
+																														of
+																														their
+																														hard
+																														earned
+																														money
+																														and
+																														create
+																														problems
+																														for
+																														their
+																														victims
+																														and
+																														their
+																														families.
+																														thanks
+																														to
+																														their
+																														expertise.
+																														I
+																														am
+																														beyond
+																														thankful
+																														for
+																														their
+																														help
+																														and
+																														highly
+																														recommend
+																														them.
+																													</p>
+																												</div>
+																											</div>
+																											<div
+																												class="author__thumb__designation__warp">
+																												<div
+																													class="author__thumb__designation">
+																													<div
+																														class="author__thumb">
+																														<img decoding="async"
+																															src="5-150x150.webp"
+																															alt="Testimonials">
+																													</div>
+																													<h4
+																														class="author__name">
+																														Andrew
+																														Stormcloud
+																													</h4>
+																												</div>
+																											</div>
+																										</div>
+																									</div>
+																								</div>
+																							</div>
+																							<div class="owl-controls">
+																								<div class="owl-nav">
+																									<button
+																										type="button"
+																										class="owl-prev"
+																										style=""><i
+																											class="eicon eicon-chevron-double-left"></i>
+																									</button>
+																									<button
+																										type="button"
+																										class="owl-next"
+																										style=""><i
+																											class="eicon eicon-chevron-double-right"></i>
+																									</button>
+																								</div>
+																								<div class="owl-dots"
+																									style="display: none;">
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</section>
+														</div>
+													</div>
+												</div>
+											</section>
+										</div>
+									</div>
 
 									<!-- ====== Module 2: Video Grid ====== -->
 									<section class="videos-section">
-										<div class="video-grid">
-											<div class="video-grid-item">
-												<iframe class="js-lazy-iframe" data-src="https://player.vimeo.com/video/996807223?color&autopause=0&loop=0&muted=0&title=0&portrait=0&byline=0#t=" allowfullscreen allow="clipboard-write" title="vimeo Video Player" loading="lazy"></iframe>
-											</div>
-											<div class="video-grid-item">
-												<iframe class="js-lazy-iframe" data-src="https://player.vimeo.com/video/996807160?color&autopause=0&loop=0&muted=0&title=0&portrait=0&byline=0#t=" allowfullscreen allow="clipboard-write" title="vimeo Video Player" loading="lazy"></iframe>
-											</div>
-											<div class="video-grid-item">
-												<iframe class="js-lazy-iframe" data-src="https://player.vimeo.com/video/996807100?color&autopause=0&loop=0&muted=0&title=0&portrait=0&byline=0#t=" allowfullscreen allow="clipboard-write" title="vimeo Video Player" loading="lazy"></iframe>
-											</div>
-											<div class="video-grid-item">
-												<iframe class="js-lazy-iframe" data-src="https://player.vimeo.com/video/996806916?color&autopause=0&loop=0&muted=0&title=0&portrait=0&byline=0#t=" allowfullscreen allow="clipboard-write" title="vimeo Video Player" loading="lazy"></iframe>
-											</div>
-											<div class="video-grid-item">
-												<iframe class="js-lazy-iframe" data-src="https://player.vimeo.com/video/996805094?color&autopause=0&loop=0&muted=0&title=0&portrait=0&byline=0#t=" allowfullscreen allow="clipboard-write" title="vimeo Video Player" loading="lazy"></iframe>
-											</div>
-											<div class="video-grid-item">
-												<iframe class="js-lazy-iframe" data-src="https://player.vimeo.com/video/996807018?color&autopause=0&loop=0&muted=0&title=0&portrait=0&byline=0#t=" allowfullscreen allow="clipboard-write" title="vimeo Video Player" loading="lazy"></iframe>
-											</div>
-										</div>
+<div class="elementor-element elementor-element-ad898ad e-grid e-con-boxed e-con e-parent" data-id="ad898ad"
+				data-element_type="container" data-e-type="container">
+				<div class="e-con-inner">
+					<div class="elementor-element elementor-element-669471e elementor-widget elementor-widget-video"
+						data-id="669471e" data-element_type="widget" data-e-type="widget"
+						data-settings="{&quot;video_type&quot;:&quot;vimeo&quot;,&quot;ultimate_floating_fx_translate_y&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+						data-widget_type="video.default">
+						<div class="elementor-widget-container">
+							<div class="elementor-wrapper elementor-open-inline">
+								<iframe class="elementor-video-iframe" allowfullscreen allow="clipboard-write"
+									title="vimeo Video Player"
+									src="https://player.vimeo.com/video/996807223?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0#t="></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-a9f0ead elementor-widget elementor-widget-video"
+						data-id="a9f0ead" data-element_type="widget" data-e-type="widget"
+						data-settings="{&quot;video_type&quot;:&quot;vimeo&quot;,&quot;ultimate_floating_fx_translate_y&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+						data-widget_type="video.default">
+						<div class="elementor-widget-container">
+							<div class="elementor-wrapper elementor-open-inline">
+								<iframe class="elementor-video-iframe" allowfullscreen allow="clipboard-write"
+									title="vimeo Video Player"
+									src="https://player.vimeo.com/video/996807160?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0#t="></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-7cfc7e9 elementor-widget elementor-widget-video"
+						data-id="7cfc7e9" data-element_type="widget" data-e-type="widget"
+						data-settings="{&quot;video_type&quot;:&quot;vimeo&quot;,&quot;ultimate_floating_fx_translate_y&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+						data-widget_type="video.default">
+						<div class="elementor-widget-container">
+							<div class="elementor-wrapper elementor-open-inline">
+								<iframe class="elementor-video-iframe" allowfullscreen allow="clipboard-write"
+									title="vimeo Video Player"
+									src="https://player.vimeo.com/video/996807100?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0#t="></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-2a4a9b8 elementor-widget elementor-widget-video"
+						data-id="2a4a9b8" data-element_type="widget" data-e-type="widget"
+						data-settings="{&quot;video_type&quot;:&quot;vimeo&quot;,&quot;ultimate_floating_fx_translate_y&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+						data-widget_type="video.default">
+						<div class="elementor-widget-container">
+							<div class="elementor-wrapper elementor-open-inline">
+								<iframe class="elementor-video-iframe" allowfullscreen allow="clipboard-write"
+									title="vimeo Video Player"
+									src="https://player.vimeo.com/video/996806916?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0#t="></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-106ac54 elementor-widget elementor-widget-video"
+						data-id="106ac54" data-element_type="widget" data-e-type="widget"
+						data-settings="{&quot;video_type&quot;:&quot;vimeo&quot;,&quot;ultimate_floating_fx_translate_y&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+						data-widget_type="video.default">
+						<div class="elementor-widget-container">
+							<div class="elementor-wrapper elementor-open-inline">
+								<iframe class="elementor-video-iframe" allowfullscreen allow="clipboard-write"
+									title="vimeo Video Player"
+									src="https://player.vimeo.com/video/996805094?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0#t="></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-f493163 elementor-widget elementor-widget-video"
+						data-id="f493163" data-element_type="widget" data-e-type="widget"
+						data-settings="{&quot;video_type&quot;:&quot;vimeo&quot;,&quot;ultimate_floating_fx_translate_y&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+						data-widget_type="video.default">
+						<div class="elementor-widget-container">
+							<div class="elementor-wrapper elementor-open-inline">
+								<iframe class="elementor-video-iframe" allowfullscreen allow="clipboard-write"
+									title="vimeo Video Player"
+									src="https://player.vimeo.com/video/996807018?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0#t="></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 									</section>
 
 								</div>
@@ -5617,7 +6457,8 @@
 					</main>
 				</div>
 			</div>
-		</div><footer class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope"
+		</div>
+		<footer class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope"
 			itemid="#colophon">
 			<div class="site-primary-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-4-equal ast-builder-grid-row-tablet-full ast-builder-grid-row-mobile-full ast-footer-row-stack ast-footer-row-tablet-stack ast-footer-row-mobile-stack"
 				data-section="section-primary-footer-builder">
@@ -5631,14 +6472,19 @@
 										<p><img class="alignnone wp-image-1938 "
 												src="../wp-content/uploads/2024/11/cropped-Berg-PC-bg-Blue-1-e1732045234138-300x158.png"
 												alt="" width="143" height="75"></p>
-										<div style="display: inline-flex;  gap: 8px; color: inherit; text-decoration: none;">
-											<svg style="margin-top: 8px;" width="24" height="24" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt"  xmlns="http://www.w3.org/2000/svg">
-												<path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+										<div
+											style="display: inline-flex;  gap: 8px; color: inherit; text-decoration: none;">
+											<svg style="margin-top: 8px;" width="24" height="24" viewBox="0 0 512 512"
+												fill="currentColor" aria-hidden="true"
+												class="e-font-icon-svg e-fas-map-marker-alt"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
 												</path>
 											</svg>
 											<p>24 Greenway Plaza,<br>
-											Suite 1800<br>
-											Houston, Texas 77046</p>
+												Suite 1800<br>
+												Houston, Texas 77046</p>
 										</div>
 										<p>
 											<a href="mailto:info@bergpcc.com"
@@ -5731,7 +6577,7 @@
 										<ul id="menu-footer-our-firm" class="menu">
 											<li id="menu-item-3456"
 												class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-517 current_page_item menu-item-3456">
-												<a href="index.htm" aria-current="page" class="menu-link">Team</a>
+												<a href="../lawyers/" aria-current="page" class="menu-link">Team</a>
 											</li>
 										</ul>
 									</nav>
@@ -5750,22 +6596,22 @@
 										<ul id="menu-footer-business-litigation" class="menu">
 											<li id="menu-item-2390"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2390">
-												<a href="../practice-areas/business-litigation/breach-of-contract/index.htm"
+												<a href="../practice-areas/business-litigation/breach-of-contract/"
 													class="menu-link">Breach of Contract</a>
 											</li>
 											<li id="menu-item-2389"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2389">
-												<a href="../practice-areas/business-litigation/partnership-disputes/index.htm"
+												<a href="../practice-areas/business-litigation/partnership-disputes/"
 													class="menu-link">Partnership Disputes</a>
 											</li>
 											<li id="menu-item-2388"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2388">
-												<a href="../practice-areas/business-litigation/business-divorce/index.htm"
+												<a href="../practice-areas/business-litigation/business-divorce/"
 													class="menu-link">Business Divorce</a>
 											</li>
 											<li id="menu-item-2387"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2387">
-												<a href="../practice-areas/business-litigation/non-compete-disputes/index.htm"
+												<a href="../practice-areas/business-litigation/non-compete-disputes/"
 													class="menu-link">Non-Compete Disputes</a>
 											</li>
 										</ul>
@@ -5784,22 +6630,22 @@
 										<ul id="menu-footer-crypto-litigation" class="menu">
 											<li id="menu-item-2170"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2170">
-												<a href="../practice-areas/crypto-litigation/fraud-recovery/index.htm"
+												<a href="../practice-areas/crypto-litigation/fraud-recovery/"
 													class="menu-link">Crypto Fraud &#038; Recovery</a>
 											</li>
 											<li id="menu-item-4252"
 												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4252">
-												<a href="../practice-areas/crypto-blockchain-business-transactions/index.htm"
+												<a href="../practice-areas/crypto-blockchain-business-transactions/"
 													class="menu-link">Crypto Business Transactions</a>
 											</li>
 											<li id="menu-item-3980"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3980">
-												<a href="../practice-areas/crypto-litigation/2025-coinbase-data-breach/index.htm"
+												<a href="../practice-areas/crypto-litigation/2025-coinbase-data-breach/"
 													class="menu-link">Coinbase Data Breach</a>
 											</li>
 											<li id="menu-item-4245"
 												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4245">
-												<a href="../practice-areas/crypto-litigation/2025-meta-crypto-scam-ads-investigation/index.htm"
+												<a href="../practice-areas/crypto-litigation/2025-meta-crypto-scam-ads-investigation/"
 													class="menu-link">Meta Crypto Scam Ads</a>
 											</li>
 										</ul>
@@ -5827,8 +6673,8 @@
 						data-section="section-fb-html-2">
 						<div class="ast-header-html inner-link-style-">
 							<div class="ast-builder-html-element">
-								<p><a href="../privacy-policy/index.htm">Privacy Policy</a> | <a
-										href="../disclaimer/index.htm">Disclaimer</a></p>
+								<p><a href="../privacy-policy/">Privacy Policy</a> | <a
+										href="../disclaimer/">Disclaimer</a></p>
 							</div>
 						</div>
 					</div>
@@ -5849,19 +6695,20 @@
 			data-element_type="container" data-e-type="container">
 			<div class="e-con-inner">
 				<div class="elementor-element elementor-element-22e19ef8 elementor-widget elementor-widget-heading"
-					data-id="22e19ef8" data-element_type="widget" data-e-type="widget"
+					data-id="22e19ef8" data-element_type="widget" data-e-type="widget" data-e-type="widget"
 					data-widget_type="heading.default">
 					<div class="elementor-widget-container">
 						<h2 class="elementor-heading-title elementor-size-default">Disclaimer</h2>
 					</div>
 				</div>
 				<div class="elementor-element elementor-element-47d9eac4 elementor-widget elementor-widget-wpforms"
-					data-id="47d9eac4" data-element_type="widget" data-e-type="widget"
+					data-id="47d9eac4" data-element_type="widget" data-e-type="widget" data-e-type="widget"
 					data-widget_type="wpforms.default">
 					<div class="elementor-widget-container">
 						<div class="wpforms-container wpforms-render-modern" id="wpforms-3778">
 							<form id="wpforms-form-3778" class="wpforms-validate wpforms-form" data-formid="3778"
-								method="post" enctype="multipart/form-data" action="/practice-areas/business-litigation-thank-you/"
+								method="post" enctype="multipart/form-data"
+								action="/practice-areas/business-litigation-thank-you/"
 								data-token="5e705326842d7ad5aef1817f7df594da" data-token-time="1778499778"><noscript
 									class="wpforms-error-noscript">Please enable JavaScript in your browser to complete
 									this form.</noscript>
@@ -5947,15 +6794,16 @@
 								</div><!-- .wpforms-field-container -->
 								<div class="wpforms-submit-container"><input type="hidden" name="wpforms[id]"
 										value="3778">
-							<input type="hidden" name="form_id" value="3778"><input type="hidden" name="page_title" value="Lawyers"><input
-										type="hidden" name="page_url" value="https://bergpcc.com/lawyers/"><input
-										type="hidden" name="url_referer"
+									<input type="hidden" name="form_id" value="3778"><input type="hidden"
+										name="page_title" value="Lawyers"><input type="hidden" name="page_url"
+										value="https://bergpcc.com/lawyers/"><input type="hidden" name="url_referer"
 										value="https://bergpcc.com/practice-areas/crypto-litigation/fraud-recovery/"><input
 										type="hidden" name="page_id" value="517"><input type="hidden"
 										name="wpforms[post_id]" value="517"><button type="submit" name="wpforms[submit]"
 										id="wpforms-submit-3778" class="wpforms-submit"
 										data-alt-text="Continuing to Contact..." data-submit-text="Continue to Contact"
-										aria-live="assertive" value="wpforms-submit">Continue to Contact</button></div>
+										aria-live="assertive" value="wpforms-submit">Continue to Contact</button>
+								</div>
 							</form>
 						</div> <!-- .wpforms-container -->
 					</div>
@@ -6105,42 +6953,12 @@
 	<!-- Owl Carousel JS -->
 	<script src="owl.carousel.min.js"></script>
 	<script>
-		jQuery(document).ready(function($) {
-			// Initialize Owl Carousel
-			.testimonials-carousel.owlCarousel({
-				loop: true,
-				margin: 20,
-				nav: true,
-				navText: ['<i class="eicon-chevron-double-left"></i>', '<i class="eicon-chevron-double-right"></i>'],
-				dots: false,
-				autoplay: true,
-				autoplayTimeout: 3000,
-				autoplaySpeed: 1000,
-				autoplayHoverPause: true,
-				animateIn: 'fadeInDown',
-				animateOut: 'fadeOutDown',
-				stagePadding: 0,
-				responsive: {
-					0: {
-						items: 1
-					},
-					768: {
-						items: 1
-					},
-					992: {
-						items: 2
-					},
-					1200: {
-						items: 2
-					}
-				}
-			});
-
+		jQuery(document).ready(function ($) {
 			// Lazy load Vimeo iframes
 			const lazyIframes = document.querySelectorAll('.js-lazy-iframe');
 			if ('IntersectionObserver' in window) {
-				const observer = new IntersectionObserver(function(entries) {
-					entries.forEach(function(entry) {
+				const observer = new IntersectionObserver(function (entries) {
+					entries.forEach(function (entry) {
 						if (entry.isIntersecting) {
 							const iframe = entry.target;
 							if (iframe.dataset.src) {
@@ -6151,18 +6969,58 @@
 						}
 					});
 				}, { rootMargin: '200px' });
-				lazyIframes.forEach(function(iframe) {
+				lazyIframes.forEach(function (iframe) {
 					observer.observe(iframe);
 				});
 			} else {
 				// Fallback: load all iframes
-				lazyIframes.forEach(function(iframe) {
+				lazyIframes.forEach(function (iframe) {
 					if (iframe.dataset.src) {
 						iframe.src = iframe.dataset.src;
 						delete iframe.dataset.src;
 					}
 				});
 			}
+
+			// Initialize Ultimate Testimonial Carousel
+			$('.ultimate-testmonial-carousel').each(function () {
+				const $carousel = $(this);
+				const dataSettings = $carousel.data('settings');
+
+				if (!dataSettings) return;
+
+				const owlOptions = {
+					items: dataSettings.item_on_large || 2,
+					itemsDesktop: [1200, dataSettings.item_on_large || 2],
+					itemsDesktopSmall: [992, dataSettings.item_on_medium || 2],
+					itemsTablet: [768, dataSettings.item_on_tablet || 1],
+					itemsMobile: [480, dataSettings.item_on_mobile || 1],
+					stagePadding: dataSettings.stage_padding || 0,
+					margin: dataSettings.item_margin || 20,
+					autoplay: dataSettings.autoplay || true,
+					autoplayTimeout: dataSettings.autoplaytimeout || 3000,
+					autoplayHoverPause: dataSettings.hover_pause || true,
+					slideSpeed: dataSettings.slide_speed || 1000,
+					navigation: dataSettings.nav || false,
+					nav: dataSettings.nav || false,
+					pagination: dataSettings.dots || false,
+					dots: dataSettings.dots || false,
+					loop: dataSettings.loop || true,
+					center: dataSettings.center || false,
+					rtl: dataSettings.rtl || false,
+					animateIn: dataSettings.slide_animation === 'yes' ? (dataSettings.slide_animate_in || 'fadeInDown') : false,
+					animateOut: dataSettings.slide_animation === 'yes' ? (dataSettings.slide_animate_out || 'fadeOutDown') : false,
+					responsiveClass: true,
+					responsive: {
+						0: { items: dataSettings.item_on_mobile || 1 },
+						768: { items: dataSettings.item_on_tablet || 1 },
+						992: { items: dataSettings.item_on_medium || 2 },
+						1200: { items: dataSettings.item_on_large || 2 }
+					}
+				};
+
+				$carousel.owlCarousel(owlOptions);
+			});
 		});
 	</script>
 </body>
