@@ -89,19 +89,65 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 try {
                     $db = Database::getInstance()->getConnection();
                     $submissionId = uniqid('sub_', true);
+                    $submittedAt = date('Y-m-d H:i:s');
                     
-                    $stmt = $db->prepare("INSERT INTO form_submissions
-                        (submission_id, form_id, form_name, data, ip, user_agent)
+                    // 插入到 form_submissions_new 表
+                    $stmt = $db->prepare("INSERT INTO form_submissions_new
+                        (submission_id, form_id, form_name, ip, user_agent, submitted_at)
                         VALUES (?, ?, ?, ?, ?, ?)");
                     
                     $stmt->execute([
                         $submissionId,
                         $formId,
                         $formConfig['name'],
-                        json_encode($formData),
                         $_SERVER['REMOTE_ADDR'] ?? 'unknown',
-                        $_SERVER['HTTP_USER_AGENT'] ?? 'unknown'
+                        $_SERVER['HTTP_USER_AGENT'] ?? 'unknown',
+                        $submittedAt
                     ]);
+                    
+                    // 获取新插入记录的 ID
+                    $newSubmissionId = $db->lastInsertId();
+                    
+                    // 将表单数据插入到 form_field_values 表
+                    $fieldStmt = $db->prepare("INSERT INTO form_field_values
+                        (submission_id, field_label, field_value)
+                        VALUES (?, ?, ?)");
+                    
+                    foreach ($formData as $key => $value) {
+                        // 将键名转换为可读的标签
+                        $label = $key;
+                        // 移除 wpforms[fields][n] 前缀，转换为可读标签
+                        if (preg_match('/wpforms\[fields\]\[(\d+)\](?:\[(\w+)\])?/', $key, $matches)) {
+                            $fieldNum = $matches[1];
+                            $subField = $matches[2] ?? '';
+                            
+                            // 从配置中获取标签
+                            if (isset($formConfig['fields'][$fieldNum])) {
+                                $fieldConfig = $formConfig['fields'][$fieldNum];
+                                if (is_array($fieldConfig)) {
+                                    $label = $fieldConfig['label'] ?? "Field $fieldNum";
+                                    if ($subField && isset($fieldConfig['subfields'][$subField])) {
+                                        $label = $fieldConfig['subfields'][$subField];
+                                    }
+                                } else {
+                                    $label = $fieldConfig;
+                                }
+                            } else {
+                                $label = "Field $fieldNum" . ($subField ? " ($subField)" : '');
+                            }
+                        }
+                        
+                        // 处理数组值
+                        if (is_array($value)) {
+                            $value = implode(', ', $value);
+                        }
+                        
+                        $fieldStmt->execute([
+                            $newSubmissionId,
+                            $label,
+                            $value
+                        ]);
+                    }
                     
                     $submissionStatus = 'success';
                 } catch(PDOException $e) {
