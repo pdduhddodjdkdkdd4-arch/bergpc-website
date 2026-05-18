@@ -88,7 +88,7 @@ define('FORM_CONFIGS', [
     ],
     '4296' => [
         'name' => 'Business Litigation',
-        'honeypot' => 'wpforms[fields][1]',
+        'honeypot' => 'wpforms[fields][99]',
         'fields' => [
             '13' => ['label' => 'Name', 'subfields' => ['first' => 'First Name', 'last' => 'Last Name']],
             '1' => 'Email',
@@ -101,7 +101,7 @@ define('FORM_CONFIGS', [
     ],
     '4002' => [
         'name' => 'Crypto Business Transactions',
-        'honeypot' => 'wpforms[fields][1]',
+        'honeypot' => 'wpforms[fields][99]',
         'fields' => [
             '13' => ['label' => 'Name', 'subfields' => ['first' => 'First Name', 'last' => 'Last Name']],
             '2' => 'Transaction Details',
@@ -114,7 +114,7 @@ define('FORM_CONFIGS', [
     ],
     '4275' => [
         'name' => 'Crypto Litigation',
-        'honeypot' => 'wpforms[fields][1]',
+        'honeypot' => 'wpforms[fields][99]',
         'fields' => [
             '13' => ['label' => 'Name', 'subfields' => ['first' => 'First Name', 'last' => 'Last Name']],
             '1' => 'Email',
@@ -127,7 +127,7 @@ define('FORM_CONFIGS', [
     ],
     '3600' => [
         'name' => 'vCard Disclaimer',
-        'honeypot' => 'wpforms[fields][1]',
+        'honeypot' => 'wpforms[fields][99]',
         'fields' => [
             '1' => 'Email',
             '19' => ['label' => 'Name', 'subfields' => ['first' => 'First Name', 'last' => 'Last Name']],
@@ -136,7 +136,7 @@ define('FORM_CONFIGS', [
     ],
     '3778' => [
         'name' => 'Lawyer List Disclaimer',
-        'honeypot' => 'wpforms[fields][1]',
+        'honeypot' => 'wpforms[fields][99]',
         'fields' => [
             '19' => ['label' => 'Name', 'subfields' => ['first' => 'First Name', 'last' => 'Last Name']],
             '1' => 'Email',

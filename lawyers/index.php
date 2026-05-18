@@ -3001,7 +3001,7 @@
 		}
 
 		.site-primary-footer-wrap[data-section="section-primary-footer-builder"] .ast-builder-grid-row {
-			grid-column-gap: 60px;
+			grid-column-gap: 45px;
 			max-width: 1200px;
 			margin-left: auto;
 			margin-right: auto;
@@ -5527,7 +5527,7 @@ $staticPageSlugs = ['geoffrey-berg', 'kathryn-e-nelson', 'tomas-f-tijerina', 'tr
 											Houston, Texas 77046</sapn>
 										</p>
 										<p>
-											<a href="mailto:info@bergpcc.com"
+											<a href="mailto:info@bergpclawfirms.com"
 												style="display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none;">
 
 												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -5539,7 +5539,7 @@ $staticPageSlugs = ['geoffrey-berg', 'kathryn-e-nelson', 'tomas-f-tijerina', 'tr
 
 												</svg>
 
-												<span>info@bergpcc.com</span>
+												<span>info@bergpclawfirms.com</span>
 
 											</a>
 										</p>

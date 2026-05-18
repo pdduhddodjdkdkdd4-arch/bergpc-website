@@ -15,10 +15,10 @@
 <div class="footer-contact-info"
     style="display: flex; flex-direction: column; gap: 8px;">
 
-    <a href="mailto:info@bergpcc.com"
+    <a href="mailto:info@bergpclawfirms.com"
         style="display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none;">
         <svg>...</svg>
-        <span>info@bergpcc.com</span>
+        <span>info@bergpclawfirms.com</span>
     </a>
 
     <a href="tel:+12818020190"
@@ -33,10 +33,10 @@
 **期望代码：**
 ```html
 <p>
-    <a href="mailto:info@bergpcc.com"
+    <a href="mailto:info@bergpclawfirms.com"
         style="display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none;">
         <svg>...</svg>
-        <span>info@bergpcc.com</span>
+        <span>info@bergpclawfirms.com</span>
     </a>
 </p>
 

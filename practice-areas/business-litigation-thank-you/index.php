@@ -29,6 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($formId) || !isset(FORM_CONFIGS[$formId])) {
         $submissionStatus = 'error';
         $errorMessage = 'Invalid form submission. Please try again.';
+        error_log("Form submission error: Invalid form ID - " . $formId);
     } else {
         $formConfig = FORM_CONFIGS[$formId];
         
@@ -49,6 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // If honeypot is filled, treat as spam but show success
         if (!empty($honeypotValue)) {
             $submissionStatus = 'success';
+            error_log("Form submission spam detected: Form ID - " . $formId);
         } else {
             // Flatten array data
             function flattenArray($array, $prefix = '') {
@@ -85,11 +87,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             if (empty($formData)) {
                 $submissionStatus = 'error';
                 $errorMessage = 'No form data received. Please try again.';
+                error_log("Form submission error: No form data received - Form ID: " . $formId);
             } else {
                 try {
                     $db = Database::getInstance()->getConnection();
                     $submissionId = uniqid('sub_', true);
                     $submittedAt = date('Y-m-d H:i:s');
+                    
+                    error_log("Form submission processing: Form ID: " . $formId . ", Submission ID: " . $submissionId);
                     
                     // 插入到 form_submissions_new 表
                     $stmt = $db->prepare("INSERT INTO form_submissions_new
@@ -150,11 +155,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     }
                     
                     $submissionStatus = 'success';
+                    error_log("Form submission success: Submission ID: " . $submissionId . ", Form ID: " . $formId);
                 } catch(PDOException $e) {
                     $submissionStatus = 'error';
                     $errorMessage = 'We encountered a problem processing your submission. Please try again or contact us directly.';
                     // Log error for admin (don't show database details to user)
-                    error_log('Form submission error: ' . $e->getMessage());
+                    error_log("Form submission database error: " . $e->getMessage() . " - Form ID: " . $formId);
                 }
             }
         }
@@ -2865,7 +2871,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		}
 
 		.site-primary-footer-wrap[data-section="section-primary-footer-builder"] .ast-builder-grid-row {
-			grid-column-gap: 60px;
+			grid-column-gap: 45px;
 			max-width: 1200px;
 			margin-left: auto;
 			margin-right: auto;
@@ -5141,7 +5147,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	<div class="submission-message submission-error" id="submission-error">
 		<h2>Submission Failed</h2>
 		<p><?php echo htmlspecialchars($errorMessage); ?></p>
-		<p style="margin-top: 15px;">Please try again or contact us directly at <a href="mailto:info@bergpcc.com" style="color: #721c24; text-decoration: underline;">info@bergpcc.com</a> or call <a href="tel:+12818020190" style="color: #721c24; text-decoration: underline;">2818020190</a>.</p>
+		<p style="margin-top: 15px;">Please try again or contact us directly at <a href="mailto:info@bergpclawfirms.com" style="color: #721c24; text-decoration: underline;">info@bergpclawfirms.com</a> or call <a href="tel:+12818020190" style="color: #721c24; text-decoration: underline;">2818020190</a>.</p>
 		<a href="../../" class="btn-home" style="background: #dc3545;">Return to Homepage</a>
 	</div>
 <?php else: ?>
@@ -5186,7 +5192,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 											Houston, Texas 77046</sapn>
 										</p>
 
-									<p><a href="mailto:info@bergpcc.com" style="display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none;"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512" fill="currentColor"> <path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"> </path> </svg> <span>info@bergpcc.com</span> </a></p>
+									<p><a href="mailto:info@bergpclawfirms.com" style="display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none;"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512" fill="currentColor"> <path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"> </path> </svg> <span>info@bergpclawfirms.com</span> </a></p>
 
 <p><a href="tel:+12818020190" style="display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none;"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512" fill="currentColor"> <path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A23.94 23.94 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a23.94 23.94 0 0 0-14.1-27.6z"> </path> </svg> <span>2818020190</span> </a></p>
 									</div>

@@ -4,7 +4,7 @@ require_once __DIR__ . '/header.php';
 
 // Protected lawyers - cannot be deleted or edited
 $protectedDeleteSlugs = ['geoffrey-berg', 'kathryn-e-nelson', 'tomas-f-tijerina', 'tracy-moberg'];
-$protectedEditSlugs = ['geoffrey-berg', 'kathryn-e-nelson', 'tracy-moberg'];
+$protectedEditSlugs = ['geoffrey-berg', 'kathryn-e-nelson', 'tomas-f-tijerina', 'tracy-moberg'];
 
 $message = '';
 $messageType = '';
