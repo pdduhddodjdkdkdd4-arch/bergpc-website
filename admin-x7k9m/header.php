@@ -88,6 +88,8 @@ requireLogin();
     </style>
 <?php if (!isset($_SESSION['csrf_token'])) { generateCsrfToken(); } ?>
 <meta name="csrf-token" content="<?php echo $_SESSION['csrf_token']; ?>">
+<link href="https://cdn.quilljs.com/1.3.7/quill.snow.css" rel="stylesheet">
+<script src="https://cdn.quilljs.com/1.3.7/quill.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('form[method="POST"], form[method="post"]').forEach(function(form) {

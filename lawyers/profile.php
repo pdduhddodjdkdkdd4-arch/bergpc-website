@@ -63,7 +63,7 @@ if (strlen($lawyer['bio']) > 160) {
 }
 
 // Convert bio to HTML paragraphs
-$bioHtml = '<p>' . nl2br(htmlspecialchars($lawyer['bio'])) . '</p>';
+$bioHtml = $lawyer['bio'];
 
 // Normalize image path for absolute URLs
 $imageAbsUrl = 'https://bergpcc.com/' . ltrim($lawyer['image'], '../../');

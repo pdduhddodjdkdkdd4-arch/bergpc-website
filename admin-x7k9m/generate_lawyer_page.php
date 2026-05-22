@@ -24,7 +24,7 @@ function generateLawyerPage($lawyer) {
     $publishedDate = $lawyer['created_at'] ?? $now;
     $modifiedDate = $lawyer['updated_at'] ?? $now;
 
-    $bioHtml = '<p>' . nl2br(htmlspecialchars($lawyer['bio'])) . '</p>';
+    $bioHtml = $lawyer['bio'];
 
     $jsonLd = json_encode([
         '@context' => 'https://schema.org',

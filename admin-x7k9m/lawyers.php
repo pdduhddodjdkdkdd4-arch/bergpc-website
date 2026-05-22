@@ -308,7 +308,8 @@ try {
 
             <div class="form-group">
                 <label>Bio *</label>
-                <textarea name="bio" id="lawyerBio" required></textarea>
+                <div id="bioEditor" style="height: 200px; background: #0f1d35; border: 1px solid #2d3f5e; border-radius: 8px;"></div>
+                <input type="hidden" name="bio" id="lawyerBio" required>
             </div>
 
             <div class="modal-actions">
@@ -349,6 +350,9 @@ function showAddForm() {
     toggleImageSource();
     document.getElementById('formModal').style.display = 'flex';
     document.querySelector('#formModal .btn-primary').textContent = 'Add Lawyer';
+    if (window.bioQuill) {
+        window.bioQuill.setContents([]);
+    }
 }
 
 function showEditForm(lawyer) {
@@ -359,20 +363,24 @@ function showEditForm(lawyer) {
     document.getElementById('lawyerTitle').value = lawyer.title || '';
     document.getElementById('lawyerBio').value = lawyer.bio || '';
     document.getElementById('lawyerImageUrl').value = (lawyer.image_type === 'url') ? (lawyer.image || '') : '';
-    
+
+    if (window.bioQuill) {
+        window.bioQuill.root.innerHTML = lawyer.bio || '';
+    }
+
     if (lawyer.image_type === 'url') {
         document.getElementById('imageSourceUrl').checked = true;
     } else {
         document.getElementById('imageSourceUpload').checked = true;
     }
-    
+
     if (lawyer.image) {
         document.getElementById('currentImgPreview').src = lawyer.image;
         document.getElementById('currentImagePreview').style.display = 'block';
     } else {
         document.getElementById('currentImagePreview').style.display = 'none';
     }
-    
+
     toggleImageSource();
     document.getElementById('formModal').style.display = 'flex';
     document.querySelector('#formModal .btn-primary').textContent = 'Update Lawyer';
@@ -416,6 +424,74 @@ document.querySelectorAll('.modal-overlay').forEach(overlay => {
 });
 
 toggleImageSource();
+
+// Initialize Quill editor for Bio
+document.addEventListener('DOMContentLoaded', function() {
+    window.bioQuill = new Quill('#bioEditor', {
+        theme: 'snow',
+        modules: {
+            toolbar: {
+                container: [
+                    ['bold', 'italic', 'underline'],
+                    ['link'],
+                    [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+                    ['image'],
+                    ['clean']
+                ],
+                handlers: {
+                    'image': imageHandler
+                }
+            }
+        }
+    });
+
+    // Sync Quill content to hidden input before form submit
+    var form = document.getElementById('lawyerForm');
+    form.addEventListener('submit', function() {
+        document.getElementById('lawyerBio').value = window.bioQuill.root.innerHTML;
+    });
+});
+
+// Image handler for Quill - uploads image to server
+function imageHandler() {
+    var fileInput = document.createElement('input');
+    fileInput.type = 'file';
+    fileInput.accept = 'image/*';
+
+    fileInput.onchange = function() {
+        var file = fileInput.files[0];
+        if (!file) return;
+
+        var formData = new FormData();
+        formData.append('image_file', file);
+        formData.append('bio_image', '1');
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', 'upload_lawyer_image.php', true);
+
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                var response = JSON.parse(xhr.responseText);
+                if (response.success && response.url) {
+                    var range = window.bioQuill.getSelection();
+                    window.bioQuill.insertEmbed(range.index, 'image', response.url);
+                } else {
+                    alert(response.error || 'Image upload failed');
+                }
+            } else {
+                alert('Image upload failed');
+            }
+        };
+
+        xhr.onerror = function() {
+            alert('Image upload failed');
+        };
+
+        xhr.send(formData);
+    };
+
+    fileInput.click();
+}
 </script>
 
 <?php require_once __DIR__ . '/footer.php'; ?>
