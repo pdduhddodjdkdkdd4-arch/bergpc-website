@@ -254,7 +254,7 @@ try {
                     <button class="btn btn-secondary btn-sm" disabled style="opacity: 0.4; cursor: not-allowed;" title="This lawyer cannot be edited">Edit</button>
                     <?php endif; ?>
                     <?php if (!in_array($lawyer['slug'], $protectedDeleteSlugs)): ?>
-                    <button onclick="confirmDelete('<?php echo htmlspecialchars($lawyer['id']); ?>', '<?php echo htmlspecialchars($lawyer['name']); ?>')" class="btn btn-danger btn-sm">Delete</button>
+                    <button onclick='confirmDelete(<?php echo json_encode($lawyer['id'], JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT); ?>, <?php echo json_encode($lawyer['name'], JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT); ?>)' class="btn btn-danger btn-sm">Delete</button>
                     <?php else: ?>
                     <button class="btn btn-danger btn-sm" disabled style="opacity: 0.4; cursor: not-allowed;" title="This lawyer cannot be deleted">Delete</button>
                     <?php endif; ?>
