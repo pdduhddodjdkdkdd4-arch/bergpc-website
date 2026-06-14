@@ -5371,7 +5371,7 @@
 														<div class="elementor-element elementor-element-039ea62 elementor-widget elementor-widget-text-editor"
 															data-id="039ea62" data-element_type="widget"
 															data-e-type="widget" data-widget_type="text-editor.default">
-															<div class="elementor-widget-container">
+															<div class="elementor-widget-container" style="margin-top:0px">
 																{{LAWYER_BIO}}
 															</div>
 														</div>

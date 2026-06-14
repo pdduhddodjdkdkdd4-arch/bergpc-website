@@ -365,7 +365,8 @@ function showEditForm(lawyer) {
     document.getElementById('lawyerImageUrl').value = (lawyer.image_type === 'url') ? (lawyer.image || '') : '';
 
     if (window.bioQuill) {
-        window.bioQuill.root.innerHTML = lawyer.bio || '';
+        window.bioQuill.setContents([]);
+        window.bioQuill.clipboard.dangerouslyPasteHTML(0, lawyer.bio || '');
     }
 
     if (lawyer.image_type === 'url') {

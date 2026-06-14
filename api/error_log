@@ -1,0 +1,3 @@
+[18-May-2026 18:19:18 UTC] PHP Fatal error:  Cannot declare class Database, because the name is already in use in /home/yo8jscsedlal/public_html/bergpcc.com/admin/db.php on line 2
+[19-May-2026 00:14:21 UTC] PHP Fatal error:  Cannot declare class Database, because the name is already in use in /home/yo8jscsedlal/public_html/bergpcc.com/admin/db.php on line 2
+[19-May-2026 18:33:09 UTC] PHP Fatal error:  Cannot declare class Database, because the name is already in use in /home/yo8jscsedlal/public_html/bergpcc.com/admin/db.php on line 2
