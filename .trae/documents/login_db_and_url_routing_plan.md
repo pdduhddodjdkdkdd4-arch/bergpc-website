@@ -48,8 +48,8 @@ INSERT INTO admin_users (username, password_hash) VALUES
 ## 二、URL 路由优化（去除 index.htm 后缀）
 
 ### 现状分析
-- 当前 URL 格式：`https://bergpcc.com/lawyers/index.htm`
-- 期望 URL 格式：`https://bergpcc.com/lawyers/`
+- 当前 URL 格式：`https://bergppc.com/lawyers/index.htm`
+- 期望 URL 格式：`https://bergppc.com/lawyers/`
 - GoDaddy 共享主机使用 nginx 前端代理 + Apache 后端
 - `.htaccess` 已在根目录，但缺少 URL 重写规则去除 `index.htm`
 - HTML 文件中有约 480+ 处链接包含 `index.htm` 后缀

@@ -1,7 +1,7 @@
 # 带查询参数页面访问问题诊断计划
 
 ## 问题描述
-用户报告 `https://bergpcc.com/admin-x7k9m/forms.php?search=&form_id=` 无法访问。
+用户报告 `https://bergppc.com/admin-x7k9m/forms.php?search=&form_id=` 无法访问。
 
 ## 可能的原因分析
 

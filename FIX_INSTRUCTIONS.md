@@ -11,7 +11,7 @@
 
 ```bash
 # 进入网站根目录
-cd /home/yo8jscsedlal/public_html/bergpcc.com
+cd /home/yo8jscsedlal/public_html/bergppc.com
 
 # 复制 admin 目录为 admin-x7k9m
 cp -r admin admin-x7k9m
@@ -23,7 +23,7 @@ ls -la
 ### 方案 B：重命名（如果不想保留原 admin 目录）
 
 ```bash
-cd /home/yo8jscsedlal/public_html/bergpcc.com
+cd /home/yo8jscsedlal/public_html/bergppc.com
 mv admin admin-x7k9m
 ```
 
@@ -71,14 +71,14 @@ DirectoryIndex index.php index.htm index.html
 
 如果你有 cPanel 或文件管理器：
 
-1. 打开文件管理器，进入 `public_html/bergpcc.com/`
+1. 打开文件管理器，进入 `public_html/bergppc.com/`
 2. 右键点击 `admin` 文件夹 → 复制
 3. 粘贴并重命名为 `admin-x7k9m`
 4. 更新 `.htaccess`，移除 admin 路由规则
 
 完成后访问:
-- `https://bergpcc.com/admin-x7k9m/simple-test.php?test=1&param=hello`
-- `https://bergpcc.com/admin-x7k9m/forms.php`
+- `https://bergppc.com/admin-x7k9m/simple-test.php?test=1&param=hello`
+- `https://bergppc.com/admin-x7k9m/forms.php`
 
 ---
 

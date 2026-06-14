@@ -2,10 +2,10 @@
 
 ## 问题分析
 
-用户反馈 `https://bergpcc.com/lawyers/profile.php?slug=fantasy` 页面渲染错误，主要问题：
+用户反馈 `https://bergppc.com/lawyers/profile.php?slug=fantasy` 页面渲染错误，主要问题：
 
 1. **资源文件引用错误**：模板使用随机生成的页面ID（如8883）引用Elementor CSS文件，但这些文件实际上不存在
-   - 错误示例：`GET https://bergpcc.com/wp-content/uploads/elementor/css/post-8883.css 404 (Not Found)`
+   - 错误示例：`GET https://bergppc.com/wp-content/uploads/elementor/css/post-8883.css 404 (Not Found)`
 
 2. **相对路径问题**：模板使用 `../../wp-content/` 路径，但 `profile.php` 位于 `/lawyers/` 目录，应该使用 `../wp-content/`
 

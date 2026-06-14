@@ -2,7 +2,7 @@
 
 ## 问题分析
 
-`https://bergpcc.com/admin-x7k9m/forms.php` 页面查询不到数据库中已有的3条数据。
+`https://bergppc.com/admin-x7k9m/forms.php` 页面查询不到数据库中已有的3条数据。
 
 ### 可能的原因
 

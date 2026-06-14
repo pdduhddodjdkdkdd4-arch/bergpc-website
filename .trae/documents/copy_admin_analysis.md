@@ -36,7 +36,7 @@ admin/ 页面的导航链接都是相对路径或动态的，没有硬编码 `/a
 
 **同时保留两个目录**：
 ```
-bergpcc.com/
+bergppc.com/
 ├── admin/          ← 保留，供 api/submit.php 等引用
 ├── admin-x7k9m/    ← 新增，用于访问（复制自 admin/）
 └── .htaccess       ← 简化版，移除重写规则

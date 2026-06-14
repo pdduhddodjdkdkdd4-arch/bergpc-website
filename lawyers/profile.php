@@ -66,7 +66,7 @@ if (strlen($lawyer['bio']) > 160) {
 $bioHtml = $lawyer['bio'];
 
 // Normalize image path for absolute URLs
-$imageAbsUrl = 'https://bergpcc.com/' . ltrim($lawyer['image'], '../../');
+$imageAbsUrl = 'https://bergppc.com/' . ltrim($lawyer['image'], '../../');
 
 // Generate JSON-LD schema (matching static page structure: WebPage, ImageObject, BreadcrumbList, WebSite, Organization)
 $jsonLd = json_encode([
@@ -74,24 +74,24 @@ $jsonLd = json_encode([
     '@graph' => [
         [
             '@type' => 'WebPage',
-            '@id' => 'https://bergpcc.com/lawyers/' . $lawyer['slug'] . '/',
-            'url' => 'https://bergpcc.com/lawyers/' . $lawyer['slug'] . '/',
+            '@id' => 'https://bergppc.com/lawyers/' . $lawyer['slug'] . '/',
+            'url' => 'https://bergppc.com/lawyers/' . $lawyer['slug'] . '/',
             'name' => $lawyer['name'] . ' | ' . ($lawyer['title'] ?? 'Attorney') . ' | Berg PC',
-            'isPartOf' => ['@id' => 'https://bergpcc.com/#website'],
-            'primaryImageOfPage' => ['@id' => 'https://bergpcc.com/lawyers/' . $lawyer['slug'] . '/#primaryimage'],
-            'image' => ['@id' => 'https://bergpcc.com/lawyers/' . $lawyer['slug'] . '/#primaryimage'],
+            'isPartOf' => ['@id' => 'https://bergppc.com/#website'],
+            'primaryImageOfPage' => ['@id' => 'https://bergppc.com/lawyers/' . $lawyer['slug'] . '/#primaryimage'],
+            'image' => ['@id' => 'https://bergppc.com/lawyers/' . $lawyer['slug'] . '/#primaryimage'],
             'thumbnailUrl' => $imageAbsUrl,
             'datePublished' => $publishedDate,
             'dateModified' => $modifiedDate,
             'description' => $description,
-            'breadcrumb' => ['@id' => 'https://bergpcc.com/lawyers/' . $lawyer['slug'] . '/#breadcrumb'],
+            'breadcrumb' => ['@id' => 'https://bergppc.com/lawyers/' . $lawyer['slug'] . '/#breadcrumb'],
             'inLanguage' => 'en-US',
-            'potentialAction' => [['@type' => 'ReadAction', 'target' => ['https://bergpcc.com/lawyers/' . $lawyer['slug'] . '/']]]
+            'potentialAction' => [['@type' => 'ReadAction', 'target' => ['https://bergppc.com/lawyers/' . $lawyer['slug'] . '/']]]
         ],
         [
             '@type' => 'ImageObject',
             'inLanguage' => 'en-US',
-            '@id' => 'https://bergpcc.com/lawyers/' . $lawyer['slug'] . '/#primaryimage',
+            '@id' => 'https://bergppc.com/lawyers/' . $lawyer['slug'] . '/#primaryimage',
             'url' => $imageAbsUrl,
             'contentUrl' => $imageAbsUrl,
             'width' => 2560,
@@ -99,24 +99,24 @@ $jsonLd = json_encode([
         ],
         [
             '@type' => 'BreadcrumbList',
-            '@id' => 'https://bergpcc.com/lawyers/' . $lawyer['slug'] . '/#breadcrumb',
+            '@id' => 'https://bergppc.com/lawyers/' . $lawyer['slug'] . '/#breadcrumb',
             'itemListElement' => [
-                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => 'https://bergpcc.com/'],
-                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Lawyers', 'item' => 'https://bergpcc.com/lawyers/'],
+                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => 'https://bergppc.com/'],
+                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Lawyers', 'item' => 'https://bergppc.com/lawyers/'],
                 ['@type' => 'ListItem', 'position' => 3, 'name' => $lawyer['name']]
             ]
         ],
         [
             '@type' => 'WebSite',
-            '@id' => 'https://bergpcc.com/#website',
-            'url' => 'https://bergpcc.com/',
+            '@id' => 'https://bergppc.com/#website',
+            'url' => 'https://bergppc.com/',
             'name' => 'Berg PC',
             'description' => 'Trial & Business Lawyers',
-            'publisher' => ['@id' => 'https://bergpcc.com/#organization'],
+            'publisher' => ['@id' => 'https://bergppc.com/#organization'],
             'potentialAction' => [
                 [
                     '@type' => 'SearchAction',
-                    'target' => ['@type' => 'EntryPoint', 'urlTemplate' => 'https://bergpcc.com/?s={search_term_string}'],
+                    'target' => ['@type' => 'EntryPoint', 'urlTemplate' => 'https://bergppc.com/?s={search_term_string}'],
                     'query-input' => ['@type' => 'PropertyValueSpecification', 'valueRequired' => true, 'valueName' => 'search_term_string']
                 ]
             ],
@@ -124,20 +124,20 @@ $jsonLd = json_encode([
         ],
         [
             '@type' => 'Organization',
-            '@id' => 'https://bergpcc.com/#organization',
+            '@id' => 'https://bergppc.com/#organization',
             'name' => 'Berg PC',
-            'url' => 'https://bergpcc.com/',
+            'url' => 'https://bergppc.com/',
             'logo' => [
                 '@type' => 'ImageObject',
                 'inLanguage' => 'en-US',
-                '@id' => 'https://bergpcc.com/#/schema/logo/image/',
-                'url' => 'https://bergpcc.com/wp-content/uploads/2024/12/cropped-Berg-PC-White-2.png',
-                'contentUrl' => 'https://bergpcc.com/wp-content/uploads/2024/12/cropped-Berg-PC-White-2.png',
+                '@id' => 'https://bergppc.com/#/schema/logo/image/',
+                'url' => 'https://bergppc.com/wp-content/uploads/2024/12/cropped-Berg-PC-White-2.png',
+                'contentUrl' => 'https://bergppc.com/wp-content/uploads/2024/12/cropped-Berg-PC-White-2.png',
                 'width' => 1272,
                 'height' => 498,
                 'caption' => 'Berg PC'
             ],
-            'image' => ['@id' => 'https://bergpcc.com/#/schema/logo/image/']
+            'image' => ['@id' => 'https://bergppc.com/#/schema/logo/image/']
         ]
     ]
 ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);

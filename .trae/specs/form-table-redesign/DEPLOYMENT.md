@@ -74,7 +74,7 @@ SELECT COUNT(*) FROM form_submissions;
 
 ### 第四步：验证功能
 
-访问 http://bergpcc.com/admin-x7k9m/forms.php
+访问 http://bergppc.com/admin-x7k9m/forms.php
 
 验证：
 - ✅ 页面正常加载

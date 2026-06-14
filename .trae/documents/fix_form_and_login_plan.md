@@ -7,7 +7,7 @@
 **搜索结果**：在所有 HTML 文件中，"paid advertisement" 和 "sponsored social media" 这两个精确短语已不存在（fraud-recovery 页面的 field_28 HTML 已在之前删除）。
 
 **但仍需清理**：
-- [fraud-recovery/index.htm](file:///d:/JZ/bergpcc.com/bergpcc.com/practice-areas/crypto-litigation/fraud-recovery/index.htm#L7228) 第7228行：JS 条件逻辑仍引用已删除的 field_28/29
+- [fraud-recovery/index.htm](file:///d:/JZ/bergppc.com/bergppc.com/practice-areas/crypto-litigation/fraud-recovery/index.htm#L7228) 第7228行：JS 条件逻辑仍引用已删除的 field_28/29
   ```javascript
   var wpforms_conditional_logic = { "2528": { "29": { "logic": [[{ "field": "28", "operator": "==", "value": "Yes", "type": "radio" }]], "action": "show" } } }
   ```

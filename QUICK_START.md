@@ -28,7 +28,7 @@
 
 在浏览器中访问：
 ```
-https://bergpcc.com/admin-x7k9m/fix_directory.php
+https://bergppc.com/admin-x7k9m/fix_directory.php
 ```
 
 这个工具会自动将 `admin/` 复制为 `admin-x7k9m/`
@@ -44,15 +44,15 @@ https://bergpcc.com/admin-x7k9m/fix_directory.php
 ## ✅ 完成！
 
 测试：
-1. 访问 `https://bergpcc.com/admin-x7k9m/simple-test.php?test=1&param=hello` - 应该正常显示
-2. 访问 `https://bergpcc.com/admin-x7k9m/forms.php` - AG Grid 表格应该正常工作
+1. 访问 `https://bergppc.com/admin-x7k9m/simple-test.php?test=1&param=hello` - 应该正常显示
+2. 访问 `https://bergppc.com/admin-x7k9m/forms.php` - AG Grid 表格应该正常工作
 
 ---
 
 ## 📁 目录结构（最终）
 
 ```
-bergpcc.com/
+bergppc.com/
 ├── admin/              ← 保留，供 api/submit.php 引用
 ├── admin-x7k9m/        ← 新的，用于访问
 └── .htaccess           ← 简化版

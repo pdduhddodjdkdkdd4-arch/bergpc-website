@@ -22,7 +22,7 @@ $headerPart = $headerPart -replace '<title>[^<]*</title>', '<title>Testimonials 
 $headerPart = $headerPart -replace 'og:title" content="[^"]*"', 'og:title" content="Testimonials | Berg PC"'
 $headerPart = $headerPart -replace 'og:description"\s+content="[^"]*"', 'og:description" content="Read testimonials and success stories from clients who have worked with Berg PC on cryptocurrency fraud recovery and business litigation cases."'
 $headerPart = $headerPart -replace 'name="description"\s+content="[^"]*"', 'name="description" content="Read testimonials and success stories from clients who have worked with Berg PC on cryptocurrency fraud recovery and business litigation cases."'
-$headerPart = $headerPart -replace 'og:url" content="[^"]*lawyers[^"]*"', 'og:url" content="https://bergpcc.com/testimonials/"'
+$headerPart = $headerPart -replace 'og:url" content="[^"]*lawyers[^"]*"', 'og:url" content="https://bergppc.com/testimonials/"'
 
 # Remove PHP database code
 $phpPattern = '(?s)<\?php.*?\?>'
@@ -43,7 +43,7 @@ $headerPart = $headerPart -replace ' current-menu-parent', ''
 $headerPart = $headerPart -replace ' aria-current="page"', ''
 
 # Replace lawyers/ path references in meta/canonical with testimonials/
-$headerPart = $headerPart -replace 'bergpcc\.com/lawyers/', 'bergpcc.com/testimonials/'
+$headerPart = $headerPart -replace 'bergpcc\.com/lawyers/', 'bergppc.com/testimonials/'
 $headerPart = $headerPart -replace 'href="index\.htm"', 'href="index.htm"'
 
 # Create empty main content

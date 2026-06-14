@@ -2094,9 +2094,9 @@ WHERE /* 问题条件 */;
 # testing_environment.yml
 environment:
   name: staging
-  url: https://staging.bergpcc.com
+  url: https://staging.bergppc.com
   database:
-    host: staging-db.bergpcc.com
+    host: staging-db.bergppc.com
     name: bergpcc_staging
   
   test_data:

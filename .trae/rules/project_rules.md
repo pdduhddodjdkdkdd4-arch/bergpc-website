@@ -34,6 +34,6 @@
 
 ## 网站联系信息
 
-- 域名：bergpcc.com
+- 域名：bergppc.com
 - 邮箱：info@bergpclawfirms.com
 - 电话：2818020190

@@ -31,31 +31,31 @@ function generateLawyerPage($lawyer) {
         '@graph' => [
             [
                 '@type' => 'WebPage',
-                '@id' => 'https://bergpcc.com/lawyers/' . $lawyer['slug'] . '/#webpage',
-                'url' => 'https://bergpcc.com/lawyers/' . $lawyer['slug'] . '/',
+                '@id' => 'https://bergppc.com/lawyers/' . $lawyer['slug'] . '/#webpage',
+                'url' => 'https://bergppc.com/lawyers/' . $lawyer['slug'] . '/',
                 'name' => $lawyer['name'] . ' | ' . $lawyer['title'] . ' | Berg PC',
-                'isPartOf' => ['@id' => 'https://bergpcc.com/#website'],
-                'thumbnailUrl' => 'https://bergpcc.com/' . ltrim($lawyer['image'], '../../'),
+                'isPartOf' => ['@id' => 'https://bergppc.com/#website'],
+                'thumbnailUrl' => 'https://bergppc.com/' . ltrim($lawyer['image'], '../../'),
                 'datePublished' => $publishedDate,
                 'dateModified' => $modifiedDate,
                 'description' => $description,
-                'breadcrumb' => ['@id' => 'https://bergpcc.com/lawyers/' . $lawyer['slug'] . '/#breadcrumb'],
+                'breadcrumb' => ['@id' => 'https://bergppc.com/lawyers/' . $lawyer['slug'] . '/#breadcrumb'],
                 'inLanguage' => 'en-US',
-                'potentialAction' => [['@type' => 'ReadAction', 'target' => ['https://bergpcc.com/lawyers/' . $lawyer['slug'] . '/']]]
+                'potentialAction' => [['@type' => 'ReadAction', 'target' => ['https://bergppc.com/lawyers/' . $lawyer['slug'] . '/']]]
             ],
             [
                 '@type' => 'ImageObject',
                 'inLanguage' => 'en-US',
-                '@id' => 'https://bergpcc.com/lawyers/' . $lawyer['slug'] . '/#primaryimage',
-                'url' => 'https://bergpcc.com/' . ltrim($lawyer['image'], '../../'),
-                'contentUrl' => 'https://bergpcc.com/' . ltrim($lawyer['image'], '../../'),
+                '@id' => 'https://bergppc.com/lawyers/' . $lawyer['slug'] . '/#primaryimage',
+                'url' => 'https://bergppc.com/' . ltrim($lawyer['image'], '../../'),
+                'contentUrl' => 'https://bergppc.com/' . ltrim($lawyer['image'], '../../'),
             ],
             [
                 '@type' => 'BreadcrumbList',
-                '@id' => 'https://bergpcc.com/lawyers/' . $lawyer['slug'] . '/#breadcrumb',
+                '@id' => 'https://bergppc.com/lawyers/' . $lawyer['slug'] . '/#breadcrumb',
                 'itemListElement' => [
-                    ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => 'https://bergpcc.com/'],
-                    ['@type' => 'ListItem', 'position' => 2, 'name' => 'Team', 'item' => 'https://bergpcc.com/lawyers/'],
+                    ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => 'https://bergppc.com/'],
+                    ['@type' => 'ListItem', 'position' => 2, 'name' => 'Team', 'item' => 'https://bergppc.com/lawyers/'],
                     ['@type' => 'ListItem', 'position' => 3, 'name' => $lawyer['name']]
                 ]
             ]
