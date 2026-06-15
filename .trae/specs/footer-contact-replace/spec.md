@@ -20,7 +20,7 @@
 - index.htm 已作为示例修复
 - 社交媒体区域被注释，插入邮箱和电话
 - 邮箱：info@bergpc.com
-- 电话：2818020190
+- 电话：281 857-6666
 
 ## Functional Requirements
 - **FR-1**: 注释社交媒体图标区域（不删除）
@@ -58,7 +58,7 @@
 ### AC-3: 电话联系方式已添加
 - **Given**: 46个HTML页面
 - **When**: 修改完成
-- **Then**: 2818020190 显示，带SVG图标和tel链接
+- **Then**: 281 857-6666 显示，带SVG图标和tel链接
 - **Verification**: programmatic
 
 ### AC-4: 布局保持正确

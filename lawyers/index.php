@@ -5387,7 +5387,7 @@ function generateElementId() {
 }
 
 // Lawyers with existing static pages - should link to their static index.htm
-$staticPageSlugs = ['geoffrey-berg', 'kathryn-e-nelson', 'tomas-f-tijerina', 'tracy-moberg'];
+$staticPageSlugs = ['geoffrey-berg', 'kathryn-e-nelson', 'tomas-f-tijerina', 'tracy-moberg', 'lisa-clark'];
 ?>
 									<div style="--e-con-grid-template-rows: repeat(<?php echo max(1, ceil(count($lawyers) / 2)); ?>, 1fr);" class="elementor-element elementor-element-3dbb98f e-grid e-con-boxed e-con e-parent"
 										data-id="3dbb98f" data-element_type="container" data-e-type="container">
@@ -5545,7 +5545,7 @@ $staticPageSlugs = ['geoffrey-berg', 'kathryn-e-nelson', 'tomas-f-tijerina', 'tr
 										</p>
 
 										<p>
-											<a href="tel:+12818020190"
+											<a href="tel:+1281 857-6666"
 												style="display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none;">
 
 												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -5557,7 +5557,7 @@ $staticPageSlugs = ['geoffrey-berg', 'kathryn-e-nelson', 'tomas-f-tijerina', 'tr
 
 												</svg>
 
-												<span>2818020190</span>
+												<span>281 857-6666</span>
 
 											</a>
 										</p>

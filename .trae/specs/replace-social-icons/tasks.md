@@ -17,12 +17,12 @@
 - **Depends On**: None
 - **Description**: 
   - 确认邮箱：info@bergpc.com
-  - 确认电话：2818020190
+  - 确认电话：281 857-6666
   - 准备SVG图标代码
 - **Acceptance Criteria Addressed**: AC-2, AC-3
 - **Test Requirements**:
   - `human-judgement` TR-2.1: 确认联系方式准确
-- **Notes**: 电话链接使用 tel:+12818020190
+- **Notes**: 电话链接使用 tel:+1281 857-6666
 
 ## [ ] Task 3: 编写替换脚本
 - **Priority**: P0

@@ -21,10 +21,10 @@
         <span>info@bergpclawfirms.com</span>
     </a>
 
-    <a href="tel:+12818020190"
+    <a href="tel:+1281 857-6666"
         style="display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none;">
         <svg>...</svg>
-        <span>2818020190</span>
+        <span>281 857-6666</span>
     </a>
 
 </div>
@@ -41,10 +41,10 @@
 </p>
 
 <p>
-    <a href="tel:+12818020190"
+    <a href="tel:+1281 857-6666"
         style="display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none;">
         <svg>...</svg>
-        <span>2818020190</span>
+        <span>281 857-6666</span>
     </a>
 </p>
 ```
