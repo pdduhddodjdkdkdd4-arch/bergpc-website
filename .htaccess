@@ -27,6 +27,11 @@ RewriteRule ^wp-admin/ - [R=404,L]
 # API routes
 RewriteRule ^api/submit\.php$ api/submit.php [L]
 
+# Lawyers: static page first - if directory with index.htm exists, serve it
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME}/index.htm -f
+RewriteRule ^lawyers/([a-z0-9-]+)/?$ - [L]
+
 # Lawyers: dynamic profile routing
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f

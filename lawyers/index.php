@@ -5367,7 +5367,7 @@ if (file_exists(__DIR__ . '/../admin/config.php') && file_exists(__DIR__ . '/../
     require_once __DIR__ . '/../admin/db.php';
     try {
         $db = Database::getInstance()->getConnection();
-        $stmt = $db->query("SELECT * FROM lawyers ORDER BY created_at ASC");
+        $stmt = $db->query("SELECT * FROM lawyers ORDER BY id ASC");
         $lawyers = $stmt->fetchAll(PDO::FETCH_ASSOC);
     } catch(PDOException $e) {
         $lawyersFile = __DIR__ . '/../data/lawyers.json';
