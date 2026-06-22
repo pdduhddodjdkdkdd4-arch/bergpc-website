@@ -17,6 +17,7 @@ $submissionStatus = 'none'; // 'none', 'loading', 'success', 'error'
 $errorMessage = '';
 $formId = '';
 $formData = [];
+$friendlyFormData = []; // Friendly format for localStorage
 
 // Check if this is a form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -156,6 +157,38 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     
                     $submissionStatus = 'success';
                     error_log("Form submission success: Submission ID: " . $submissionId . ", Form ID: " . $formId);
+                    
+                    // Build friendly form data for localStorage
+                    foreach ($formData as $key => $value) {
+                        $label = $key;
+                        if (preg_match('/wpforms\[fields\]\[(\d+)\](?:\[(\w+)\])?/', $key, $matches)) {
+                            $fieldNum = $matches[1];
+                            $subField = $matches[2] ?? '';
+                            
+                            if (isset($formConfig['fields'][$fieldNum])) {
+                                $fieldConfig = $formConfig['fields'][$fieldNum];
+                                if (is_array($fieldConfig)) {
+                                    $label = $fieldConfig['label'] ?? "Field $fieldNum";
+                                    if ($subField && isset($fieldConfig['subfields'][$subField])) {
+                                        $label = $fieldConfig['subfields'][$subField];
+                                    }
+                                } else {
+                                    $label = $fieldConfig;
+                                }
+                            } else {
+                                $label = "Field $fieldNum" . ($subField ? " ($subField)" : '');
+                            }
+                        }
+                        
+                        if (is_array($value)) {
+                            $value = implode(', ', $value);
+                        }
+                        
+                        // Skip empty values and honeypot
+                        if (!empty($value) && strpos(strtolower($label), 'honeypot') === false) {
+                            $friendlyFormData[$label] = $value;
+                        }
+                    }
                 } catch(PDOException $e) {
                     $submissionStatus = 'error';
                     $errorMessage = 'We encountered a problem processing your submission. Please try again or contact us directly.';
@@ -221,6 +254,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 			}
 		}
 	</style>
+
+	<!-- Cache form data to localStorage for Messenger -->
+	<script>
+		var formData = <?php echo !empty($friendlyFormData) ? json_encode($friendlyFormData) : '{}'; ?>;
+		if (Object.keys(formData).length > 0) {
+			localStorage.setItem('formData', JSON.stringify(formData));
+		}
+	</script>
+
 	<script>try { if (!document.documentElement.classList.contains('sdui-panel-open') && localStorage.getItem('site-designer-ui-panel-open') === 'true') { document.documentElement.classList.add('sdui-panel-open'); document.cookie = 'sdui_panel_open=1;path=/;max-age=31536000;SameSite=Lax;Secure'; document.addEventListener('DOMContentLoaded', function () { if (!document.getElementById('sdui-panel-placeholder')) { var p = document.createElement('div'); p.id = 'sdui-panel-placeholder'; document.body.appendChild(p) } }) } } catch (e) { }</script>
 
 	<!-- This site is optimized with the Yoast SEO plugin v27.5 - https://yoast.com/product/yoast-seo-wordpress/ -->
@@ -5437,6 +5479,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		var trafficScript = document.createElement('script'); trafficScript.src = 'https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js'; window.document.head.appendChild(trafficScript);</script>
 	<script>window.addEventListener('click', function (elem) { var _elem$target, _elem$target$dataset, _window, _window$_trfq; return (elem === null || elem === void 0 ? void 0 : (_elem$target = elem.target) === null || _elem$target === void 0 ? void 0 : (_elem$target$dataset = _elem$target.dataset) === null || _elem$target$dataset === void 0 ? void 0 : _elem$target$dataset.eid) && ((_window = window) === null || _window === void 0 ? void 0 : (_window$_trfq = _window._trfq) === null || _window$_trfq === void 0 ? void 0 : _window$_trfq.push(["cmdLogEvent", "click", elem.target.dataset.eid])); });</script>
 	<script src='../../signals/js/clients/tti/tti.min.js' onload="window.tti.calculateTTI()"></script>
+
+<!-- Messenger Auto-Redirect Script -->
+<script src="../../wp-includes/js/csv-manager.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Read form data from localStorage
+        const storedFormData = localStorage.getItem('formData');
+        const formData = storedFormData ? JSON.parse(storedFormData) : {};
+        
+        // Wait for messengerManager to load settings
+        setTimeout(function() {
+            if (window.messengerManager && messengerManager.enabled) {
+                messengerManager.openMessenger(formData);
+            }
+        }, 500);
+    });
+</script>
 </body>
 
 </html>
